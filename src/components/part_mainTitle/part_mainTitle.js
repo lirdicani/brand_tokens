@@ -38,18 +38,33 @@ const PartMainTitle = () => {
                     <div className="mainTitle-apply-btn d-flex justify-content-start"><a href='/'>APPLY NOW</a></div>
                 </div>
                 <div className="main-title-diagram">
-                    <div className='top-diagram'></div>
+                    <div className='top-diagram d-flex justify-content-center'>
+                        <div className='shop-symbol-group'>
+                            <div className="shop-symbol"></div>
+                            <div>Shop</div>
+                        </div>
+                    </div>
                     <div className='mid-diagram d-flex justify-content-between'>
                         <div className='diagram-brand'>
                             <div className='brand-logo'></div>
                             <div className='brand-title'>Brand</div>
                         </div>
                         <div className='pair-directions'></div>
-                        <div className='rotate-directions'></div>
+                        <div className='rotate-directions d-flex justify-content-center align-items-center'>
+                            <div></div>
+                        </div>
                         <div className='pair-directions'></div>
-                        <div className='diagram-user'></div>
+                        <div className='diagram-user'>
+                            <div className='user-logo'></div>
+                            <div className='user-title'>User</div>
+                        </div>
                     </div>
-                    <div className='bottom-diagram'></div>
+                    <div className='bottom-diagram d-flex justify-content-center align-items-end'>
+                        <div className='shop-symbol-group'>
+                            <div>Earn</div>
+                            <div className="shop-symbol"></div>                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

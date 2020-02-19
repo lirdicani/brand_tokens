@@ -116,7 +116,7 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.diagram-brand .brand-logo {
+.diagram-brand .brand-logo, .user-logo{
     width: 32px;
     height: 32px;
     margin-top: 42px;
@@ -124,16 +124,62 @@
     background-color: #3057FF;
 }
 
-.diagram-brand .brand-title {
+.diagram-brand .brand-title, .user-title {
     line-height: normal;
     margin-top: 38px;
-    margin-left: 63px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    transform: scale(1.2,1);
+    font-family: 'Barlow Semi Condensed';
+    width: 100%;
 }
 
 .mid-diagram .pair-directions {
     width: 114px;
     height: 100%;
 }
+
+.rotate-directions div {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 10px solid #d0f7fc;
+    background-color: #3057FF;
+}
+
+.shop-symbol-group {
+    width: 76px;
+}
+
+.shop-symbol{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.top-diagram .shop-symbol-group div:last-child {
+    padding-top: 12px;
+    line-height: normal;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    transform: scale(1.2,1);
+    font-family: 'Barlow Semi Condensed';
+}
+
+
+.bottom-diagram .shop-symbol-group div:first-child {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    line-height: normal;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    transform: scale(1.2,1);
+    font-family: 'Barlow Semi Condensed';
+} 
 
 .mid-diagram .rotate-directions {
     height: 100%;

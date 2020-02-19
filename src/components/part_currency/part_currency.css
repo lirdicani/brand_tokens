@@ -50,6 +50,27 @@
     width: 202px;
     height: 48px;
     background:#00B7FF;
+    border-color: white;
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.apply-btn-currency:hover {
+    background-color: white !important;
+}
+
+.apply-btn-currency:focus{
+    background:#00B7FF;
+}
+
+.apply-btn-currency:focus span {
+    color: white;
+}
+
+.apply-btn-currency:hover span{
+    color: black;
 }
 
 .apply-btn-currency span{

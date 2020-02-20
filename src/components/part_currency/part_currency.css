@@ -1,16 +1,21 @@
 .part-currency {
     width: 100%;
     height: 880px;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
 }
 
 .currency-up {
     padding-top: 112px;
     width: 100%;
-    height: 660px;
+    height: 880px;
     padding-left: 132px;
     padding-right: 73.78px;
     background: #1D2C50;
     color: white;
+}
+
+.title-groups {
+    width: 50%;
 }
 
 .first-title {
@@ -19,30 +24,27 @@
     font-weight: 600;
     letter-spacing: 3.2px;
     margin-left: 24px;
-    transform: scale(1.1,1);
-    font-family: 'Barlow Semi Condensed';
+    transform: scale(1.085,1);
 }
 
 .second-title{
     padding-top: 13px;
-    width: 505px;
+    width: 75%;
     font-size: 48px;
     font-weight: 400;
     letter-spacing: 0.8px;
     margin-left: 24px;
-    transform: scale(1.1,1);
-    font-family: 'Barlow Semi Condensed';
+    transform: scale(1.12,1);
 }
 
 .third-title {
     padding-top: 24px;
-    width: 476px;
+    width: 75%;
     font-size: 18px;
     font-weight: 400;
     opacity: 0.62;
     letter-spacing: 1.5px;
     line-height: 28px;
-    font-family: 'Barlow Semi Condensed';
 }
 
 .apply-btn-currency {
@@ -81,15 +83,8 @@
     transform: scale(1, 1.5);
 }
 
-.currency-down {
-    width: 100%;
-    height: 220px;
-    background: #1D2C50;
-    clip-path: polygon(100% 0, 0 0, 0 100%);
-}
-
 .token-pictures {
-    width: 654.22px !important;
+    width: 50% !important;
     background: green;
     opacity: 0.5;
 }
@@ -103,10 +98,17 @@
         flex-direction: column;
         padding-left: 72px;
         padding-top: 0;
-        height: auto;
+        /* height: auto; */
+        height: 678px;
     }
     .first-title {
-        margin-left: 36px;
+        margin-left: 20px;
+    }
+
+    .second-title {
+        margin-left: 25px;
+        width: 100%;
+        font-size: 45px;
     }
 
     .third-title {
@@ -114,18 +116,54 @@
     }
 
     .token-pictures {
-        height: 766px !important;
+        height: 80% !important;
         margin-top: 30px;
     }
 }
 
+@media (max-width: 812px) {
+    .title-groups {
+        width: 70%;
+    }
+
+    .role-content {
+        margin-left: 14px;
+    }
+
+    .mainTitle-link, .mainTitle-subject {
+        margin-left: 61px;
+    }
+}
+
 @media (max-width: 768px) {
+    .part-currency {
+        width: 100% !important;
+    }
+
+    .title-groups {
+        width: 100% !important;
+    }
+
     .currency-up {
-        padding-left: 30px;
+        padding-left: 30px !important;
+    }
+    .second-title {
+        margin-left: 26px !important;
     }
 
     .first-title {
-        margin-left: 28px;
+        margin-left: 28px !important;
+        padding-top: 20px !important;
+    }
+
+    .second-title {
+        width: 70% !important;
+        line-height: 45px !important;
+        font-size: 41px !important;
+    }
+
+    .third-title {
+        padding-top: 15px !important;
     }
 
     .token-pictures {
@@ -133,4 +171,80 @@
     }
 }
 
+@media (max-width: 736px) {
+    .first-title {
+        margin-left: 24px;
+    }
+
+    .second-title {
+        margin-left: 25px;
+    }
+    .mainTitle-link, .mainTitle-subject {
+        margin-left: 63px;
+    }
+}
+
+@media (max-width: 568px) {
+    .third-title {
+        margin-left: 3px;
+    }
+
+    .second-title {
+        margin-left: 19px;
+    }
+
+    .second-title {
+        width: 100% !important;
+        margin-left: 29px;
+    }
+}
+
+@media (width: 414px) {
+    .first-title {
+        margin-left: 15px !important;
+    }
+
+    .second-title {
+        margin-left: 19px !important;
+        font-size: 32px !important;
+    }
+}
+
+@media (width: 411px) {
+    .first-title {
+        margin-left: 15px !important;
+    }
+
+    .second-title {
+        margin-left: 20px !important;
+        font-size: 32px !important;
+    }
+
+    .mainTitle {
+        padding-top: 235px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .second-title {
+        font-size: 25px !important;
+        margin-left: 16px !important;
+    }
+
+    .first-title {
+        margin-left: 12px !important;
+    }
+
+    .navbar-toggler {
+        padding: 0 !important;
+    }
+
+    .second-title {
+        line-height: 30px !important;
+    }
+
+    .mainTitle-link, .mainTitle-subject {
+        margin-left: 30px !important;
+    }
+}
 

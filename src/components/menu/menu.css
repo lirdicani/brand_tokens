@@ -1,9 +1,9 @@
 .menu {
     background: #1D2C50 !important;
+    width: 100%;
     height: 120px;
     padding-left: 142px;
     padding-right: 132px;
-    font-family: 'Barlow Semi Condensed';
 }
 
 .logo-title {
@@ -12,7 +12,6 @@
     color: white !important;
     transform: scale(1.2, 1);
     margin-right: 0;
-    font-family: 'Barlow Semi Condensed';
 }
 
 .apply-btn {
@@ -53,8 +52,8 @@
 }
 
 .nav-item {
-    padding-right: 21px !important;
-    padding-left: 21px !important;
+    padding-right: 21px;
+    padding-left: 21px;
 }
 
 .nav-item a:hover {
@@ -74,29 +73,178 @@
         padding-left: 81px;
         padding-right: 71px;
     }
+
+    .nav-item, .nav-item:first-child {
+        padding-right: 10px !important;
+    }
+}
+
+@media (max-width: 812px) {
+
+    .menu {
+        height: auto;
+    }
+
+    .detail-item {
+        padding-left: 9px !important;
+    }
+
+    .nav-item {
+        margin-left: 0 !important;
+    }
+
+    .mainTitle-link, .mainTitle-subject {
+        margin-left: 61px !important;
+    }
+
+    .nav-item, .nav-item:first-child {
+        padding-right: 3px !important;
+    }
+    .nav-item {
+        padding-right: 21px;
+        padding-left: 5px;
+    }
+
+    .second-title {
+        font-size: 27px !important;
+    }
+
+    /* .navbar-toggler {
+        position: absolute !important;
+        right: 30px !important;
+        top: 8px;
+    }
+
+    .apply-btn {
+        position: absolute;
+        right: 25%;
+        top: 8px;
+    } */
 }
 
 @media (max-width: 768px) {
     .menu {
         padding-left: 40px;
         padding-right: 30px;
+        height: 120px !important;
     }
 
-    .nav-item, .nav-item:first-child {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
-}
-
-@media (max-width: 600px) {
-    .menu {
-        height: auto;
-    }
-    .nav-item, .nav-item:first-child {
-        padding-left: 0 !important;
-        margin-left: 30px;
-    }
     .navbar-toggler {
         background-color: white !important;
     }
+
+    .nav-item, .nav-item:first-child {
+        padding-left: 0px !important;
+        padding-right: 10px !important;
+        margin-left: 10px !important;
+    }
+}
+
+@media (width: 736px) {
+    .nav-item a{
+        padding-left: 14px !important;
+    }
+
+    .navbar-toggler {
+        position: absolute !important;
+        right: 30px !important;
+        top: 40px !important;
+    }
+
+    .apply-btn {
+        position: absolute !important;
+        right: 25% !important;
+        top: 40px !important;
+    }
+}
+
+@media (max-width:667px) {
+    .menu {
+        height: auto !important;
+    }
+    .navbar-toggler {
+        position: absolute !important;
+        right: 30px !important;
+        top: 8px !important;
+    }
+
+    .apply-btn {
+        position: absolute !important;
+        right: 25% !important;
+        top: 8px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .menu {
+        height: auto !important;
+    }
+    .nav-item, .nav-item:first-child {
+        padding-left: 0 !important;
+    }
+
+    .navbar-toggler {
+        position: absolute !important;
+        right: 30px !important;
+        top: 8px !important;
+    }
+
+    .apply-btn {
+        position: absolute !important;
+        right: 25% !important;
+        top: 8px !important;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .first-title {
+        margin-left: 15px !important;
+    }
+
+    .second-title {
+        margin-left: 20px !important;
+        font-size: 32px !important;
+    }
+
+    .navbar-toggler {
+        position: absolute !important;
+        right: 30px !important;
+        top: 8px !important;
+    }
+
+    .apply-btn {
+        position: absolute !important;
+        right: 25% !important;
+        top: 8px !important;
+    }
+
+    .mainTitle-link, .mainTitle-subject {
+        margin-left: 32px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .apply-btn {
+        width: 69px;
+        height: 32px;
+        padding-top: 2px;
+        margin-left: -5px;
+        outline: none;
+        position: absolute;
+        right: 70px;
+        top: 8px;
+    }
+
+    .apply-btn span{
+        font-size: 10px;
+        letter-spacing: -0.3px;
+    }
+
+    .navbar-toggler {
+        position: absolute !important;
+        right: 17px !important;
+        top: 8px;
+    }
+
 }

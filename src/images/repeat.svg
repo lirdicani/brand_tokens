@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>repeat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-956.000000, -1736.000000)" fill-rule="nonzero">
+            <g id="repeat" transform="translate(956.000000, 1736.000000)">
+                <circle id="Oval" fill="#00EFFF" cx="14" cy="14" r="4"></circle>
+                <path d="M14,2 C17.013,2 19.859,3.146 22.028,5.095 L17.346,8.671 L26.672,9.92 L27.921,0.594 L23.641,3.863 C21.079,1.436 17.643,0 14,0 C6.28,0 0,6.28 0,14 L2,14 C2,7.383 7.383,2 14,2 Z" id="Path" fill="#00B7FF"></path>
+                <path d="M14,26 C10.987,26 8.141,24.854 5.972,22.905 L10.654,19.329 L1.329,18.08 L0.08,27.405 L4.36,24.136 C6.921,26.564 10.357,28 14,28 C21.72,28 28,21.72 28,14 L26,14 C26,20.617 20.617,26 14,26 Z" id="Path" fill="#00B7FF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

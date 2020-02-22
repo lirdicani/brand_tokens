@@ -1,0 +1,112 @@
+.partPercent {
+    padding-top: 120px;
+    padding-left: 132px;
+    padding-right: 132px;
+}
+
+.percent-static {
+    width: 376px;
+    border-radius: 10px;
+    padding: 11px 31px 31px 31px;
+    box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.48);
+}
+
+.num-percent .numbers {
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #00B7FF;
+}
+
+.num-percent .title {
+    padding-left: 12px;
+    padding-bottom: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 41px !important;
+    letter-spacing: 1.1px;
+    color: #3057FF;
+}
+
+.status-intro {
+    font-size: 16px;
+    opacity: 0.64;
+    line-height: 22px;
+    color: #1D2C50;
+    font-family: 'Open Sans';
+}
+
+@media(max-width: 1440px) {
+    .percent-static {
+        width: 30%;
+    }
+
+    .num-percent {
+        flex-direction: column !important;
+    }
+
+    .num-percent .title {
+        margin-top: -20px;
+        padding-bottom: 20px;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+}
+
+@media(max-width: 1256px) {
+    .partPercent {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+
+    .percent-static {
+        width: 340px !important;
+    }
+}
+
+@media(max-width: 1140px) {
+    .percent-static {
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .percent-static {
+        width: 30% !important;
+    }
+}
+
+@media (max-width: 812px) {
+
+    .partPercent {
+        flex-flow: column !important;
+        padding-top: 50px !important;
+    }
+
+    .percent-static {
+        display: block !important;
+        margin-top: 30px;
+        width: 100% !important;
+    }
+
+    .num-percent {
+        flex-direction: row !important;
+        align-items: baseline !important;
+    }
+
+    .num-percent .title {
+        padding-left: 20px !important;
+    }
+}
+
+@media (max-width: 520px) {
+    .num-percent {
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+
+    .num-percent .title {
+        padding-left: 0 !important;
+    }
+}

@@ -13,15 +13,14 @@
 .role-icon {
     width: 46px;
     height: 46px;
-    background: #00B7FF;
 }
 
 .role-title {
     padding-top: 32px;
-    width: 228px;
-    font-size: 20px;
+    width: 176px;
+    font-size: 24px;
     color: #00B7FF;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1px;
     line-height: 24.5px;
 }
@@ -33,7 +32,7 @@
     letter-spacing: 1.15px;
     opacity: 0.64;
     transform: scale(1.1, 1);
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 .mainTitle {
@@ -41,7 +40,7 @@
 }
 
 .mainTitle-groups {
-    padding-top: 58px;
+    padding-top: 27px;
 }
 
 .mainTitle-link {
@@ -65,8 +64,7 @@
 
 .mainTile-content-1, .mainTile-content-2 {
     margin-top: 24px;
-    width: 70%;
-    height: 84px;
+    width: 94%;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -75,7 +73,7 @@
 }
 
 .mainTitle-apply-btn {
-    margin-top: 86px;
+    margin-top: 24px;
 }
 
 .mainTitle-apply-btn a {
@@ -86,6 +84,14 @@
     transform: scale(1.2,1);
     margin-left: 10px;
     text-decoration: none;
+}
+
+.mainTitle-apply-btn a:hover {
+    color: teal;
+}
+
+.mainTitle-apply-btn a:active {
+    color: #3057FF;
 }
 
 .main-title-diagram {
@@ -115,7 +121,6 @@
     height: 32px;
     margin-top: 42px;
     margin-left: 72px;
-    background-color: #3057FF;
 }
 
 .diagram-brand .brand-title, .user-title {
@@ -134,25 +139,32 @@
 }
 
 .rotate-directions div {
-    width: 76px;
-    height: 76px;
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
     border: 10px solid #d0f7fc;
     background-color: #3057FF;
+    padding-top: 24px;
+    text-align: center;
 }
 
 .shop-symbol-group {
-    width: 76px;
+    width: 96px;
 }
 
 .shop-symbol{
-    width: 76px;
-    height: 76px;
+    width: 96px;
+    height: 96px;
+    text-align: center;
     border-radius: 50%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.top-diagram .shop-symbol-group div:last-child {
+.shop-symbol-icon{
+    margin-top: 32px !important;
+}
+
+.shop-name {
     padding-top: 12px;
     line-height: normal;
     text-align: center;
@@ -162,7 +174,7 @@
 }
 
 
-.bottom-diagram .shop-symbol-group div:first-child {
+.shop-name {
     padding-bottom: 12px;
     padding-top: 12px;
     line-height: normal;
@@ -179,8 +191,8 @@
 
 @media (max-width: 1024px) {
     .partMainTitle {
-        padding-left: 71px;
-        padding-right: 71px;
+        padding-left: 72px;
+        padding-right: 72px;
         height: auto;
     }
 
@@ -226,10 +238,6 @@
 }
 
 @media (max-width: 768px) {
-    .partMainTitle {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
 
     .role-list {
         padding-top: 0 !important;
@@ -260,22 +268,39 @@
         margin-top: 30px !important;
         margin-left: 44.5px !important;
     }
-    .brand-title, .user-title {
+    .user-title {
         margin-top: 10px !important;
+    }
+
+    .brand-title{
+        margin-top: 15px !important;
     }
 }
 
 @media (max-width: 667px) {
     .mainTitle-link {
-        margin-left: 55px !important;
+        margin-left: 41px !important;
     }
 
     .mainTitle-subject {
-        margin-left: 54px !important;
+        margin-left: 40px !important;
+    }
+
+    .role-content {
+        margin-left: 10px !important;
     }
 }
 
 @media (max-width: 568px) {
+
+    .partUsers {
+        height: 1450px !important;
+    }
+
+    .partMainTitle {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
 
     .role-content {
         width: 90% !important;
@@ -326,6 +351,11 @@
     .shop-symbol-group {
         width: 45px;
     }
+    
+    .shop-symbol-icon{
+        margin-top: 7px !important;
+        margin-bottom: 23px !important;
+    }
 
     .mid-diagram {
         height: 70px;
@@ -335,6 +365,7 @@
         width: 40px !important;
         height: 40px !important;
         border: 6px solid #d0f7fc;
+        padding-top: 0px !important;
     }
 
     .diagram-user, .diagram-brand {
@@ -356,9 +387,16 @@
         font-size: 10px !important;
     }
 
-    .brand-logo, .user-logo {
-        margin-left: 25px !important;
+    .user-logo {
+        margin-left: 20px !important;
         margin-top: 15px !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .brand-logo{
+        margin-left: 20px !important;
+        margin-top: 12px !important;
         width: 20px !important;
         height: 20px !important;
     }
@@ -383,11 +421,11 @@
     }
 
     .mainTitle-subject {
-        margin-left: 31px !important;
+        margin-left: 26px !important;
     }
 
     .mainTitle-link {
-        margin-left: 33px !important;
+        margin-left: 28px !important;
     }
 
     .mainTitle-apply-btn {
@@ -396,6 +434,10 @@
 }
 
 @media (max-width: 375px) {
+
+    .partUsers {
+        height: 1650px !important;
+    }
 
     .role-content {
         margin-left: 16px;
@@ -487,6 +529,11 @@
 }
 
 @media (max-width: 320px) {
+
+    .partUsers {
+        height: 1830px !important;
+    }
+
     .role-content {
         margin-left: 12px !important;
     }

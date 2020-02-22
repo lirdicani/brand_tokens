@@ -1,0 +1,262 @@
+.partHow {
+    width: 100%;
+    height: 1294px;
+    margin-top: -230px;
+    padding-left: 132px;
+    padding-right: 132px;
+    padding-bottom: auto;
+    background: #1D2C50;
+    color: white;
+    clip-path: polygon(0 13%, 100% 0, 100% 87%, 0% 100%);
+}
+
+.how-mission {
+    padding-top: 300px;
+    width: 320px;
+}
+
+.mission-article {
+    font-size: 14px;
+    font-weight: 700;
+    color: #00EFFF;
+    letter-spacing: 1.5px;
+    margin-left: 32px;
+    transform: scale(1.2,1);
+}
+
+.mission-title {
+    padding-top: 8px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 29px;
+    transform: scale(1.2, 1);
+}
+
+.mission-subject{
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.7px;
+    opacity: 0.72;
+    margin-left: 17px;
+    transform: scale(1.1,1);
+}
+
+.how-apply-btn-group {
+    padding-top: 114px;
+    height: 32px;
+}
+
+.apply-btn-how{
+    padding-top: 3px;
+    padding-left: 28px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00EFFF;
+    letter-spacing: 1.8px; 
+    transform: scale(1.1, 1);
+    text-decoration: none;
+}
+
+.apply-btn-how-icon {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #00EFFF;
+    transform: scale(1, 1);
+}
+
+.mission-lists {
+    padding-top: 33px;
+    width: 100%;
+}
+
+.mission-lists-item {
+    padding-top: 12px;
+}
+
+.mission-lists-item-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #00B7FF;
+    transform: scale(1, 1) !important;
+}
+
+.mission-lists-item-name {
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.mission-detail {
+    margin-top: 300px;
+    padding: 0px 24px 24px 24px;
+    width: 776px;
+    height: 720px;
+    background:rgba(0, 0, 0, 0.16);
+}
+
+.select-mission-select-part {
+    width: 200px;
+    position: relative;
+    top: 45px;
+}
+
+.select-mission-select-part .icon {
+    margin-top: 3px;
+    margin-right: 8.5px;
+    width: 13px;
+    height: 15px;
+    background: cadetblue;
+}
+
+.select-mission-select-part .title {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+    width: 172px;
+}
+
+
+@media (max-width: 1440px) {
+    .mission-detail {
+        width: 630px;
+        height: 62%;
+    }
+}
+
+@media (max-width: 1256px) {
+    
+    .partHow {
+        padding-left:  35px;
+        padding-right: 35px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .mission-detail {
+        width: 580px;
+    }
+}
+
+@media (max-width: 823px) {
+    .partHow {
+        justify-content: start !important;
+        flex-direction: column;
+        height: 1750px !important;
+    }
+
+    .how-apply-btn-group {
+        padding-top: 55px !important;
+    }
+
+    .mission-detail {
+        height: 40% !important;
+    }
+}
+
+@media (max-width: 812px) {
+    .partHow {
+        height: 1600px !important;
+    }
+
+    .mission-article, .mission-title, .mission-subject {
+        margin-left: 0 !important;
+        transform: scale(1, 1) !important;
+    }
+
+    .mission-subject {
+        padding-top: 10px !important;
+    }
+
+    .mission-lists {
+        padding-top: 0px !important;
+    }
+
+    .how-apply-btn-group {
+        padding-top: 55px !important;
+    }
+
+    .mission-detail {
+        margin-top: 50px !important;
+        width: 100% !important;
+        height: 45% !important;
+    }
+}
+
+@media (max-width: 667px) {
+    .partHow {
+        margin-top: -190px;
+        height: 1650px !important;
+        clip-path: polygon(0 11%, 100% 0, 100% 89%, 0% 100%) !important;
+    }
+
+    .mission-detail {
+        height: 49% !important;
+    }
+
+    .select-mission-select-part {
+        position: static !important;
+        padding-top: 20px !important;
+    }
+
+    .select-mission-select-part .title {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 568px) {
+    .partHow {
+        height: 2200px !important;
+        clip-path: polygon(0 7%, 100% 0, 100% 93%, 0% 100%) !important;
+    }
+
+    .mission-detail {
+        height: 60% !important;
+    }
+}
+
+@media(max-width: 411px) {
+    .how-mission {
+        padding-top: 130px !important;
+    }
+}
+
+@media(max-width: 375px) {
+    .partHow {
+        margin-top: -160px;
+        height: 2250px !important;
+        clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%) !important;
+    }
+
+    .mission-detail {
+        height: 67% !important;
+    }
+}
+
+@media(max-width: 360px) {
+    .partHow {
+        margin-top: -150px !important;
+        height: 2300px !important;
+    }
+}
+
+@media(max-width: 320px) {
+    .partHow {
+        margin-top: -160px !important;
+        height: 2430px !important;
+        clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%) !important;
+    }
+
+    .how-mission {
+        padding-top: 110px !important;
+    }
+}

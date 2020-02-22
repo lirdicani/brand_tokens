@@ -5,11 +5,11 @@
 }
 
 .currency-up {
-    padding-top: 112px;
+    padding-top: 165px;
     width: 100%;
     height: 880px;
     padding-left: 132px;
-    padding-right: 73.78px;
+    padding-right: 132px;
     background: #1D2C50;
     color: white;
 }
@@ -32,14 +32,13 @@
     width: 75%;
     font-size: 48px;
     font-weight: 400;
-    letter-spacing: 0.8px;
     margin-left: 24px;
     transform: scale(1.12,1);
 }
 
 .third-title {
     padding-top: 24px;
-    width: 75%;
+    width: 100%;
     font-size: 18px;
     font-weight: 400;
     opacity: 0.62;
@@ -49,18 +48,22 @@
 
 .apply-btn-currency {
     margin-top: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
     width: 202px;
     height: 48px;
     background:#00B7FF;
-    border-color: white;
-    outline: none !important;
-    border: none !important;
+    border: 1px solid white !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
 
 .apply-btn-currency:hover {
-    background-color: white !important;
+    background-color: darkcyan !important;
+}
+
+.apply-btn-currency:active {
+    opacity: 0.5 !important;
 }
 
 .apply-btn-currency:focus{
@@ -72,10 +75,12 @@
 }
 
 .apply-btn-currency:hover span{
-    color: black;
+    color: white;
 }
 
 .apply-btn-currency span{
+    margin-top: auto;
+    margin-bottom: auto;
     color: white;
     font-size: 12px;
     font-weight: 600;
@@ -97,22 +102,25 @@
     .currency-up {
         flex-direction: column;
         padding-left: 72px;
-        padding-top: 0;
-        /* height: auto; */
+        padding-right: 72px;
+        padding-top: 20px;
         height: 678px;
     }
+
     .first-title {
-        margin-left: 20px;
+        margin-left: 0 !important;
+        transform: scale(1,1) !important;
     }
 
     .second-title {
-        margin-left: 25px;
         width: 100%;
         font-size: 45px;
+        margin-left: 0 !important;
+        transform: scale(1, 1) !important;
     }
 
     .third-title {
-        width: auto;
+        width: 100% !important;
     }
 
     .token-pictures {
@@ -121,17 +129,16 @@
     }
 }
 
-@media (max-width: 812px) {
+@media(max-width: 823px) {
     .title-groups {
-        width: 70%;
+        width: 70% !important;
     }
+}
+
+@media (max-width: 812px) {
 
     .role-content {
         margin-left: 14px;
-    }
-
-    .mainTitle-link, .mainTitle-subject {
-        margin-left: 61px;
     }
 }
 
@@ -144,15 +151,7 @@
         width: 100% !important;
     }
 
-    .currency-up {
-        padding-left: 30px !important;
-    }
-    .second-title {
-        margin-left: 26px !important;
-    }
-
     .first-title {
-        margin-left: 28px !important;
         padding-top: 20px !important;
     }
 
@@ -172,51 +171,34 @@
 }
 
 @media (max-width: 736px) {
-    .first-title {
-        margin-left: 24px;
-    }
-
-    .second-title {
-        margin-left: 25px;
-    }
+    
     .mainTitle-link, .mainTitle-subject {
         margin-left: 63px;
     }
 }
 
 @media (max-width: 568px) {
-    .third-title {
-        margin-left: 3px;
-    }
 
-    .second-title {
-        margin-left: 19px;
+    .currency-up {
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .second-title {
         width: 100% !important;
-        margin-left: 29px;
     }
 }
 
-@media (width: 414px) {
-    .first-title {
-        margin-left: 15px !important;
-    }
+@media (max-width: 414px) {
 
     .second-title {
-        margin-left: 19px !important;
         font-size: 32px !important;
     }
 }
 
-@media (width: 411px) {
-    .first-title {
-        margin-left: 15px !important;
-    }
+@media (max-width: 411px) {
 
     .second-title {
-        margin-left: 20px !important;
         font-size: 32px !important;
     }
 
@@ -226,13 +208,13 @@
 }
 
 @media (max-width: 375px) {
-    .second-title {
-        font-size: 25px !important;
-        margin-left: 16px !important;
+
+    .currency-up {
+        height: 880px !important;
     }
 
-    .first-title {
-        margin-left: 12px !important;
+    .second-title {
+        font-size: 25px !important;
     }
 
     .navbar-toggler {
@@ -247,4 +229,5 @@
         margin-left: 30px !important;
     }
 }
+
 

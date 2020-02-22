@@ -1,0 +1,166 @@
+.logo-tab {
+    height: 24px;
+    background: blue;
+    opacity: 0.5;
+}
+
+.mission-tab-group {
+    border: none !important;
+}
+
+.nav-tabs .nav-item {
+    width: 140px !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+
+.nav-tabs .nav-link {
+    padding: 20px 10px !important;
+}
+
+.nav-tabs .nav-link {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 2px solid #3057FF;
+    transition: border 1s linear;
+    opacity: 0.24;
+}
+
+.nav-tabs .nav-link:hover {
+    border-bottom: 2px solid #3057FF !important;
+    opacity: 0.24;
+}
+
+.nav-tabs .nav-link.active {
+    background: none !important;
+    border-bottom: 2px solid;
+    transition: color 0.6s linear;
+    color: #3057FF;
+    opacity: 1;    
+}
+
+.mission-cards-top-title {
+    margin-top: 12px;
+    padding: 0 !important;
+    border: none;
+    background: transparent;
+}
+
+.mission-cards-top-title .card-title {
+    margin: 0 !important;
+    padding-left: 24px;
+    height: 64px;
+    background: #3057FF;
+    border-radius: 5px;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mission-cards-top-title .card-text {
+    margin: 0 !important;
+    margin-top: 12px !important;
+    padding: 21px 24px;
+    border-radius: 5px;
+    background:#1D2C50;
+}
+
+.mission-cards-top-title .card-text p {
+    margin-bottom: 0 !important;
+}
+
+.mission-cards-top-title .card-text .subject {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.mission-cards-top-title .card-text .content {
+    padding-top: 9px;
+    font-size: 14px !important;
+    line-height: 20px;
+    opacity: 0.64;
+    font-family: "Open Sans";
+    font-weight: 500 !important;
+}
+
+@media (max-width: 1440px) {
+
+    .nav-tabs .nav-item {
+        width: 120px !important;
+    }
+}
+
+@media (max-width: 1256px) {
+    .select-mission-select-part .title {
+        width: 120px;
+    }
+}
+
+@media(max-width: 823px) {
+    .how-mission {
+        padding-top: 250px !important;
+    }
+
+    .mission-detail {
+        width: 100%;
+        margin-top: 50px !important;
+    }
+}
+
+@media (max-width: 812px) {
+    .how-mission {
+        width: auto;
+        padding-top: 250px !important;
+    }
+}
+
+@media (max-width: 667px) {
+
+    .how-mission {
+        padding-top: 150px !important;
+        margin-top: 70px !important;
+    }
+
+    .nav-tabs .nav-item {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 30% !important;
+    }
+}
+
+@media (max-width: 414px) {
+    .mission-detail {
+        height: 60% !important;
+    }
+
+}
+
+@media (max-width: 411px) {
+    .how-mission {
+        padding-top: 100px !important;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .mission-detail {
+        height: 67% !important;
+    }
+
+    .how-mission {
+        padding-top: 50px !important;
+    }
+}
+
+@media (max-width: 360px){
+    .mission-detail {
+        height: 65% !important;
+    }
+}
+
+@media(max-width: 320px) {
+    .mission-detail {
+        height: 67% !important;
+    }
+}

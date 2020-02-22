@@ -1,20 +1,23 @@
 import React from 'react';
 
 import './App.css';
-// import Menu from './components/menu/menu';
+import PartHow from './components/part_how/part_how';
+import PartUsers from './components/part_users/partUsers';
+import PartPercent from './components/part_percent/part_percent';
 import PartCurrency from './components/part_currency/part_currency';
 import PartMainTitle from './components/part_mainTitle/part_mainTitle';
-import PartUsers from './components/part_users/partUsers';
-// import Footer from './components/footer/footer';
+import PartPublication from './components/part_publication/part_publication';
 
-function App() {
-    return (
+const App = () => {
+    return(
         <div className="App">
-            {/* <Menu /> */}
             <div className="content">
                 <PartCurrency />
                 <PartMainTitle />
                 <PartUsers />
+                <PartHow />
+                <PartPercent />
+                <PartPublication />
             </div>
         </div>
     );

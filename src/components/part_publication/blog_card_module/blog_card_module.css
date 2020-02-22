@@ -1,0 +1,63 @@
+.blog-container {
+    padding-top: 48px !important;
+    /* padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; */
+}
+
+.blog-container .card {
+    width: 376px;
+    box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.48);
+}
+
+.blog-container .card img{
+    height: 47%;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%) !important;
+}
+
+.card-body {
+    padding: 32px 24px 29px 24px;
+}
+
+.card-body .card-title {
+    line-height: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1D2C50;
+    letter-spacing: 1.4px;
+}
+
+.card-body .card-subtitle {
+    padding-right: 24px;
+}
+
+.card-body .card-subtitle:first-child{
+    padding-top: 12px;
+    margin-left: 1px;
+    font-weight: 500;
+    font-size: 14px !important;
+    color: #00B7FF;
+    transform: scale(1.02,1);
+    letter-spacing: 1.1px;
+}
+
+.card-body .card-subtitle:last-child{
+    padding-top: 12px;
+    font-size: 14px !important;
+    font-weight: 400;
+    transform: scale(1.1,1);
+    letter-spacing: 1.5px;
+    color: #1D2C50;
+    opacity: 0.26;
+}
+
+.card-body .card-text {
+    padding-top: 12px;
+    font-size: 16px;
+    opacity: 0.64;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    font-family: 'Open Sans';
+}

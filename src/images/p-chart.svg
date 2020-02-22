@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>p-chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-732.000000, -1110.000000)" fill-rule="nonzero">
+            <g id="p-chart" transform="translate(732.000000, 1110.000000)">
+                <path d="M26,6 C25.447,6 25,6.448 25,7 L25,25 L7,25 C6.447,25 6,25.448 6,26 C6,37.028 14.972,46 26,46 C37.028,46 46,37.028 46,26 C46,14.972 37.028,6 26,6 Z" id="Path" fill="#00B7FF"></path>
+                <path d="M21,21 L21,1 C21,0.458 20.566,0.001 20.024,-1.40812556e-05 C8.977,-0.013 -0.013,8.977 -1.40812556e-05,20.024 C0.001,20.566 0.458,21 1,21 L21,21 Z" id="Path" fill="#00EFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

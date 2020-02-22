@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>replace</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-1032.000000, -1110.000000)" fill-rule="nonzero">
+            <g id="replace" transform="translate(1032.000000, 1110.000000)">
+                <path d="M25,26 L1,26 C0.447,26 0,25.552 0,25 L0,1 C0,0.448 0.447,0 1,0 L25,0 C25.553,0 26,0.448 26,1 L26,25 C26,25.552 25.553,26 25,26 Z" id="Path" fill="#00B7FF"></path>
+                <path d="M45,46 L21,46 C20.447,46 20,45.552 20,45 L20,21 C20,20.448 20.447,20 21,20 L45,20 C45.553,20 46,20.448 46,21 L46,45 C46,45.552 45.553,46 45,46 Z" id="Path" fill="#00EFFF"></path>
+                <path d="M37,8 L31.414,8 L35.707,3.707 L34.293,2.293 L28.293,8.293 C27.902,8.684 27.902,9.316 28.293,9.707 L34.293,15.707 L35.707,14.293 L31.414,10 L37,10 C39.757,10 42,12.243 42,15 L44,15 C44,11.14 40.859,8 37,8 Z" id="Path" fill="#00B7FF"></path>
+                <path d="M11.707,30.293 L10.293,31.707 L14.586,36 L9,36 C6.243,36 4,33.757 4,31 L2,31 C2,34.86 5.141,38 9,38 L14.586,38 L10.293,42.293 L11.707,43.707 L17.707,37.707 C18.098,37.316 18.098,36.684 17.707,36.293 L11.707,30.293 Z" id="Path" fill="#00EFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

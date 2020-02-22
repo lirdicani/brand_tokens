@@ -1,0 +1,45 @@
+.partPublication {
+    padding-top: 120px;
+    padding-left: 132px;
+    padding-right: 132px;
+}
+
+.part-publication-title {
+    margin-left: 59px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transform: scale(1.1, 1);
+    font-weight: 700;
+    color: #00B7FF;
+}
+
+.part-publication-blog-title-intro {
+    font-size: 36px;
+    font-weight: 400;
+    color: #1D2C50;
+    letter-spacing: 1.5px;
+    transform: scale(1.1, 1);
+    margin-left: 10px;
+}
+
+.more-blog {
+    width: 216px !important;
+    height: 36px;
+    border: 1px solid #00B7FF;
+    background: white !important;
+    outline: none;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: #00B7FF !important;
+    letter-spacing: 1.5px;
+}
+
+.more-blog:hover {
+    background: teal !important;
+    color: white !important;
+}
+
+.more-blog:active {
+    opacity: 0.5;
+    background: teal;
+}

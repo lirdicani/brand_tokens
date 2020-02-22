@@ -3,8 +3,9 @@ import {
     Button,
 } from 'reactstrap';
 
-import Menu from '../menu/menu';
 import './part_currency.css';
+import Menu from '../menu/menu';
+import { ReactComponent as ArrowRight } from "../../images/arrow-right.svg";
 
 const PartCurrency = () => {
     return (
@@ -16,11 +17,16 @@ const PartCurrency = () => {
                     <div className="second-title">
                         Tokenize your brand, Reward your customers
                     </div>
-                    <div className="third-title">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis</div>
-                    <div className="d-flex justify-content-start"><Button className="apply-btn-currency"><span>APPLY NOW</span></Button></div>
+                    <div className="third-title">Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all.
+Brand Tokens is all in one platform for everything you need: engagement, marketing optimization, exchange, ecommerce, social media, communication, aggregate data and much more.</div>
+                    <div className="d-flex justify-content-start">
+                        <Button className="apply-btn-currency d-flex justify-content-between">
+                            <span>APPLY NOW</span>
+                            <div><ArrowRight /></div>
+                        </Button>
+                    </div>
                 </div>
             </div>
-            {/* <div className="token-pictures">Pictures</div> */}
         </div>
     )
 }

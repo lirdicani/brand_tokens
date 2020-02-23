@@ -1,5 +1,6 @@
 .logo-tab {
     height: 30px;
+    width: 120px;
 }
 
 .mission-tab-group {
@@ -132,6 +133,10 @@
 @media (max-width: 414px) {
     .mission-detail {
         height: 60% !important;
+    }
+
+    .logo-tab {
+        width: 60px;
     }
 
 }

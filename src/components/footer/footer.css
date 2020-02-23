@@ -18,12 +18,21 @@
     padding-top: 20px;
 }
 
+.sub-menu a:hover {
+    color: blue !important;
+}
+
 .social-logo {
     padding-top: 36.5px;
 }
 .social-logo a{
+    opacity: 0.5;
     padding-right: 13.5px;
     padding-left: 13.5px;
+}
+
+.social-logo a:hover {
+    opacity: 1;
 }
 
 .at-mark {

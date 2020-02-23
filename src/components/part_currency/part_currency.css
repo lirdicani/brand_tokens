@@ -33,13 +33,14 @@
     font-size: 48px;
     font-weight: 400;
     margin-left: 24px;
+    line-height: normal;
     transform: scale(1.12,1);
 }
 
 .third-title {
     padding-top: 24px;
     width: 100%;
-    font-size: 18px;
+    font-size: 18.5px;
     font-weight: 400;
     opacity: 0.62;
     letter-spacing: 1.5px;
@@ -82,10 +83,10 @@
     margin-top: auto;
     margin-bottom: auto;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     letter-spacing: 1.3px;
-    transform: scale(1, 1.5);
+    /* transform: scale(1, 1.5); */
 }
 
 .token-pictures {

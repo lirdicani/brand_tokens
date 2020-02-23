@@ -11,7 +11,6 @@ import {
 } from 'reactstrap';
 
 import  './menu.css';
-import { ReactComponent as Logo } from '../../images/Logo-icon.svg';
 
 const Menu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +21,7 @@ const Menu = (props) => {
         <div>
             <Navbar className="menu" light expand="md">
                 <NavbarBrand className="logo-title" href="/">
-                    <div><Logo fill="white" />&nbsp;&nbsp;&nbsp;<span>BRANDTOKENS</span></div>
+                    <div><img src='/assets/images/Logo-icon.svg' alt='logo' />&nbsp;&nbsp;&nbsp;<span>BRANDTOKENS</span></div>
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

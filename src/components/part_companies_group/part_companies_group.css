@@ -1,0 +1,43 @@
+.companiesGroup-line-1{
+    padding-top: 56px;
+}
+
+.companiesGroup-line-2 {
+    padding-top: 45px;
+}
+
+.company-logo {
+    /* padding-top: 25px; */
+    height: 50px;
+    width: auto;
+}
+
+@media (max-width:1200px) {
+    .company-logo {
+        height: 100px !important;
+    }
+}
+
+@media (max-width:1024px) {
+    .company-logo {
+        height: 85px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .company-logo {
+        height: 80px !important;
+    }
+}
+
+@media (max-width:579px) {
+    .company-logo {
+        height: 60px !important;
+    }
+}
+
+@media(max-width: 492px) {
+    .company-logo {
+        height: 30px;
+    }
+}

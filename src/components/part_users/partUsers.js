@@ -1,8 +1,6 @@
 import React from 'react';
 
 import './partUsers.css';
-import { ReactComponent as OfficeBig } from '../../images/office-big.svg';
-import { ReactComponent as ParentBig } from '../../images/parent-big.svg';
 
 const PartUsers = () => {
     return (
@@ -15,7 +13,7 @@ const PartUsers = () => {
             <div className="PU-content d-flex justify-content-between">
                 <div className="PU-content-subject">
                     <div className="PU-content-subject-title">
-                        <div className="content"><OfficeBig /></div>
+                        <div className="content"><img src='/assets/images/office-big.svg' alt='OfficeBig' /></div>
                         <div className="content">Brands</div>
                         <div className="content">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div>
                     </div>
@@ -44,8 +42,8 @@ const PartUsers = () => {
                 </div>
                 <div className="PU-content-subject">
                     <div className="PU-content-subject-title">
-                        <div className="content"><ParentBig /></div>
-                        <div className="content">Customers</div>
+                        <div className="content"><img src='/assets/images/parent-big.svg' alt='ParentBig' /></div>
+                        <div className="content">Users</div>
                         <div className="content">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div>
                     </div>
                     <div className="PU-content-subject-items">

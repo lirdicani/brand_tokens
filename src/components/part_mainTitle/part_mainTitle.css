@@ -20,9 +20,9 @@
     width: 176px;
     font-size: 24px;
     color: #00B7FF;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
-    line-height: 24.5px;
+    line-height: 32px;
 }
 
 .role-content {
@@ -57,7 +57,6 @@
     font-size: 36px;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1px;
     transform: scale(1.2,1);
     margin-left: 43px;
 }
@@ -96,7 +95,7 @@
 
 .main-title-diagram {
     width: 100%;
-    background: white;
+    background: transparent;
 }
 
 .top-diagram, .bottom-diagram {
@@ -139,29 +138,29 @@
 }
 
 .rotate-directions div {
-    width: 96px;
-    height: 96px;
+    width: 76px;
+    height: 76px;
     border-radius: 50%;
     border: 10px solid #d0f7fc;
     background-color: #3057FF;
-    padding-top: 24px;
+    padding-top: 14px;
     text-align: center;
 }
 
 .shop-symbol-group {
-    width: 96px;
+    width: 76px;
 }
 
 .shop-symbol{
-    width: 96px;
-    height: 96px;
+    width: 76px;
+    height: 76px;
     text-align: center;
     border-radius: 50%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .shop-symbol-icon{
-    margin-top: 32px !important;
+    margin-top: 25px !important;
 }
 
 .shop-name {

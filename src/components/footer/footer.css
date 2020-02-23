@@ -1,0 +1,56 @@
+.footer {
+    padding:   120px 242px 100px 242px;
+}
+
+.sub-menu {
+    padding-top: 24px;
+}
+
+.sub-menu a{
+    color: #9FA6B5 !important;
+    font-size: 14px;
+    font-weight: 500;
+    transform: scale(1.2,1);
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.social-logo {
+    padding-top: 36.5px;
+}
+.social-logo a{
+    padding-right: 13.5px;
+    padding-left: 13.5px;
+}
+
+.at-mark {
+    padding-top: 36.5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9FA6B5;
+    letter-spacing: 1.2px;
+}
+
+@media (max-width: 1440px) {
+    .footer {
+        padding-left: 132px;
+        padding-right: 132px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .footer {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media(max-width: 460px) {
+    .footer {
+        padding-right: 10px;
+        padding-right: 10px;
+    }
+}

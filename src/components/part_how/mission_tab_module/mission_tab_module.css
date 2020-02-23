@@ -1,6 +1,6 @@
 .logo-tab {
     height: 24px;
-    background: blue;
+    /* background: blue; */
     opacity: 0.5;
 }
 
@@ -53,14 +53,16 @@
     height: 64px;
     background: #3057FF;
     border-radius: 5px;
+    color: white !important;
 
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 18px !important;
+    font-weight: 600 !important;
 }
 
 .mission-cards-top-title .card-text {
     margin: 0 !important;
     margin-top: 12px !important;
+    opacity: 1 !important;
     padding: 21px 24px;
     border-radius: 5px;
     background:#1D2C50;

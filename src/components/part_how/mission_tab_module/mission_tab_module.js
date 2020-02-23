@@ -29,7 +29,7 @@ const MissionTabModule = (props) => {
                         className={classnames({ active: activeTab === '1' })}
                         onClick={() => { toggle('1'); }}
                     >
-                        <div className='logo-tab'></div>
+                        <div className='logo-tab'><img src='/assets/images/slack.svg' alt='logo' /></div>
                     </NavLink>
                 </NavItem>
                 <NavItem>
@@ -37,7 +37,7 @@ const MissionTabModule = (props) => {
                         className={classnames({ active: activeTab === '2' })}
                         onClick={() => { toggle('2'); }}
                     >
-                        <div className='logo-tab'></div>
+                        <div className='logo-tab'><img src='/assets/images/slack.svg' alt='logo' /></div>
                     </NavLink>
                 </NavItem>
                 <NavItem>
@@ -45,7 +45,7 @@ const MissionTabModule = (props) => {
                         className={classnames({ active: activeTab === '3' })}
                         onClick={() => { toggle('3'); }}
                     >
-                        <div className='logo-tab'></div>
+                        <div className='logo-tab'><img src='/assets/images/slack.svg' alt='logo' /></div>
                     </NavLink>
                 </NavItem>
             </Nav>
@@ -75,7 +75,7 @@ const MissionTabModule = (props) => {
                             </Col>
                             <Col sm="6">
                                 <Card body className='mission-cards-top-title'>
-                                    <CardTitle className='d-flex align-items-center'>Distribution</CardTitle>
+                                    <CardTitle className='d-flex align-items-center'>Redeem</CardTitle>
                                     <div className='card-text'>
                                         <p className='subject'>Gift card</p>
                                         <p className='content'>Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</p>

@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from 'reactstrap';
 
 import './part_publication.css';
-// import BlogCardModule from './blog_card_module/blog_card_module';
+import BlogCardModule from './blog_card_module/blog_card_module';
 
 const PartPublication = () => {
     return (
@@ -11,9 +11,10 @@ const PartPublication = () => {
             <div className='part-publication-title'>PUBLICATIONS</div>
             <div className='part-publication-blog-title d-flex justify-content-between align-items-end'>
                 <div className='part-publication-blog-title-intro'>From our blog</div>
-                <Button className='more-blog' >SEE MORE FROM OUR BLOG</Button>
+                <div className='d-flex justify-content-end'><Button className='more-blog' >SEE MORE FROM OUR BLOG</Button></div>
             </div>
-            {/* <BlogCardModule /> */}
+            <BlogCardModule />
+            <div className='partner-more-btn'><a href='/'>30 partners and more</a></div>
         </div>
     )
 }

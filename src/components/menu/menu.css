@@ -81,10 +81,6 @@
         padding-left: 81px;
         padding-right: 71px;
     }
-
-    .nav-item, .nav-item:first-child {
-        padding-right: 10px !important;
-    }
 }
 
 @media(max-width: 823px) {
@@ -107,18 +103,6 @@
         padding-left: 9px !important;
     }
 
-    .nav-item {
-        margin-left: 0 !important;
-    }
-
-    .nav-item, .nav-item:first-child {
-        padding-right: 3px !important;
-    }
-    .nav-item {
-        padding-right: 21px;
-        padding-left: 5px;
-    }
-
     .second-title {
         font-size: 27px !important;
     }
@@ -133,12 +117,6 @@
 
     .navbar-toggler {
         background-color: white !important;
-    }
-
-    .nav-item, .nav-item:first-child {
-        padding-left: 0px !important;
-        padding-right: 10px !important;
-        margin-left: 10px !important;
     }
 }
 

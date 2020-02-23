@@ -90,11 +90,21 @@
     .nav-tabs .nav-item {
         width: 120px !important;
     }
+
+    .logo-tab {
+        width: 90px !important;
+    }
 }
 
 @media (max-width: 1256px) {
     .select-mission-select-part .title {
         width: 120px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .nav-item, .nav-item:first-child {
+        padding-right: 10px !important;
     }
 }
 
@@ -114,6 +124,26 @@
         width: auto;
         padding-top: 250px !important;
     }
+
+    .nav-item {
+        margin-left: 0 !important;
+    }
+
+    .nav-item, .nav-item:first-child {
+        padding-right: 3px !important;
+    }
+    .nav-item {
+        padding-right: 21px;
+        padding-left: 5px;
+    }
+}
+
+@media(max-width: 768px) {
+    .nav-item, .nav-item:first-child {
+        padding-left: 0px !important;
+        padding-right: 10px !important;
+        margin-left: 10px !important;
+    }
 }
 
 @media (max-width: 667px) {
@@ -124,19 +154,33 @@
     }
 
     .nav-tabs .nav-item {
-        padding: 0 !important;
-        margin: 0 !important;
         width: 30% !important;
+    }
+
+    .nav-item:first-child {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .nav-item {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media(max-width: 470px) {
+    .logo-tab {
+        width: 60px !important;
     }
 }
 
 @media (max-width: 414px) {
     .mission-detail {
         height: 60% !important;
-    }
-
-    .logo-tab {
-        width: 60px;
     }
 
 }
@@ -167,5 +211,9 @@
 @media(max-width: 320px) {
     .mission-detail {
         height: 67% !important;
+    }
+
+    .logo-tab {
+        width: 40px !important;
     }
 }

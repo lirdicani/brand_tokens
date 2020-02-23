@@ -12,10 +12,10 @@
 .blog-container .card {
     height: 471px;
     width: 376px;
-    border: none;
+    border: none !important;
     border-radius: 12px;
     padding: auto !important;
-    box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.48);
+    box-shadow: 0 4px 14px 4px rgba(0,0,0,0.14);
 }
 
 

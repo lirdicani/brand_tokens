@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="25px" viewBox="0 0 76 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-1032.000000, -1738.000000)">
+            <g id="Group-5" transform="translate(1030.000000, 1738.000000)">
+                <line x1="4.5" y1="21.5" x2="80.5" y2="21.5" id="Line-Copy-5" stroke="#00B7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8"></line>
+                <path d="M5.78885438,20.5777088 L7.2763932,23.5527864 C7.52338245,24.0467649 7.3231581,24.6474379 6.82917961,24.8944272 C6.69032417,24.9638549 6.53721111,25 6.38196601,25 L1.61803399,25 C1.06574924,25 0.618033989,24.5522847 0.618033989,24 C0.618033989,23.8447549 0.654179081,23.6916418 0.723606798,23.5527864 L2.21114562,20.5777088 C2.70512412,19.5897518 3.9064702,19.1893031 4.89442719,19.6832816 C5.281482,19.876809 5.59532698,20.190654 5.78885438,20.5777088 Z" id="Triangle-Copy-3" fill="#3057FF" transform="translate(4.000000, 21.000000) scale(-1, 1) rotate(90.000000) translate(-4.000000, -21.000000) "></path>
+                <line x1="0.5" y1="4.5" x2="76.5" y2="4.5" id="Line-Copy-4" stroke="#00B7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8" transform="translate(38.500000, 4.500000) scale(-1, 1) translate(-38.500000, -4.500000) "></line>
+                <path d="M77.7888544,3.57770876 L79.2763932,6.5527864 C79.5233825,7.0467649 79.3231581,7.64743794 78.8291796,7.89442719 C78.6903242,7.96385491 78.5372111,8 78.381966,8 L73.618034,8 C73.0657492,8 72.618034,7.55228475 72.618034,7 C72.618034,6.8447549 72.6541791,6.69164184 72.7236068,6.5527864 L74.2111456,3.57770876 C74.7051241,2.58975177 75.9064702,2.18930308 76.8944272,2.68328157 C77.281482,2.87680898 77.595327,3.19065396 77.7888544,3.57770876 Z" id="Triangle-Copy-2" fill="#3057FF" transform="translate(76.000000, 4.000000) rotate(90.000000) translate(-76.000000, -4.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

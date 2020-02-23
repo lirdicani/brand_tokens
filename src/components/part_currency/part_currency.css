@@ -54,7 +54,7 @@
     width: 202px;
     height: 48px;
     background:#00B7FF;
-    border: 1px solid white !important;
+    border: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }

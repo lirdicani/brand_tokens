@@ -30,8 +30,8 @@ const PartHow = () => {
                     </div>
                 </div>
                 <div className="how-apply-btn-group d-flex justify-content-start align-items-center">
-                    <div className='apply-btn-how-icon'>+</div>
-                    <div className='apply-btn-how'>APPLY NOW</div>
+                    <a href='/'><div className='apply-btn-how-icon'>+</div></a>
+                    <a href='/'><div className='apply-btn-how'>APPLY NOW</div></a>
                 </div>
             </div>
             <div className="mission-detail">

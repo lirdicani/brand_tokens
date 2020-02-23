@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="25px" viewBox="0 0 76 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-832.000000, -1738.000000)">
+            <g id="Group-6" transform="translate(829.000000, 1738.000000)">
+                <line x1="4.5" y1="21.5" x2="80.5" y2="21.5" id="Line-Copy-6" stroke="#00B7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8"></line>
+                <line x1="0.5" y1="4.5" x2="76.5" y2="4.5" id="Line-Copy-7" stroke="#00B7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8" transform="translate(38.500000, 4.500000) scale(-1, 1) translate(-38.500000, -4.500000) "></line>
+                <path d="M78.7888544,3.57770876 L80.2763932,6.5527864 C80.5233825,7.0467649 80.3231581,7.64743794 79.8291796,7.89442719 C79.6903242,7.96385491 79.5372111,8 79.381966,8 L74.618034,8 C74.0657492,8 73.618034,7.55228475 73.618034,7 C73.618034,6.8447549 73.6541791,6.69164184 73.7236068,6.5527864 L75.2111456,3.57770876 C75.7051241,2.58975177 76.9064702,2.18930308 77.8944272,2.68328157 C78.281482,2.87680898 78.595327,3.19065396 78.7888544,3.57770876 Z" id="Triangle-Copy-9" fill="#3057FF" transform="translate(77.000000, 4.000000) rotate(90.000000) translate(-77.000000, -4.000000) "></path>
+                <path d="M6.78885438,20.5777088 L8.2763932,23.5527864 C8.52338245,24.0467649 8.3231581,24.6474379 7.82917961,24.8944272 C7.69032417,24.9638549 7.53721111,25 7.38196601,25 L2.61803399,25 C2.06574924,25 1.61803399,24.5522847 1.61803399,24 C1.61803399,23.8447549 1.65417908,23.6916418 1.7236068,23.5527864 L3.21114562,20.5777088 C3.70512412,19.5897518 4.9064702,19.1893031 5.89442719,19.6832816 C6.281482,19.876809 6.59532698,20.190654 6.78885438,20.5777088 Z" id="Triangle-Copy-8" fill="#3057FF" transform="translate(5.000000, 21.000000) scale(-1, 1) rotate(90.000000) translate(-5.000000, -21.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

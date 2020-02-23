@@ -29,7 +29,7 @@ const MissionTabModule = (props) => {
                         className={classnames({ active: activeTab === '1' })}
                         onClick={() => { toggle('1'); }}
                     >
-                        <div className='logo-tab'><img src='/assets/images/slack.svg' alt='logo' /></div>
+                        <div className='logo-tab'><img src='/assets/images/zalando.svg' alt='logo' /></div>
                     </NavLink>
                 </NavItem>
                 <NavItem>
@@ -37,7 +37,7 @@ const MissionTabModule = (props) => {
                         className={classnames({ active: activeTab === '2' })}
                         onClick={() => { toggle('2'); }}
                     >
-                        <div className='logo-tab'><img src='/assets/images/slack.svg' alt='logo' /></div>
+                        <div className='logo-tab'><img src='/assets/images/wework.svg' alt='logo' /></div>
                     </NavLink>
                 </NavItem>
                 <NavItem>
@@ -45,7 +45,7 @@ const MissionTabModule = (props) => {
                         className={classnames({ active: activeTab === '3' })}
                         onClick={() => { toggle('3'); }}
                     >
-                        <div className='logo-tab'><img src='/assets/images/slack.svg' alt='logo' /></div>
+                        <div className='logo-tab'><img src='/assets/images/uber.svg' alt='logo' /></div>
                     </NavLink>
                 </NavItem>
             </Nav>

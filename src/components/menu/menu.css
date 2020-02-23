@@ -17,7 +17,7 @@
 .apply-btn {
     width: 120px;
     height: 40px;
-    border: 1px solid black !important;
+    border: none !important;
     outline: none !important;
     background-color: white !important;
 }

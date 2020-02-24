@@ -1,17 +1,19 @@
 .blog-container {
     padding-top: 48px !important;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
 }
 
 .blog-container .spacing {
     margin-top: 20px;
+    height: 471px;
+    width: 376px;
 }
 
 .blog-container .card {
-    height: 471px;
-    width: 376px;
+    height: 100%;
+    width: 100%;
     border: none !important;
     border-radius: 12px;
     padding: auto !important;
@@ -93,11 +95,7 @@
 @media(max-width: 1440px) {
     .blog-container .spacing {
         width: 32% !important;
-        height: 432px !important;
-    }
-
-    .blog-container .card {
-        width: 100% !important;
+        height: 420px !important;
     }
 
     .blog-container .card-body {
@@ -121,7 +119,7 @@
 
 
 @media(max-width: 1080px) {
-    .blog-container .card {
+    .blog-container .spacing {
         width: 300px !important;
     }
 
@@ -147,7 +145,7 @@
         justify-content: center !important;
     }
 
-    .blog-container .card {
+    .blog-container .spacing {
         width: 376px !important;
         height: 471px !important;
     }
@@ -174,7 +172,7 @@
 @media(max-width: 768px) {
     
     
-    .blog-container .card {
+    .blog-container .spacing {
         width: 374px !important;
     }
 }
@@ -186,7 +184,7 @@
 }
 
 @media (max-width: 414px){
-    .blog-container .card {
+    .blog-container .spacing {
         width: 320px !important;
         height: 360px !important;
     }

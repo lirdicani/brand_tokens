@@ -90,9 +90,57 @@
     font-family: 'Open Sans';
 }
 
+@media(max-width: 1440px) {
+    .blog-container .card {
+        width: 300px !important;
+        height: 432px !important;
+    }
+
+    .card-body {
+        padding: 22px 24px 22px 24px !important;
+    }
+
+    .card-body .card-text {
+        padding-top: 0px !important;
+        font-size: 13px !important;
+    }
+
+    .card-body .card-title {
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .person-image {
+        top: 170px !important;
+    }
+}
+
 @media(max-width: 840px) {
     .blog-container {
         justify-content: center !important;
+    }
+
+    .blog-container .card {
+        width: 376px !important;
+        height: 471px !important;
+    }
+
+    .card-body {
+        padding: 32px 24px 29px 24px !important;
+    }
+
+    .card-body .card-text {
+        padding-top: 12px !important;
+        font-size: 16px !important;
+    }
+
+    .card-body .card-title {
+        font-size: 24px !important;
+        margin-bottom: 0.75rem !important;
+    }
+
+    .person-image {
+        top: 185px !important;
     }
 }
 

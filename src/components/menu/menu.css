@@ -120,21 +120,31 @@
     }
 }
 
-@media (width: 736px) {
+@media (max-width: 736px) {
+
+    .menu {
+        height: auto !important;
+        padding-left: 72px !important;
+    }
+
+    .nav-item:first-child{
+        padding-left: 24px !important;
+    }
+
     .nav-item a{
-        padding-left: 14px !important;
+        padding-left: 26px !important;
     }
 
     .navbar-toggler {
         position: absolute !important;
-        right: 30px !important;
-        top: 40px !important;
+        right: 72px !important;
+        top: 15px !important;
     }
 
     .apply-btn {
         position: absolute !important;
         right: 25% !important;
-        top: 40px !important;
+        top: 15px !important;
     }
 }
 
@@ -166,6 +176,10 @@
 }
 
 @media (max-width: 414px) {
+
+    .menu {
+        padding-left: 35px !important;
+    }
 
     .second-title {
         font-size: 26px !important;

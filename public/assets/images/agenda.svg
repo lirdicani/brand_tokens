@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>agenda</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-556.000000, -3564.000000)">
+            <g id="agenda" transform="translate(556.000000, 3564.000000)">
+                <rect id="Rectangle" stroke="#00B7FF" stroke-linecap="round" stroke-linejoin="round" x="0.5" y="0.5" width="13" height="15" rx="1"></rect>
+                <polygon id="Path" fill="#00EFFF" fill-rule="nonzero" points="3 3 3 9 5 7 7 9 7 3"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

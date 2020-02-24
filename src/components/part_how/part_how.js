@@ -37,7 +37,7 @@ const PartHow = () => {
             </div>
             <div className="mission-detail">
                 <div className='select-mission-select-part d-flex justify-content-start align-items-start'>
-                    <div className='icon'></div>
+                    <div className='icon'><img src='/assets/images/agenda.svg' alt='agenda' /></div>
                     <div className='title'>Select brand to see how they can use the platform</div>
                 </div>
                 <MissionTabModule />

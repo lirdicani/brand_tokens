@@ -57,7 +57,10 @@
     color: #00EFFF;
     letter-spacing: 1.8px; 
     transform: scale(1.1, 1);
-    text-decoration: none;
+}
+
+.how-apply-btn-group a {
+    text-decoration: none !important;
 }
 
 .apply-btn-how-icon {
@@ -67,6 +70,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    color: white;
     background-color: #00EFFF;
     transform: scale(1, 1);
 }
@@ -142,6 +146,10 @@
 }
 
 @media (max-width: 1024px) {
+
+    .partHow {
+        margin-top: -280px !important;
+    }
     .mission-detail {
         width: 580px;
     }
@@ -165,7 +173,7 @@
 
 @media (max-width: 812px) {
     .partHow {
-        height: 1600px !important;
+        height: 1750px !important;
     }
 
     .mission-article, .mission-title, .mission-subject {
@@ -189,6 +197,12 @@
         margin-top: 50px !important;
         width: 100% !important;
         height: 45% !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .partHow {
+        margin-top: -250px !important;
     }
 }
 
@@ -224,7 +238,14 @@
     }
 }
 
+@media (max-width: 414px) {
+    .partHow {
+        margin-top: -380px !important;
+    }
+}
+
 @media(max-width: 411px) {
+    
     .how-mission {
         padding-top: 130px !important;
     }
@@ -232,7 +253,7 @@
 
 @media(max-width: 375px) {
     .partHow {
-        margin-top: -160px;
+        margin-top: -180px !important;
         height: 2250px !important;
         clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%) !important;
     }
@@ -244,7 +265,7 @@
 
 @media(max-width: 360px) {
     .partHow {
-        margin-top: -150px !important;
+        margin-top: -170px !important;
         height: 2300px !important;
     }
 }

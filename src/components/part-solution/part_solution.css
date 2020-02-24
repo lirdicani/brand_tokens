@@ -188,6 +188,33 @@
     width: 96px;
 }
 
+.solution-pic-group-1440 {
+    position: relative;
+    display: inline-block;
+    height: 386px;
+    width: 335px;
+    left: -130px;
+    bottom: -124px;
+    z-index: 1;
+}
+
+.solution-pic-group {
+    display: none;
+    position: absolute;
+}
+
+@media(max-width: 1256px) {
+    .solution-pic-group-1440 {
+        display: none;
+    }
+    .solution-pic-group {
+        display: inline-block;
+        width: 230px;
+        left: 0;
+        z-index: 2;
+    }
+}
+
 @media (max-width: 1024px) {
     .partMainTitle {
         padding-left: 72px;
@@ -228,7 +255,7 @@
     }
 
     .mainTitle-apply-btn {
-        margin-top: 0;
+        margin-top: 20px;
     }
 
     .main-title-diagram {
@@ -290,10 +317,10 @@
     }
 }
 
-@media (max-width: 568px) {
-
-    .partUsers {
-        height: 1450px !important;
+@media (max-width: 640px) {
+    .solution-pic-group {
+        padding-top: 0px;
+        width: 200px;
     }
 
     .partMainTitle {
@@ -325,6 +352,12 @@
 }
 
 @media (max-width: 414px) {
+
+    .solution-pic-group {
+        padding-top: 10px;
+        width: 150px;
+    }
+
     .role-title {
         width: 150px !important;
     }
@@ -433,9 +466,9 @@
 }
 
 @media (max-width: 375px) {
-
-    .partUsers {
-        height: 1650px !important;
+    .solution-pic-group {
+        padding-top: 0px;
+        width: 150px;
     }
 
     .role-content {
@@ -529,8 +562,9 @@
 
 @media (max-width: 320px) {
 
-    .partUsers {
-        height: 1830px !important;
+    .solution-pic-group {
+        padding-top: 20px;
+        width: 130px;
     }
 
     .role-content {

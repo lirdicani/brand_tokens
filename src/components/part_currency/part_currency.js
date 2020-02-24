@@ -14,7 +14,8 @@ const PartCurrency = () => {
                 <div className="title-groups">
                     <div className="first-title d-flex justify-content-start">CURRENCY OF YOUR BRAND</div>
                     <div className="second-title">
-                        Tokenize your brand, Reward your customers
+                        Tokenize your brand,<br />
+                        Reward your customers
                     </div>
                     <div className="third-title">
                         Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all. <br/>

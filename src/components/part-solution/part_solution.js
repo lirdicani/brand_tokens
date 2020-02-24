@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './part_mainTitle.css';
+import './part_solution.css';
 
-const PartMainTitle = () => {
+const PartSolution = () => {
     return (
         <div className="partMainTitle">
             <div className="role-list d-flex justify-content-between">
@@ -33,7 +33,12 @@ const PartMainTitle = () => {
                     <div className="mainTitle-subject">
                         How it works
                     </div>
-                    <div className="mainTile-content-1">Brand Tokens platform allows issuing brand loyalty tokens on the Blockchain. Unlike loyalty points, tokens are valued in real-time and can be traded and transferred between users. Brands can reward their clients, just like with points, but users can exchange them for cryptocurrencies like Bitcoin or Ethereum. Tokens can also be redeemed for discounts, products or services of the issuer or any other partner of the platform. Brands can use their tokens to acquire new customers or reward loyal clients for purchases, engagement in social media, participation in events or sharing their personal data.</div>
+                    <div className="mainTile-content-1">
+                        Brand Tokens platform allows issuing brand loyalty tokens on the Blockchain.<br />
+                        Unlike loyalty points, tokens are valued in real-time and can be traded and transferred between users. <br />
+                        Brands can reward their clients, just like with points, but users can exchange them for cryptocurrencies like Bitcoin or Ethereum. <br />
+                        Tokens can also be redeemed for discounts, products or services of the issuer or any other partner of the platform.<br />
+                        Brands can use their tokens to acquire new customers or reward loyal clients for purchases, engagement in social media, participation in events or sharing their personal data.</div>
                     {/* <div className="mainTile-content-2">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus.</div> */}
                     <div className="mainTitle-apply-btn d-flex justify-content-start"><a href='/'>APPLY NOW</a></div>
                 </div>
@@ -67,8 +72,10 @@ const PartMainTitle = () => {
                     </div>
                 </div>
             </div>
+            <div className='solution-pic-group-1440'><img src='/assets/images/solution-group.svg' alt='solution-pic-group' /></div>
+            <div className='solution-pic-group'><img src='/assets/images/solution-group.svg' alt='solution-pic-group' /></div>
         </div>
     )
 }
 
-export default PartMainTitle;
+export default PartSolution;

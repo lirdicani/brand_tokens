@@ -117,6 +117,31 @@
     transform: scale(1.1,1);
 }
 
+.user-pic-group-left {
+    padding-top: 40px;
+    display: inline-block;
+    width: 239px;
+    height: 137px;
+}
+
+@media(max-width: 1440px){
+    .partUsers {
+        height: 1450px;
+    }
+
+    .user-pic-group-left {
+        padding-top: 70px;
+        width: 239px;
+        height: 137px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .partUsers {
+        height: 1250px;
+    }
+}
+
 @media (max-width: 1256px) {
     .brand-items-intro {
         width: 75% !important;
@@ -124,6 +149,15 @@
 }
 
 @media (max-width: 1024px) {
+
+
+    .partUsers {
+        height: 1550px !important;
+    }
+
+    .user-pic-group-left {
+        padding-top: 50px;
+    }
 
     .PU-content-subject {
         flex-flow: row !important;
@@ -152,6 +186,11 @@
 }
 
 @media(max-width:823px) {
+
+    .partUsers {
+        height: 1550px !important;
+    }
+
     .PU-content {
         padding-left: 72px;
         padding-right: 72px;
@@ -160,12 +199,15 @@
 
 @media (max-width: 812px) {
 
+    .user-pic-group-left {
+        padding-top: 50px;
+    }
+
     .PU-top-title:nth-child(3) {
         width: 70%;
     }
 
     .partUsers {
-        height: 1500px !important;
         clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%) !important;
     }
     .brand-items {
@@ -183,7 +225,12 @@
     }
 }
 
-@media (max-width: 758px) {
+@media (max-width: 768px) {
+
+    .partUsers {
+        height: 1550px !important;
+    }
+
     .PU-content {
         padding-left: 40px;
         padding-right: 40px;
@@ -195,6 +242,13 @@
 
     .PU-top-title:nth-child(2) {
         font-size: 30px !important;
+    }
+}
+
+@media(max-width: 640px) {
+
+    .partUsers {
+        height: 1650px !important;
     }
 }
 
@@ -232,17 +286,22 @@
 
 @media (max-width:414px) {
     .partUsers {
-        height: 1600px !important;
+        height: 1800px !important;
+    }
+
+    .user-pic-group-left {
+        padding-top: 55px;
+        width: 140px;
     }
 }
 
-@media (max-width:411px) {
-    .partUsers {
-        height: 1600px !important;
-    }
-}
 
 @media (max-width:375px) {
+
+    .partUsers {
+        height: 1950px !important;
+    }
+
 
     .brand-items {
         display: block !important;
@@ -251,10 +310,23 @@
     .partUsers {
         clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%) !important;
     }
+
+    .user-pic-group-left {
+        padding-top: 10px;
+        width: 140px;
+    }
 }
+
 
 @media (max-width: 360px) {
     .partUsers {
-        height: 1760px !important;
+        height: 2000px !important;
+    }
+}
+
+@media(max-width: 320px) {
+    .user-pic-group-left {
+        padding-top: 10px;
+        width: 100px;
     }
 }

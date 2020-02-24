@@ -186,11 +186,16 @@
 @media (max-width: 414px){
     .blog-container .spacing {
         width: 320px !important;
-        height: 360px !important;
+        height: 462px !important;
+    }
+
+    .blog-container .card{
+        width: 100% !important;
+        height: 100% !important;
     }
 
     .person-image {
-        top: 140px !important;
+        top: 185px !important;
     }
 
     .card-body .card-title {

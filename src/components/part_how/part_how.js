@@ -6,6 +6,7 @@ import MissionTabModule from './mission_tab_module/mission_tab_module';
 const PartHow = () => {
     return (
         <div className='partHow d-flex justify-content-between'>
+            <div className='how-pic-group-right'><img src='/assets/images/how-group-right.svg' alt='how-group-right-pic' /></div>
             <div className='how-mission'>
                 <div className='mission-article'>BRANDS</div>
                 <div className='mission-title'>How brands can use plateform</div>
@@ -41,6 +42,7 @@ const PartHow = () => {
                 </div>
                 <MissionTabModule />
             </div>
+            <div className='how-pic-group-left'><img src='/assets/images/Group Copy.svg' alt='Group Copy' /></div>
         </div>
     )
 }

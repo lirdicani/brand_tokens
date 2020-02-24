@@ -121,7 +121,7 @@ const MissionTabModule = (props) => {
                             </Col>
                             <Col sm="6">
                                 <Card body className='mission-cards-top-title'>
-                                    <CardTitle className='d-flex align-items-center'>Distribution - 1</CardTitle>
+                                    <CardTitle className='d-flex align-items-center'>Redeem - 1</CardTitle>
                                     <div className='card-text'>
                                         <p className='subject'>Gift card - 1</p>
                                         <p className='content'>Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</p>
@@ -167,7 +167,7 @@ const MissionTabModule = (props) => {
                             </Col>
                             <Col sm="6">
                                 <Card body className='mission-cards-top-title'>
-                                    <CardTitle className='d-flex align-items-center'>Distribution - 2</CardTitle>
+                                    <CardTitle className='d-flex align-items-center'>Redeem - 2</CardTitle>
                                     <div className='card-text'>
                                         <p className='subject'>Gift card - 2</p>
                                         <p className='content'>Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</p>

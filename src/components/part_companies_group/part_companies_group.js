@@ -8,7 +8,7 @@ import {
 import './part_companies_group.css';
 
 const logoes_line1 = [
-    { logo_name: 'skype', logoes_image: '/assets/images/slack.svg' },
+    { logo_name: 'skype', logoes_image: '/assets/images/partners-logo/WOOCASH.png' },
     { logo_name: 'skype', logoes_image: '/assets/images/uber-hover.svg' },
     { logo_name: 'skype', logoes_image: '/assets/images/wework-hover.svg' },
     { logo_name: 'skype', logoes_image: '/assets/images/zalando-hover.svg' },

@@ -5,7 +5,7 @@ import './footer.css';
 const Footer = () => {
     return(
         <div className="footer">
-            <div className='hover-logo d-flex justify-content-center'><a href='/'><img src='/assets/images/hover-logo.svg' alt='hover-logo' /></a></div>
+            <div className='hover-logo d-flex justify-content-center'><img src='/assets/images/hover-logo.svg' alt='hover-logo' /></div>
             <div className='sub-menu d-flex justify-content-center flex-wrap'>
                 <a href='/'><div>PRODUCT</div></a>
                 <a href='/'><div>SOLUSIONS</div></a>

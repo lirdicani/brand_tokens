@@ -124,6 +124,7 @@
     height: 137px;
 }
 
+
 @media(max-width: 1440px){
     .partUsers {
         height: 1450px;
@@ -143,6 +144,10 @@
 }
 
 @media (max-width: 1256px) {
+    .user-pic-group-left {
+        padding-top: 20px;
+    }
+
     .brand-items-intro {
         width: 75% !important;
     }
@@ -186,6 +191,10 @@
 }
 
 @media(max-width:823px) {
+
+    .user-pic-group-left {
+        width: 200px;
+    }
 
     .partUsers {
         height: 1550px !important;

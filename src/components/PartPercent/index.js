@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './part_percent.css';
+import './style.css';
 
 const PartPercent = () => {
     return (

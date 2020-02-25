@@ -12,7 +12,7 @@ import {
     Col
 } from 'reactstrap';
 
-import './mission_tab_module.css';
+import './style.css';
 
 const MissionTabModule = (props) => {
     const [activeTab, setActiveTab] = useState('1');

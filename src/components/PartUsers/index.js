@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './partUsers.css';
+import './style.css';
 
 const PartUsers = () => {
     return (

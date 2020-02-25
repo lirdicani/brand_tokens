@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './part_solution.css';
+import './style.css';
 
 const PartSolution = () => {
     return (

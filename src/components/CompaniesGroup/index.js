@@ -5,7 +5,7 @@ import {
     Container
 } from 'reactstrap';
 
-import './part_companies_group.css';
+import './style.css';
 
 const logoes_line1 = [
     { logo_name: 'skype', logoes_image: '/assets/images/partners-logo/WOOCASH.png' },

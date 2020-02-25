@@ -1,7 +1,7 @@
 import React from 'react';
 
-import './part_how.css';
-import MissionTabModule from './mission_tab_module/mission_tab_module';
+import './style.css';
+import MissionTabModule from './MissionTabModule';
 
 const PartHow = () => {
     return (

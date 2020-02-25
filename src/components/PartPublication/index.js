@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Button } from 'reactstrap';
 
-import './part_publication.css';
-import BlogCardModule from './blog_card_module/blog_card_module';
+import './style.css';
+import BlogCardModule from './BlogCardModule';
 
 const PartPublication = () => {
     return (

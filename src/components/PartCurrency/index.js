@@ -3,8 +3,8 @@ import {
     Button,
 } from 'reactstrap';
 
-import './part_currency.css';
-import Menu from '../menu/menu';
+import './style.css';
+import Menu from '../Menu';
 
 const PartCurrency = () => {
     return (

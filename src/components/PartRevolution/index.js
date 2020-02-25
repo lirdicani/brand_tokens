@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 
-import './part_revolution.css';
+import './style.css';
 
 const PartRevolution = () => {
     return (

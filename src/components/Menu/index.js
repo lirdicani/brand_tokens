@@ -10,7 +10,7 @@ import {
   Button,
 } from 'reactstrap';
 
-import  './menu.css';
+import  './style.css';
 
 const Menu = (props) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -214,3 +214,13 @@
         letter-spacing: 0.6px !important;
     }
 }
+
+@media(max-width: 320px) {
+    .blog-container .card-body .card-title {
+        font-size: 18px !important;
+    }
+
+    .blog-container .card-body .card-text {
+        font-size: 14px !important;
+    }
+}

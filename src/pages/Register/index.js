@@ -23,12 +23,13 @@ class Register extends React.Component {
             phone_valid: true,
             website_valid: true,
             errorBrandName: '',
-            countryName_valid: true,
-            cityName_valid: true,
-            contactPerson_valid: true,
-            industry_valid: true,
-            description_valid: true,
-            terms_valid: true,
+            errorCompanyName: '',
+            errorCountryName: '',
+            errorCityName: '',
+            errorContactPerson: '',
+            errorIndustry: '',
+            errorDescription: '',
+            errorTerms: '',
 
             fields: {
                 brandName: '',
@@ -124,41 +125,70 @@ class Register extends React.Component {
 
         if (!this.state.fields['countryName']) {
             formValid = false;
+            this.setState({errorCountryName: 'error'});
+        }
+        else {
+            this.setState({errorCountryName: ''});
         }
 
         if (!this.state.fields['cityName']) {
             formValid = false;
+            this.setState({errorCityName: 'error'});
+        }
+        else {
+            this.setState({errorCityName: ''});
         }
 
         if (!this.state.fields['contactPerson']) {
             formValid = false;
+            this.setState({errorContactPerson: 'error'});
+        }
+        else {
+            this.setState({errorContactPerson: ''});
         }
 
         if (!this.state.email_valid || !this.state.fields['email']) {
             this.setState({email_valid: false});
             formValid = false;
         }
+        else {
+            this.setState({email_valid: true});
+        }
 
-        if (!this.state.phone_valid || !this.state.phone_valid) {
+        if (!this.state.phone_valid || !this.state.fields['phone']) {
             this.setState({phone_valid: false});
             formValid = false;
+        }
+        else {
+            this.setState({phone_valid: true});
         }
 
         if (!this.state.fields['industry']) {
             formValid = false;
+            this.setState({errorIndustry: 'error'});
+        }
+        else {
+            this.setState({errorIndustry: ''});
         }
 
-        if (!this.state.website_valid || !this.state.website_valid) {
+        if (!this.state.website_valid || !this.state.fields['website']) {
             this.setState({website_valid: false});
             formValid = false;
+        }
+        else {
+            this.setState({website_valid: true});
         }
 
         if (!this.state.fields['description']) {
             formValid = false;
+            this.setState({errorDescription: 'error'});
+        }
+        else {
+            this.setState({errorDescription: ''});
         }
 
         if (!this.state.fields['terms']) {
-            formValid = false;
+            //formValid = false;
         }
 
         if (formValid) {
@@ -231,18 +261,18 @@ class Register extends React.Component {
                             <span>Invalid COMPANY NAME</span>
                         </div>
                         <div className='brand-register-element d-flex justify-content-between'>
-                            <div className='brand-position-input-country'>
+                            <div className={'brand-position-input-country ' + this.state.errorCountryName}>
                                 <Label>COUNTRY</Label>
                                 <Input type='text' name='countryName' onChange={this.handleChange.bind(this, "countryName")} value={this.state.fields['countryName']} placeholder='Your country'/>
                                 <span>Invalid COUNTRY</span>
                             </div>
-                            <div className='brand-position-input-city'>
+                            <div className={'brand-position-input-city ' + this.state.errorCityName}>
                                 <Label>CITY</Label>
                                 <Input type='text' name='cityName' onChange={this.handleChange.bind(this, 'cityName')} value={this.state.fields['cityName']} placeholder='Your city' />
                                 <span>Invalid CITY</span>
                             </div>
                         </div>
-                        <div className='brand-register-element'>
+                        <div className={'brand-register-element ' + this.state.errorContactPerson}>
                             <Label>CONTACT PERSON</Label>
                             <Input type='text' name='contactPerson' onChange={this.handleChange.bind(this, 'contactPerson')} value={this.state.fields['contactPerson']} placeholder='John Doe' />
                             <span>Invalid CONTACT PERSON</span>
@@ -265,7 +295,7 @@ class Register extends React.Component {
                                 <Label className='upload-bottom-label'>Upload high quality JPEG, JPG, PNG or PDF</Label>
                             </div>
                         </div>
-                        <div className='brand-register-element'>
+                        <div className={'brand-register-element ' + this.state.errorIndustry}>
                             <Label>INDUSTRY</Label>
                             <Input type='text' onChange={this.handleChange.bind(this, 'industry')} name='industry' value={this.state.fields['industry']} placeholder='Saas, design, e-commerce ..etc' />
                             <span>Invalid INDUSTRY</span>
@@ -275,7 +305,7 @@ class Register extends React.Component {
                             <Input type='text' onChange={this.handleWebsiteChange} name='website' value={this.state.fields['website']} placeholder='https://www.example.com' />
                             <span>Invalid website url</span>
                         </div>
-                        <div className='brand-register-element'>
+                        <div className={'brand-register-element ' + this.state.errorDescription}>
                             <Label>DESCRIPTION</Label>
                             <Input className='brand-textarea' onChange={this.handleChange.bind(this, 'description')} type="textarea" name="description" value={this.state.fields['description']} placeholder='Write a short description about your brand' />
                             <span>Invalid DESCRIPTION</span>

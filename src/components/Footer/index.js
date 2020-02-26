@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="footer">
             <div className='hover-logo d-flex justify-content-center'><img src='/assets/images/hover-logo.svg' alt='hover-logo' /></div>
             <div className='sub-menu d-flex justify-content-center flex-wrap'>
+                <a href='/'><div>USERS</div></a>
                 <a href='/'><div>HOW IT WORKS</div></a>
-                <a href='/'><div>USRES</div></a>
                 <a href='/'><div>BRANDS</div></a>
                 <a href='/'><div>BLOG</div></a>
                 <a href='/'><div>CONTACT US</div></a>

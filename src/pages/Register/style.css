@@ -88,17 +88,18 @@
     display: none;
 }
 
-.brand-register-element.errorEmail input,
-.brand-register-element.errorPhone input,
-.brand-register-element.errorWebsite input,
-.brand-register-element.error input {
+.errorEmail input,
+.errorPhone input,
+.errorWebsite input,
+.error input,
+.error textarea {
     border-color: tomato;
 }
 
-.brand-register-element.errorEmail span,
-.brand-register-element.errorPhone span,
-.brand-register-element.errorWebsite span,
-.brand-register-element.error span {
+.errorEmail span,
+.errorPhone span,
+.errorWebsite span,
+.error span {
     color: tomato;
     display: block;
     font-style: italic;

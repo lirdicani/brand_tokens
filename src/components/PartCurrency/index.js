@@ -4,12 +4,10 @@ import {
 } from 'reactstrap';
 
 import './style.css';
-import Menu from '../Menu';
 
 const PartCurrency = () => {
     return (
         <div className="part-currency">
-            <Menu />
             <div className="currency-up d-flex justify-content-between">
                 <div className="title-groups">
                     <div className="first-title d-flex justify-content-start">CURRENCY OF YOUR BRAND</div>
@@ -19,7 +17,7 @@ const PartCurrency = () => {
                     </div>
                     <div className="third-title">
                         Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all. <br/>
-                        all in one platform for everything you need: engagement, marketing optimization, exchange, ecommerce, social media, communication, aggregate data and much more.
+                        Brand Tokens is all in one platform to manage all your tokens needs for engagement, community, management, reward, appliance, utility and sales management
                     </div>
                     <div className="d-flex justify-content-start">
                         <Button className="apply-btn-currency d-flex justify-content-between">

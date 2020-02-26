@@ -34,11 +34,13 @@ const PartSolution = () => {
                         How it works
                     </div>
                     <div className="mainTile-content-1">
-                        Brand Tokens platform allows issuing brand loyalty tokens on the Blockchain.
-                        Unlike loyalty points, tokens are valued in real-time and can be traded and transferred between users.
-                        Brands can reward their clients, just like with points, but users can exchange them for cryptocurrencies like Bitcoin or Ethereum.
-                        Tokens can also be redeemed for discounts, products or services of the issuer or any other partner of the platform.
-                        Brands can use their tokens to acquire new customers or reward loyal clients for purchases, engagement in social media, participation in events or sharing their personal data.</div>
+                        Brand Tokens platform allows issuing brand loyalty tokens on the Blockchain. Unlike loyalty points,
+                         tokens are valued in real-time and can be traded and transferred between users.
+                         Brands can reward their clients,
+                         just like with points, but users can redeem them for discounts,
+                         products and services or exchange for cryptocurrencies like Bitcoin or Ethereum.
+                         Brands can use their tokens to acquire new customers or reward loyal clients for purchases,
+                         engagement in social media, participation in events or sharing their personal data.</div>
                     {/* <div className="mainTile-content-2">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus.</div> */}
                     <div className="mainTitle-apply-btn d-flex justify-content-start"><a href='/'>APPLY NOW</a></div>
                 </div>

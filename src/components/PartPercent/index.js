@@ -24,7 +24,7 @@ const PartPercent = () => {
                     <div className='numbers'>95%</div>
                     <div className='title'>of loyalty program members</div>
                 </div>
-                <div className='status-intro'>are looking to engage with brands via new high-tech solutions like augmented reality and digital loyalty programs. This digital trend is a good thing for retailers. Cards are expensive to manufacture, replace, and require costly systems that have high fees.</div>
+                <div className='status-intro'>are looking to engage with brands via new high-tech solutions like augmented reality and digital loyalty programs. This digital trend is a good thing for retailers.</div>
             </div>
         </div>
     )

@@ -3,14 +3,13 @@ import React from 'react';
 import './style.css';
 
 const Footer = () => {
-    return(
+    return (
         <div className="footer">
             <div className='hover-logo d-flex justify-content-center'><img src='/assets/images/hover-logo.svg' alt='hover-logo' /></div>
             <div className='sub-menu d-flex justify-content-center flex-wrap'>
-                <a href='/'><div>PRODUCT</div></a>
-                <a href='/'><div>SOLUSIONS</div></a>
-                <a href='/'><div>CLIENTS</div></a>
-                <a href='/'><div>COMPANY</div></a>
+                <a href='/'><div>HOW IT WORKS</div></a>
+                <a href='/'><div>USRES</div></a>
+                <a href='/'><div>BRANDS</div></a>
                 <a href='/'><div>BLOG</div></a>
                 <a href='/'><div>CONTACT US</div></a>
                 <a href='/'><div>TERMS OF SERVICE</div></a>
@@ -24,6 +23,6 @@ const Footer = () => {
             <div className='at-mark d-flex justify-content-center'>2020, all rights reserved</div>
         </div>
     )
-} 
+}
 
 export default Footer;

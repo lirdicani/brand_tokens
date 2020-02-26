@@ -9,9 +9,10 @@ const PartHow = () => {
             <div className='how-pic-group-right'><img src='/assets/images/how-group-right.svg' alt='how-group-right-pic' /></div>
             <div className='how-mission'>
                 <div className='mission-article'>BRANDS</div>
-                <div className='mission-title'>How brands can use plateform</div>
-                <div className="mission-subject">Blockchain with its decentralized ledger technology comes in to solve these challenges.</div>
-                <div className="mission-subject">Most consumers prefer options to redeem their points from time to time.</div>
+                <div className='mission-title'>How brands can use their tokens</div>
+                <div className="mission-subject">Brand Tokens is all in one platform to manage all 
+                    your tokens needs for engagement, community, management, reward, appliance, utility, sales management.</div>
+                {/* <div className="mission-subject">Most consumers prefer options to redeem their points from time to time.</div> */}
                 <div className="mission-lists">
                     <div className='mission-lists-item d-flex justity-content-start align-items-center'>
                         <span className='mission-lists-item-icon'></span>

@@ -1,6 +1,6 @@
 .partUsers {
     width: 100%;
-    height: 1221px;
+    height: 911px;
     background-color: #3057FF;
     clip-path: polygon(0 16.67%, 100% 0, 100% 83.33%, 0% 100%);
 }
@@ -127,7 +127,7 @@
 
 @media(max-width: 1440px){
     .partUsers {
-        height: 1450px;
+        height: 1140px;
     }
 
     .user-pic-group-left {
@@ -139,7 +139,7 @@
 
 @media(max-width: 1366px) {
     .partUsers {
-        height: 1250px;
+        height: 950px;
     }
 }
 
@@ -157,7 +157,7 @@
 
 
     .partUsers {
-        height: 1550px !important;
+        height: 1100px !important;
     }
 
     .user-pic-group-left {
@@ -197,7 +197,7 @@
     }
 
     .partUsers {
-        height: 1550px !important;
+        height: 1000px !important;
     }
 
     .PU-content {
@@ -218,6 +218,7 @@
 
     .partUsers {
         clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%) !important;
+        height: 1200px !important;
     }
     .brand-items {
         display: inline-block;
@@ -237,7 +238,7 @@
 @media (max-width: 768px) {
 
     .partUsers {
-        height: 1550px !important;
+        height: 1150px !important;
     }
 
     .PU-content {
@@ -257,7 +258,7 @@
 @media(max-width: 640px) {
 
     .partUsers {
-        height: 1650px !important;
+        height: 1250px !important;
     }
 }
 
@@ -267,7 +268,7 @@
         padding-top: 160px;
     }
     .partUsers {
-        height: 1550px !important;
+        height: 1150px !important;
     }
 
     .PU-content-subject-title .content:nth-child(3) {
@@ -295,7 +296,7 @@
 
 @media (max-width:414px) {
     .partUsers {
-        height: 1800px !important;
+        height: 1320px !important;
     }
 
     .user-pic-group-left {
@@ -308,16 +309,14 @@
 @media (max-width:375px) {
 
     .partUsers {
-        height: 1950px !important;
+        height: 1350px !important;
+        clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%) !important;
     }
 
 
     .brand-items {
         display: block !important;
         width: 100% !important;
-    }
-    .partUsers {
-        clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%) !important;
     }
 
     .user-pic-group-left {
@@ -329,7 +328,7 @@
 
 @media (max-width: 360px) {
     .partUsers {
-        height: 2000px !important;
+        height: 1350px !important;
     }
 }
 

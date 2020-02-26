@@ -1,0 +1,15 @@
+.terms {
+    padding-left: 20px;
+}
+
+.terms-title {
+    padding-top: 2px;
+}
+
+.terms-title a {
+    text-decoration: none;
+}
+
+.terms-title a:hover {
+    color: teal;
+}

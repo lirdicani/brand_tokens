@@ -259,11 +259,11 @@ class Register extends React.Component {
                 <div className='brand-register-container'>
                     <div className='brand-register-form'>
                         <div className='d-flex justify-content-between brand-register-element responsive-brand-indivi-btn'>
-                            <Button className='brand-register-btn' onClick={this.changeBrandFocusState.bind(this)} type='submit'>
+                            <Button className='brand-register-btn' onClick={this.changeBrandFocusState.bind(this)}>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
                                 <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
                             </Button>
-                            <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)} type='submit'>
+                            <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
                                 <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
                             </Button>
@@ -333,7 +333,7 @@ class Register extends React.Component {
                             <Terms />
                         </div>
                         <div className='brand-register-element'>
-                            <Button className='brand-register-apply' href='/success' type='submit' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
+                            <Button className='brand-register-apply' href='/success' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
                         </div>
                     </div>
                     {/* <div className='brand-register-title'>

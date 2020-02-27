@@ -156,11 +156,11 @@ class IndiviRegister extends React.Component {
                 <div className='indivi-register-container'>
                     <div className='indivi-register-form'>
                         <div className='d-flex justify-content-between indivi-register-element responsive-brand-indivi-btn'>
-                            <Button href='/Register' className='indivi-register-btn' onClick={this.changeBrandFocusState.bind(this)} type='submit'>
+                            <Button href='/Register' className='indivi-register-btn' onClick={this.changeBrandFocusState.bind(this)}>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
                                 <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
                             </Button>
-                            <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)} type='submit'>
+                            <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
                                 <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
                             </Button>
@@ -191,7 +191,7 @@ class IndiviRegister extends React.Component {
                             <Terms />
                         </div>
                         <div className='indivi-register-element'>
-                            <Button className='indivi-register-apply' href='/success' type='submit' onClick={this.submitValidate.bind(this)} >NOTIFY ME</Button>
+                            <Button className='indivi-register-apply' href='/success' onClick={this.submitValidate.bind(this)} >NOTIFY ME</Button>
                         </div>
                     </div>
                     <div className="indivi-register-title">

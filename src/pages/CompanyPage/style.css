@@ -247,6 +247,52 @@
     transform: rotateX(32deg);
 }
 
+.indivi-member {
+    margin-top: 86px;
+}
+
+.indivi-member-photo {
+    width: 100%;
+}
+
+.indivi-member-photo img {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+}
+
+.indivi-member-name {
+    padding-top: 23px;
+    font-size: 26px;
+    color: #1D2C50;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    transform: scaleX(32deg);
+}
+
+.indivi-member-job {
+    padding-top: 2px;
+    font-size: 17px;
+    color: #9FA6B5;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transform: scaleX(32deg);
+}
+
+.indivi-member-contact-info a{
+    padding-top: 25px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.indivi-member-contact-info a:hover {
+    opacity: 1;
+}
+
+.indivi-member-contact-info img{
+    margin-right: 14px;
+}
+
 @media(max-width: 1366px) {
     .company-collapse-effect,
     .join-revolution {

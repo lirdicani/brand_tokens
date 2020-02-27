@@ -99,9 +99,9 @@ const TeamMember = () => {
                                 <div className='indivi-member-name d-flex justify-content-center'>{data.name}</div>
                                 <div className='indivi-member-job d-flex justify-content-center'>{data.job}</div>
                                 <div className='indivi-member-contact-info d-flex justify-content-center'>
-                                    <div><a href='/'><img src='/assets/images/logo-facebook.svg' alt='logo-facebook' /><a href={data.facebook} ></a></a></div>
-                                    <div><a href='/'><img src='/assets/images/logo-linkedin.svg' alt='logo-linkedin' /><a href={data.linkedin} ></a></a></div>
-                                    <div><a href='/'><img src='/assets/images/logo-twitter.svg' alt='logo-twitter' /><a href={data.twiter} ></a></a></div>
+                                    <div><img src='/assets/images/logo-facebook.svg' alt='logo-facebook' /><a href={data.facebook} ></a></div>
+                                    <div><img src='/assets/images/logo-twitter.svg' alt='logo-twitter' /><a href={data.twiter} ></a></div>
+                                    <div><img src='/assets/images/logo-linkedin.svg' alt='logo-linkedin' /><a href={data.linkedin} ></a></div>
                                 </div>
                             </div>
                         ))

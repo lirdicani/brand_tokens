@@ -213,13 +213,18 @@
     .indivi-register-container {
         width: 100%;
     }
-    
+
     .indivi-register-title {
         width: 40%;
     }
 
     .indivi-register-title h3 {
         font-size: 42px;
+    }
+
+    .indivi-register-form {
+        width: 480px;
+        padding: 60px 60px;
     }
 }
 
@@ -247,7 +252,7 @@
     }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1024px) {
     .indivi-register-container {
         display: flex;
         flex-direction: column-reverse;
@@ -259,9 +264,9 @@
     }
 
     .indivi-register-form {
-        width: 576px;
-        padding: 60px;
-        margin-top: 60px;
+        width: 546px;
+        padding: 80px;
+        margin-top: 80px;
     }
 
     .menu {

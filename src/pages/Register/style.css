@@ -120,11 +120,16 @@
 
 .brand-register-apply {
     width: 100%;
-    height: 42px;
+    height: 45px;
     background: #00B7FF !important;
     box-shadow: none !important;
     font-size: 14px;
-    border: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    transform: rotateX(32deg);
+    letter-spacing: 1.4px;
 }
 
 .brand-register-apply:hover {
@@ -273,9 +278,7 @@
         width: 450px;
         padding: 60px 40px;
     }
-}
 
-@media(max-width: 1366px) {
     .brand-register-collapse-effect,
     .brand-register-container {
         width: 100%;
@@ -283,6 +286,10 @@
 
     .brand-register-title {
         width: auto;
+    }
+
+    .brand-register-btn, .indivi-register-btn {
+        width: 45%;
     }
 }
 
@@ -360,10 +367,6 @@
 
     .brand-register-form {
         padding: 50px 30px;
-    }
-
-    .brand-register-btn, .indivi-register-btn {
-        width: 45%;
     }
 
     .check-icon {

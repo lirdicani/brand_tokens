@@ -3,8 +3,11 @@
 }
 
 .terms-title {
+    opacity: 0.64;
     padding-top: 2px;
     font-size: 12px;
+    color: #1D2C50;
+    line-height: 18px;
 }
 
 .terms-title a {

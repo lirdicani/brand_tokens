@@ -5,7 +5,7 @@ import './style.css';
 const PartSolution = () => {
     return (
         <div className="partMainTitle">
-            <div className="role-list d-flex justify-content-between">
+            <div className="role-list d-flex justify-content-between flex-wrap">
                 <div className='role-list-item d-flex align-items-start flex-column'>
                     <div className='role-icon'><img src='/assets/images/corner-top-right.svg' alt='top-right' /></div>
                     <div className="role-title">Brand Token <br /> issuing</div>

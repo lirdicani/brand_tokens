@@ -115,11 +115,16 @@
 
 .indivi-register-apply {
     width: 100%;
-    height: 42px;
+    height: 45px;
     background: #00B7FF !important;
     box-shadow: none !important;
     font-size: 14px;
-    border: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    transform: rotateX(32deg);
+    letter-spacing: 1.4px;
 }
 
 .indivi-register-apply:hover {
@@ -203,41 +208,58 @@
     border-radius: 17px;
 }
 
-@media(max-width: 1366px) {
+@media(max-width: 1440px) {
     .indivi-register-collapse-effect,
     .indivi-register-container {
         width: 100%;
     }
+
+    .indivi-register-form {
+        width: 50%;
+        padding: 60px 45px;
+    }
+
+    .indivi-register-title {
+        width: 40%;
+    }
+
+    .indivi-register-title h3 {
+        font-size: 42px;
+    }
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1176px) {
     .indivi-register-container{
         padding-top: 40px;
         padding-right: 71px;
         padding-left: 81px;
     }
-
-    .indivi-register-form {
-        width: 450px;
-        padding: 60px 40px;
+    
+    .indivi-register-btn {
+        width: 45%;
     }
 
-    .indivi-register-title {
-        width: 380px;
+    .check-icon {
+        width: 100% !important;
     }
 
-    .indivi-register-title h3 {
-        font-size: 48px;
+    .countryName {
+        width: 50%;
+    }
+
+    .cityName  {
+        width: 40%;
     }
 }
 
-@media(max-width: 823px) {
+@media(max-width: 900px) {
     .indivi-register-container {
         display: flex;
         flex-direction: column-reverse;
     }
 
     .indivi-register-title {
+        width: 70%;
         padding-top: 0;
     }
 

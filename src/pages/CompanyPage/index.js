@@ -1,7 +1,20 @@
 import React from 'react';
 
+import { Row, Col } from 'reactstrap';
+
 import './style.css';
 import PartRevolution from '../../components/PartRevolution';
+
+const team_member = [
+    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member1.png', },
+    { name: 'Szczepan Bentyn', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member2.png', },
+    { name: 'Marta Lapacz', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member3.png', },
+    { name: 'Tomasz Rozmus', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member4.png', },
+    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member1.png', },
+    { name: 'Szczepan Bentyn', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member2.png', },
+    { name: 'Marta Lapacz', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member3.png', },
+    { name: 'Tomasz Rozmus', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member4.png', },
+]
 
 class CompanyPage extends React.Component {
 
@@ -62,7 +75,9 @@ class CompanyPage extends React.Component {
                     <div className='team-member'>
                         <div className='team-member-top-title'>OUR TALENTS</div>
                         <div className='team-member-main-title'>Meet the team</div>
-                        <div className='team-member-members'></div>
+                        <div className='team-member-members'>
+                            <TeamMember />
+                        </div>
                     </div>
                     <div className='join-team'></div>
                 </div>
@@ -70,6 +85,31 @@ class CompanyPage extends React.Component {
             </div>
         )
     }
+}
+
+const TeamMember = () => {
+    return (
+        <div className='team-member-group d-flex justify-content-between flex-wrap'>
+            <Col>
+                <Row sm='2' md='3' xs='1' xl='4' >
+                    {
+                        team_member.map((data, i) => (
+                            <div key={i} className='indivi-member'>
+                                <div className='indivi-member-photo d-flex justify-content-center'><img src={data.photo} alt='photo' /></div>
+                                <div className='indivi-member-name d-flex justify-content-center'>{data.name}</div>
+                                <div className='indivi-member-job d-flex justify-content-center'>{data.job}</div>
+                                <div className='indivi-member-contact-info d-flex justify-content-center'>
+                                    <div><a href='/'><img src='/assets/images/logo-facebook.svg' alt='logo-facebook' /><a href={data.facebook} ></a></a></div>
+                                    <div><a href='/'><img src='/assets/images/logo-linkedin.svg' alt='logo-linkedin' /><a href={data.linkedin} ></a></a></div>
+                                    <div><a href='/'><img src='/assets/images/logo-twitter.svg' alt='logo-twitter' /><a href={data.twiter} ></a></a></div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </Row>
+            </Col>
+        </div>
+    );
 }
 
 export default CompanyPage;

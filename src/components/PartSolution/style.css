@@ -1,12 +1,11 @@
 .partMainTitle {
     width: 100%;
-    height: 1200px;
+    height: auto;
     padding-left: 132px;
     padding-right: 132px;
 }
 
 .role-list {
-    height: 312px;
     padding-top: 110px;
 }
 
@@ -17,6 +16,7 @@
 
 .role-list-item {
     padding-top: 30px;
+    width: 25%;
 }
 
 .role-title {
@@ -41,7 +41,7 @@
 }
 
 .mainTitle {
-    padding-top: 188px;
+    margin-top: 281px;
     width: 100%;
 }
 
@@ -224,13 +224,29 @@
     height: 386px;
     width: 335px;
     left: -130px;
-    bottom: -124px;
+    bottom: -345px;
     z-index: 1;
 }
 
 .solution-pic-group {
     display: none;
     position: absolute;
+}
+
+@media(max-width: 1440px) {
+    .role-list-item {
+        width: auto
+    }
+}
+
+@media(max-width: 1366px) {
+    .mainTitle {
+        flex-flow: column;
+    }
+
+    .main-title-diagram {
+        margin-top: 60px;
+    }
 }
 
 @media(max-width: 1256px) {
@@ -263,10 +279,6 @@
         margin-left: 17px;
     }
 
-    .mainTitle {
-        flex-flow: column;
-    }
-
     .mainTile-content-1, .mainTile-content-2 {
         width: auto;
     }
@@ -274,13 +286,13 @@
     .mainTitle-apply-btn {
         margin-top: 20px;
     }
-
-    .main-title-diagram {
-        margin-top: 30px;
-    }
 }
 
 @media (max-width: 768px) {
+
+    .role-list-item {
+        width: 50%;
+    }
 
     .role-title {
         font-size: 25px;
@@ -401,6 +413,13 @@
     }
 }
 
+@media (max-width: 495px) {
+    .role-list-item {
+        display: block !important;
+        width: 100%;
+    }
+}
+
 @media (max-width: 414px) {
 
     .solution-pic-group {
@@ -412,9 +431,6 @@
         margin-left: 9px !important;
         margin-top: 10px !important;
         width: 105% !important;
-    }
-    .mainTitle {
-        padding-top:150px;
     }
 
     .mainTitle-apply-btn a {
@@ -544,19 +560,6 @@
     .role-content {
         margin-left: 16px !important;
         width: 90% !important;
-    }
-
-    .mainTitle {
-        padding-top: 350px !important;
-    }
-
-    .role-list {
-        display: block !important;
-    }
-
-    .role-list-item {
-        display: block !important;
-        width: 100% !important;
     }
 
     .mainTitle-apply-btn {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 
 import { 
     Button,
@@ -191,7 +191,7 @@ class IndiviRegister extends React.Component {
                             <Terms />
                         </div>
                         <div className='indivi-register-element'>
-                            <Button className='indivi-register-apply' href='/success' type='submit' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
+                            <Button className='indivi-register-apply' href='/success' type='submit' onClick={this.submitValidate.bind(this)} >NOTIFY ME</Button>
                         </div>
                     </div>
                     <div className="indivi-register-title">

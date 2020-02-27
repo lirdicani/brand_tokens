@@ -8,22 +8,22 @@ const PartSolution = () => {
             <div className="role-list d-flex justify-content-between">
                 <div className='role-list-item d-flex align-items-start flex-column'>
                     <div className='role-icon'><img src='/assets/images/corner-top-right.svg' alt='top-right' /></div>
-                    <div className="role-title">Brand Token issuing</div>
+                    <div className="role-title">Brand Token <br /> issuing</div>
                     {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
                 </div>
                 <div className='role-list-item d-flex align-items-start flex-column'>
                     <div className='role-icon'><img src='/assets/images/radar.svg' alt='radar' /></div>
-                    <div className="role-title">Token marketing automation</div>
+                    <div className="role-title">Token marketing <br /> automation</div>
                     {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
                 </div>
                 <div className='role-list-item d-flex align-items-start flex-column'>
                     <div className='role-icon'><img src='/assets/images/p-chart.svg' alt='p-chart' /></div>
-                    <div className="role-title">Unique data insight</div>
+                    <div className="role-title">Unique data <br /> insight</div>
                     {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
                 </div>
                 <div className='role-list-item d-flex align-items-start flex-column'>
                     <div className='role-icon'><img src='/assets/images/replace.svg' alt='replace' /></div>
-                    <div className="role-title">Exchange and wallet provider</div>
+                    <div className="role-title">Exchange and <br /> wallet  provider</div>
                     {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
                 </div>
             </div>

@@ -1,0 +1,344 @@
+.indivi-register {
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+.indivi-register-collapse-effect{
+    position: absolute;
+    width: 1440px;
+    height: 880px;
+    background-color: #1D2C50;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+    z-index: 0;
+}
+
+.indivi-register-container {
+    position: relative;
+    width: 1440px;
+    padding-top: 120px;
+    padding-left: 132px;
+    padding-right: 132px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.indivi-register-form {
+    width: 576px;
+    padding: 100px;
+    color: #475669;
+    font-family: 'Roboto';
+    font-size: 12px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.2);
+}
+
+.indivi-register-form Input {
+    box-shadow: none !important;
+    padding: 13px 16px !important;
+    font-size: 14px !important;
+}
+
+::placeholder{
+    font-size: 13px;
+    color: #C0CCDA !important;
+    transform: scaleX(45deg);
+}
+
+.indivi-register-btn, .indivi-register-btn {
+    width: 176px;
+    height: 128px;
+    background: white !important;
+    border-radius: 3px;
+    border: 1px solid #C0CCDA;
+}
+
+.indivi-register-btn:focus, .indivi-register-btn:focus {
+    border-color: #00B7FF !important;
+    box-shadow: none !important;
+}
+
+.check-icon {
+    width: 152px !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand-icon, .indivi-icon {
+    padding: 20px 30px 45px 30px;
+}
+
+.indivi-register-title {
+    padding-top: 114px;
+    width: 476px;
+}
+
+.indivi-register-element {
+    padding-top: 24px;
+}
+
+.indivi-register-element input {
+    border-color: #ced4da;
+}
+
+.indivi-register-element p {
+    display: none;
+}
+
+.errorEmail input,
+.error input,
+.error textarea {
+    border-color: tomato;
+}
+
+.errorEmail p,
+.error p.invalid {
+    color: tomato;
+    display: block;
+    font-style: italic;
+}
+
+.indivi-register-element:first-child {
+    padding-top: 0;
+}
+
+.indivi-register-element label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #475669;
+    transform: rotateX(32deg);
+    letter-spacing: 1.2px;
+}
+
+.indivi-register-apply {
+    width: 100%;
+    height: 42px;
+    background: #00B7FF !important;
+    box-shadow: none !important;
+    font-size: 14px;
+    border: none !important;
+}
+
+.indivi-register-apply:hover {
+    background: teal !important;
+}
+
+.indivi-register-apply:active {
+    background: #00B7FF !important;
+}
+
+.indivi-register-title h5 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #00EFFF;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.indivi-register-title h3 {
+    font-size: 55px;
+    font-weight: 400;
+    color: white;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.learnMore {
+    padding-left: 0 !important;
+}
+
+.indivi-register-title a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #3057FF;
+    text-decoration: none;
+    letter-spacing: 1.9px;
+    transform: rotateX(32deg);
+}
+
+.brand-textarea {
+    height: 105px !important;
+    box-shadow: none !important;
+}
+
+.brand-position-input-country {
+    width: 200px;
+}
+
+.brand-position-input-city {
+    width: 152px;
+}
+
+.register-form {
+    width: 576px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.indivi-register-title-list {
+    padding-top: 12px;
+}
+
+.indivi-register-title-name {
+    padding-left: 12px;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    margin-bottom: 0 !important;
+    letter-spacing: normal !important;
+    transform: none !important;
+}
+
+.reward-tag {
+    margin-right: 14px;
+    margin-top: 14px;
+    padding: 3px 14px 3px 14px;
+    background: #184b6c;
+    text-align: center;
+    font-size: 14px;
+    color: #00B7FF;
+    border-radius: 17px;
+}
+
+@media(max-width: 1366px) {
+    .indivi-register-collapse-effect,
+    .indivi-register-container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .indivi-register-container{
+        padding-top: 40px;
+        padding-right: 71px;
+        padding-left: 81px;
+    }
+
+    .indivi-register-form {
+        width: 450px;
+        padding: 60px 40px;
+    }
+
+    .indivi-register-title {
+        width: 380px;
+    }
+
+    .indivi-register-title h3 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 823px) {
+    .indivi-register-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .indivi-register-title {
+        padding-top: 0;
+    }
+
+    .indivi-register-form {
+        width: 576px;
+        padding: 60px;
+        margin-top: 60px;
+    }
+
+    .menu {
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+}
+
+@media(max-width: 667px) {
+    .indivi-register-form {
+        width: 500px;
+    }
+}
+
+@media(max-width: 568px) {
+    .indivi-register-container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media(max-width: 414px) {
+    .indivi-register-form {
+        width: 100%;
+    }
+
+    .indivi-register-title {
+        width: 100%;
+    }
+
+    .indivi-register-title h3 {
+        font-size: 38px;
+    }
+
+    .indivi-register-title-name {
+        font-size: 16px;
+    }
+
+    .indivi-register-title h5 {
+        font-size: 16px;
+    }
+
+    .indivi-register-form {
+        padding: 50px 30px;
+    }
+
+    .indivi-register-btn, .indivi-register-btn {
+        width: 45%;
+    }
+
+    .check-icon {
+        width: 100% !important;
+    }
+
+    .responsive-country-city {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsive-country-city div{
+        width: 100%;
+    }
+}
+
+@media(max-width: 360px) {
+    .indivi-register-title h3 {
+        font-size: 33px;
+    }
+
+    .indivi-register-title-name {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 320px) {
+    .indivi-register-title h3 {
+        font-size: 31px;
+    }
+
+    .indivi-register-title p {
+        font-size: 12px;
+        letter-spacing: normal;
+        transform: rotateX(45deg);
+
+    }
+    .indivi-register-title-list {
+        padding-top: 0px;
+    }
+
+    .indivi-register-btn, .indivi-register-btn {
+        height: 86px;
+    }
+
+    .brand-icon, .indivi-icon {
+        padding: 4px 14px 7px 15px;
+    }
+}

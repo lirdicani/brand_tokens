@@ -16,31 +16,27 @@
 }
 
 .mission-article {
-    font-size: 14px;
+    font-size: 21px;
     font-weight: 700;
     color: #00EFFF;
     letter-spacing: 1.5px;
-    margin-left: 32px;
-    transform: scale(1.2,1);
+    transform: rotateX(32deg);
 }
 
 .mission-title {
     padding-top: 8px;
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 400;
     line-height: normal;
-    margin-left: 29px;
-    transform: scale(1.2, 1);
+    transform: rotateX(32deg);
 }
 
 .mission-subject{
     padding-top: 24px;
-    font-size: 18px;
+    font-size: 23px;
     line-height: 28px;
-    letter-spacing: 0.7px;
     opacity: 0.72;
-    margin-left: 17px;
-    transform: scale(1.1,1);
+    transform: rotateX(32deg);
 }
 
 .how-apply-btn-group {
@@ -89,7 +85,6 @@
     height: 16px;
     border-radius: 50%;
     background-color: #00B7FF;
-    transform: scale(1, 1) !important;
 }
 
 .mission-lists-item-name {
@@ -147,7 +142,7 @@
 
 @media (max-width: 1440px) {
     .mission-detail {
-        width: 630px;
+        width: 65%;
         height: 62%;
     }
 
@@ -156,7 +151,7 @@
     }
 
     .how-pic-group-right {
-        right: -1px;
+        right: 0px;
     }
 
     .how-pic-group-left {
@@ -191,10 +186,6 @@
 
     .partHow {
         margin-top: -280px !important;
-    }
-
-    .mission-detail {
-        width: 580px;
     }
 }
 
@@ -231,11 +222,6 @@
 
     .how-pic-group-left {
         margin-top: 1380px;
-    }
-
-    .mission-article, .mission-title, .mission-subject {
-        margin-left: 0 !important;
-        transform: scale(1, 1) !important;
     }
 
     .mission-subject {
@@ -278,7 +264,7 @@
     }
 
     .mission-detail {
-        height: 49% !important;
+        height: 45% !important;
     }
 
     .select-mission-select-part {
@@ -304,7 +290,7 @@
 @media (max-width: 568px) {
     .partHow {
         margin-top: -280px !important;
-        height: 1950px !important;
+        height: 2170px !important;
         clip-path: polygon(0 7%, 100% 0, 100% 93%, 0% 100%) !important;
     }
 
@@ -314,7 +300,7 @@
 
     .how-pic-group-left {
         width: 140px;
-        margin-top: 1750px !important;    
+        margin-top: 1975px !important;    
     }
 }
 

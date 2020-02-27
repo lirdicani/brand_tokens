@@ -1,0 +1,274 @@
+.company {
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+.company-collapse-effect{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    background-color: #1D2C50;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+    z-index: 0;
+}
+
+.join-revolution {
+    position: relative;
+    width: 1440px;
+    padding-top: 120px;
+    padding-left: 132px;
+    padding-right: 132px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.company-title {
+    width: 35%;
+    color: white;
+}
+
+.company-top-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #00EFFF;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.company-main-title {
+    padding-top: 13px;
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+    line-height: normal;
+}
+
+.company-article {
+    padding-top: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 28px;
+    opacity: 0.64;
+
+}
+
+.company-main-pic {
+    width: 576px;
+    height: 480px;
+    border-radius: 12px;
+}
+
+.company-main-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.our-vision {
+    width: 100%;
+    text-align: center;
+}
+
+.our-vision-body {
+    padding-top: 101px;
+    width: 54%;
+    color: black;
+    text-align: center;
+}
+
+.our-vision-top-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #00B7FF;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.our-vision-main-title {
+    padding-top: 4px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1D2C50;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.our-vision-subtitle {
+    padding-top: 17px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    opacity: 0.72;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans';
+}
+
+.our-vision-description {
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+    opacity: 0.72;
+    line-height: 22px;
+    color: black;
+    font-family: 'Open Sans';
+    display: inline-block   ;
+    background-image: url("/assets/images/qout-mark.png");
+    background-repeat: no-repeat;
+    background-position: 62px 25px;
+}
+
+.our-vision-speil {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main-speil {
+    font-size: 14px;
+    font-family: 500;
+    color: #00B7FF;
+    line-height: 22px;
+    margin-left: 20px;
+}
+
+.speil-line {
+    width: 25px;
+    height: 2px;
+    background: #00B7FF;
+}
+
+.office {
+    width: 100%;
+}
+
+.office-clip-effect {
+    position: absolute;
+    width: 1440px;
+    height: 1082px;
+    background: #3057FF;
+    clip-path: polygon(0 23%, 100% 0, 100% 77%, 0% 100%);
+    z-index: 1;
+}
+
+.office-body {
+    position: relative;
+    padding-left: 132px;
+    padding-right: 32px;
+    min-height: 1082px;
+    width: 100%;
+    z-index: 20;
+}
+
+.office-title {
+    padding-top: 536px;
+    width: 35%;
+    color: white;
+}
+
+.office-top-title {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+    color: #00EFFF;
+}
+
+.office-main-title {
+    padding-top: 5px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.office-description {
+    padding-top: 32px;
+    width: 85%;
+    font-size: 22px;
+    font-weight: 400;
+    opacity: 0.72;
+    line-height: 28px;
+    transform: rotateX(32deg);
+}
+
+.office-body {
+    padding-top: 83px;
+}
+
+.office-pic {
+    width: 60%;
+    background: white;
+
+}
+/* .company-form {
+    padding: 120px 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 980px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.2);
+} */
+
+@media(max-width: 1366px) {
+    .company-collapse-effect,
+    .join-revolution {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .join-revolution{
+        padding-top: 40px;
+        padding-right: 71px;
+        padding-left: 81px;
+    }
+
+    .company-form {
+        width: 450px;
+        padding: 60px 40px;
+    }
+}
+
+@media(max-width: 823px) {
+    .join-revolution {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .menu {
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+}
+
+@media(max-width: 568px) {
+    .join-revolution {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media(max-width: 423px) {
+    .company-form {
+        width: 84%;
+    }
+}
+
+@media(max-width: 320px) {
+
+    .company-collapse-effect {
+        height: 850px;
+    }
+
+    .company-form {
+        width: 96%;
+        padding: 60px 20px;
+    }
+}

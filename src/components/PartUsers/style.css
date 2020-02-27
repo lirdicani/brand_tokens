@@ -5,28 +5,30 @@
     clip-path: polygon(0 16.67%, 100% 0, 100% 83.33%, 0% 100%);
 }
 
+.PU-top {
+    width: 100%;
+}
+
 .PU-top-title {
     line-height: normal;
     text-align: center;
-    transform: scale(1.1,1);
 }
 
 .PU-top-title:nth-child(1) {
     padding-top: 200px;
-    font-size: 14px;
+    font-size: 21px;
     font-weight: 700;
     color:#00EFFF;
     letter-spacing: 1.5px;
-    transform: scale(1.1,1);
+    transform: rotateX(32deg);
 }
 
 .PU-top-title:nth-child(2) {
-    padding-top: 5px;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 400;
     color: white;
     letter-spacing: 1.5px;
-    transform: scale(1.1,1);
+    transform: rotateX(32deg);
 }
 
 .PU-top-title:nth-child(3) {
@@ -42,13 +44,14 @@
 }
 
 .PU-content {
+    width: 100%;
     padding-right: 132px;
     padding-left: 132px;
 }
 
 .PU-content-subject {
     padding-top: 48px;
-    width: 917px;
+    width: 50%;
 }
 
 .PU-content-subject-title {
@@ -251,7 +254,7 @@
     }
 
     .PU-top-title:nth-child(2) {
-        font-size: 30px !important;
+        font-size: 35px !important;
     }
 }
 

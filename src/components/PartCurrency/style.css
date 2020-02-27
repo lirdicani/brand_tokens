@@ -19,22 +19,20 @@
 }
 
 .first-title {
-    font-size: 18px;
+    font-size: 22px;
     color: #00EFFF;
     font-weight: 600;
     letter-spacing: 3.2px;
-    margin-left: 24px;
-    transform: scale(1.085,1);
+    transform: rotateX(32deg);
 }
 
 .second-title{
     padding-top: 13px;
-    width: 75%;
-    font-size: 48px;
+    width: 100%;
+    font-size: 58px;
     font-weight: 400;
-    margin-left: 24px;
     line-height: normal;
-    transform: scale(1.12,1);
+    transform: rotateX(32deg);
 }
 
 .third-title {
@@ -108,15 +106,9 @@
         height: 678px;
     }
 
-    .first-title {
-        margin-left: 0 !important;
-        transform: scale(1,1) !important;
-    }
-
     .second-title {
         width: 100%;
         font-size: 45px;
-        margin-left: 0 !important;
         transform: scale(1, 1) !important;
     }
 

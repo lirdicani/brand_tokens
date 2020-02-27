@@ -1,0 +1,235 @@
+.success {
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+.success-collapse-effect{
+    position: absolute;
+    width: 1440px;
+    height: 880px;
+    background-color: #1D2C50;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+    z-index: 0;
+}
+
+.success-container {
+    position: relative;
+    width: 1440px;
+    padding-top: 220px;
+    padding-left: 132px;
+    padding-right: 132px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.success-form {
+    padding: 120px 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 980px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.2);
+}
+
+.success-top-title {
+    padding-top: 65px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #00B7FF;
+    letter-spacing: 2px;
+    transform: rotateX(32deg);
+}
+
+.success-words {
+    padding-top: 13px;
+    font-size: 60px;
+    font-weight: 400;
+    color: #1D2C50;
+    letter-spacing: normal;
+    transform: rotateX(32deg);
+}
+
+.success-article {
+    padding-top: 32px;
+    font-size: 19.5px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #1D2C50;
+    opacity: 0.64;
+    letter-spacing: 1.4px;
+    transform: rotateX(32deg);
+}
+
+.success-btn-group {
+    padding-top: 32px;
+}
+
+.back-home-btn{
+    margin-right: 24px;
+    background: #00B7FF;
+    width: 156px;
+    height: 42px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    transform: rotateX(32deg);
+}
+
+.back-home-btn:hover {
+    background: teal !important;
+}
+
+.back-home-btn:focus {
+    background: #00B7FF !important;
+    box-shadow: none;
+}
+
+.contact-btn {
+    background-color: white;
+    width: 138px;
+    height: 42px;
+    border: 1px solid #00B7FF;
+    border-radius: 3px;
+    color: #00B7FF;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    transform: rotateX(32deg);
+}
+
+.contact-btn:hover {
+    background: teal !important;
+}
+
+.contact-btn:focus {
+    background: white !important;
+    color: #00B7FF;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+@media(max-width: 1366px) {
+    .success-collapse-effect,
+    .success-container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .success-container{
+        padding-top: 40px;
+        padding-right: 71px;
+        padding-left: 81px;
+    }
+
+    .success-form {
+        width: 450px;
+        padding: 60px 40px;
+    }
+
+    .success-title {
+        width: 380px;
+    }
+
+    .success-title h3 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 823px) {
+    .success-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .menu {
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+
+    .success-words {
+        font-size: 50px;
+    }
+    .success-top-title {
+        padding-top: 40px;
+    }
+
+    .success-article {
+        padding-top: 0px;
+    }
+}
+
+@media(max-width: 568px) {
+    .success-container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media(max-width: 423px) {
+    .success-form {
+        width: 84%;
+    }
+    .back-home-btn,
+    .contact-btn
+    {
+        width: 110px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .success-top-title {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .success-words {
+        font-size: 30px;
+        padding-top: 0;
+    }
+
+    .success-article {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 320px) {
+
+    .success-collapse-effect {
+        height: 850px;
+    }
+
+    .success-form {
+        width: 96%;
+        padding: 60px 20px;
+    }
+    .back-home-btn,
+    .contact-btn
+    {
+        width: 90px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .success-top-title {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    .success-words {
+        font-size: 24px;
+        padding-top: 0;
+    }
+
+    .success-article {
+        font-size: 13px;
+    }
+}

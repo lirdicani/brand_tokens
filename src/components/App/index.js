@@ -20,7 +20,10 @@ import {
 import  './style.css';
 import Homepage from '../../pages/Homepage';
 import Register from '../../pages/Register';
+import IndiviRegister from '../../pages/Register/IndiviRegister'
 import Footer from '../Footer';
+import Success from '../../pages/Register/Success';
+import CompanyPage from '../../pages/CompanyPage';
 
 const App = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -53,6 +56,15 @@ const App = () => {
                             </Route>
                             <Route exact path='/register'>
                                 <Register />
+                            </Route>
+                            <Route exact path='/indiviRegister'>
+                                <IndiviRegister />
+                            </Route>
+                            <Route exact path='/success'>
+                                <Success />
+                            </Route>
+                            <Route extra path='/company'>
+                                <CompanyPage />
                             </Route>
                         </Switch>
                         <Footer />

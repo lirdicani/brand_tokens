@@ -6,8 +6,21 @@ import {
     Input,
 } from 'reactstrap';
 
+import { Upload, Icon } from 'antd';
+
 import './style.css';
 import Terms from './Terms';
+
+const fileList = [
+    
+];
+  
+const props1 = {
+    action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
+    listType: 'picture-card',
+    defaultFileList: [...fileList],
+    className: 'upload-list-inline',
+};
 
 class Register extends React.Component {
 
@@ -245,12 +258,12 @@ class Register extends React.Component {
                 <div className='brand-register-collapse-effect'></div>
                 <div className='brand-register-container'>
                     <div className='brand-register-form'>
-                        <div className='d-flex justify-content-between brand-register-element'>
+                        <div className='d-flex justify-content-between brand-register-element responsive-brand-indivi-btn'>
                             <Button className='brand-register-btn' onClick={this.changeBrandFocusState.bind(this)} type='submit'>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
                                 <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
                             </Button>
-                            <Button className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)} type='submit'>
+                            <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)} type='submit'>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
                                 <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
                             </Button>
@@ -258,70 +271,92 @@ class Register extends React.Component {
                         <div className={'brand-register-element ' + this.state.errorBrandName}>
                             <Label >COMPANY NAME</Label>
                             <Input type='text' name="brandName" onChange={this.handleChange.bind(this, "brandName")} value={this.state.fields['brandName']} placeholder='Google, Inc.'/>
-                            <span>Invalid COMPANY NAME</span>
+                            <p className='invalid'>Invalid COMPANY NAME</p>
                         </div>
-                        <div className='brand-register-element d-flex justify-content-between'>
+                        <div className='brand-register-element responsive-country-city d-flex justify-content-between'>
                             <div className={'brand-position-input-country ' + this.state.errorCountryName}>
                                 <Label>COUNTRY</Label>
                                 <Input type='text' name='countryName' onChange={this.handleChange.bind(this, "countryName")} value={this.state.fields['countryName']} placeholder='Your country'/>
-                                <span>Invalid COUNTRY</span>
+                                <p className='invalid'>Invalid COUNTRY</p>
                             </div>
                             <div className={'brand-position-input-city ' + this.state.errorCityName}>
                                 <Label>CITY</Label>
                                 <Input type='text' name='cityName' onChange={this.handleChange.bind(this, 'cityName')} value={this.state.fields['cityName']} placeholder='Your city' />
-                                <span>Invalid CITY</span>
+                                <p className='invalid'>Invalid CITY</p>
                             </div>
                         </div>
                         <div className={'brand-register-element ' + this.state.errorContactPerson}>
                             <Label>CONTACT PERSON</Label>
                             <Input type='text' name='contactPerson' onChange={this.handleChange.bind(this, 'contactPerson')} value={this.state.fields['contactPerson']} placeholder='John Doe' />
-                            <span>Invalid CONTACT PERSON</span>
+                            <p className='invalid'>Invalid CONTACT PERSON</p>
                         </div>
                         <div className={'brand-register-element ' + errorEmailClass}>
                             <Label>EMAIL ADDRESS</Label>
                             <Input type='email' onChange={this.handleEmailChange} name='email' value={this.state.fields['email']} placeholder='example@domain.com'/>
-                            <span>Invalid e-mail address</span>
+                            <p className='invalid'>Invalid e-mail address</p>
                         </div>
                         <div className={'brand-register-element ' + errorPhoneClass }>
                             <Label>MOBILE / TELEPHONE</Label>
                             <Input onChange={this.handlePhoneChange} type='text' name='phone' value={this.state.fields['phone']} placeholder='(123) 456-7890 | 123-456-7890' />
-                            <span>Invalid phone number</span>
+                            <p className='invalid'>Invalid phone number</p>
                         </div>
                         <div className='brand-register-element d-flex justify-content-between'>
-                            <div className='uploaded-logo'></div>
-                            <div className='upload-titie'>
-                                <Label className='upload-top-label'>UPLOAD YOUR COMPANY LOGO</Label>
-                                <Button className='upload-btn' type='file'>UPLOAD YOUR LOGO</Button>
-                                <Label className='upload-bottom-label'>Upload high quality JPEG, JPG, PNG or PDF</Label>
+                            <div className='upload-title'>
+                                <Upload {...props1}>
+                                    <div className='uploadSection'>
+                                        <Label className='upload-top-label'>UPLOAD YOUR COMPANY LOGO</Label>
+                                        <Button className='upload-btn'>
+                                            <Icon type="upload" /> UPLOAD YOUR LOGO
+                                        </Button>
+                                        <Label className='upload-bottom-label'>Upload high quality JPEG, JPG, PNG or PDF</Label>
+                                    </div>                                    
+                                </Upload>
                             </div>
                         </div>
+
                         <div className={'brand-register-element ' + this.state.errorIndustry}>
                             <Label>INDUSTRY</Label>
                             <Input type='text' onChange={this.handleChange.bind(this, 'industry')} name='industry' value={this.state.fields['industry']} placeholder='Saas, design, e-commerce ..etc' />
-                            <span>Invalid INDUSTRY</span>
+                            <p className='invalid'>Invalid INDUSTRY</p>
                         </div>
                         <div className={'brand-register-element ' + errorWebsiteClass}>
                             <Label>WEBSITE</Label>
                             <Input type='text' onChange={this.handleWebsiteChange} name='website' value={this.state.fields['website']} placeholder='https://www.example.com' />
-                            <span>Invalid website url</span>
+                            <p className='invalid'>Invalid website url</p>
                         </div>
                         <div className={'brand-register-element ' + this.state.errorDescription}>
                             <Label>DESCRIPTION</Label>
                             <Input className='brand-textarea' onChange={this.handleChange.bind(this, 'description')} type="textarea" name="description" value={this.state.fields['description']} placeholder='Write a short description about your brand' />
-                            <span>Invalid DESCRIPTION</span>
+                            <p className='invalid'>Invalid DESCRIPTION</p>
                         </div>
                         <div className='brand-register-element'>
                             <Terms />
                         </div>
                         <div className='brand-register-element'>
-                            <Button className='brand-register-apply' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
+                            <Button className='brand-register-apply' href='/success' type='submit' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
                         </div>
                     </div>
-                    <div className='brand-register-title'>
+                    {/* <div className='brand-register-title'>
                         <h5>JOIN THE REVOLUSTION</h5>
                         <h3>Become one of the <br /> first issuers of a<br /> brand token</h3>
                         <p>Our advisors contact with you</p>
                         <a href='#a'>LEARN MORE</a>
+                    </div> */}
+                    <div className="brand-register-title">
+                        <h5>JOIN THE REVOLUSTION</h5>
+                        <h3>Become one of the <br /> first ...</h3>
+                        <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
+                            <img src='/assets/images/c-check.svg' alt='check' />
+                            <p className='brand-register-title-name'>Become one of the first issuers of a brand token</p>
+                        </div>
+                        <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
+                            <img src='/assets/images/c-check.svg' alt='check' />
+                            <p className='brand-register-title-name'>Our advisors contact with you</p>
+                        </div>
+                        <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
+                            <img src='/assets/images/c-check.svg' alt='check' />
+                            <p className='brand-register-title-name'><a href='/'>LEARN MORE</a></p>
+                        </div>
                     </div>
                 </div>
             </div>

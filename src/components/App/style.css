@@ -13,8 +13,14 @@
     padding-right: 132px;
 }
 
-.logo-title {
-    text-decoration: none;
+.logo-title{
+    text-decoration: none !important;
+}
+
+#nav-ico {
+    color: yellow;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .logo-title span{
@@ -23,6 +29,7 @@
     color: white !important;
     transform: scale(1.2, 1);
     margin-right: 0;
+    text-decoration: none !important;
 }
 
 .apply-btn {
@@ -64,9 +71,10 @@
     letter-spacing: 1.2px;
 }
 
-.nav-item {
+.detail-item {
     padding-right: 24px !important;
     padding-left: 24px !important;
+    text-decoration: none !important;
 }
 
 .navbar-toggler {
@@ -74,16 +82,16 @@
     border: 1px solid black !important;
 }
 
-.nav-item a:hover {
+.detail-item a:hover {
     opacity: 1;
     font-weight: 800;
 }
 
-.nav-item:first-child {
+.detail-item:first-child {
     padding-left: 0 !important;
 }
 
-.nav-item:last-child {
+.detail-item:last-child {
     padding-right: 0 !important;
 }
 
@@ -134,11 +142,11 @@
         padding-left: 72px !important;
     }
 
-    .nav-item:first-child{
+    .detail-item:first-child{
         padding-left: 24px !important;
     }
 
-    .nav-item a{
+    .detail-item a{
         padding-left: 26px !important;
     }
 
@@ -177,7 +185,7 @@
     .menu {
         height: auto !important;
     }
-    .nav-item, .nav-item:first-child {
+    .detail-item, .detail-item:first-child {
         padding-left: 0 !important;
     }
 }

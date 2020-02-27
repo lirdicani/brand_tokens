@@ -88,6 +88,10 @@
     display: none;
 }
 
+.indivi-register-element label {
+    margin: 0.1rem;
+}
+
 .errorEmail input,
 .error input,
 .error textarea {

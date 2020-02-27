@@ -6,6 +6,11 @@ import {
     Input,
 } from 'reactstrap';
 
+import {
+    Link,
+}
+from 'react-router-dom';
+
 import './style.css';
 import Terms from '../Terms';
 
@@ -156,11 +161,13 @@ class IndiviRegister extends React.Component {
                 <div className='indivi-register-container'>
                     <div className='indivi-register-form'>
                         <div className='d-flex justify-content-between indivi-register-element responsive-brand-indivi-btn'>
-                            <Button href='/Register' className='indivi-register-btn' onClick={this.changeBrandFocusState.bind(this)}>
-                                <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
-                                <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
-                            </Button>
-                            <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
+                            <Link to="/register">
+                                <Button className='indivi-register-btn' onClick={this.changeBrandFocusState.bind(this)}>
+                                    <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
+                                    <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
+                                </Button>
+                            </Link>
+                            <Button className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
                                 <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
                             </Button>

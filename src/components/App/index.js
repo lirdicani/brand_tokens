@@ -35,16 +35,17 @@ const App = () => {
                 <div className='App'>
                     <div className='content'>
                         <Navbar className="menu" light expand="md">
-                            <NavbarBrand href='/' className="logo-title">
+                            <Link className="logo-title" to='/'>
                                 <div><img src='/assets/images/Logo-icon.svg' alt='logo' />&nbsp;&nbsp;&nbsp;&nbsp;<span>BRANDTOKENS</span></div>
-                            </NavbarBrand>
+                            </Link>
                             <NavbarToggler onClick={toggle} />
                             <Collapse isOpen={isOpen} navbar>
                                 <Nav className="menu-items" navbar>
-                                    <NavItem><NavLink className="detail-item" href="/howitwork">HOW IT WORKS</NavLink></NavItem>
-                                    <NavItem><NavLink className="detail-item" href="/brands">BRANDS</NavLink></NavItem>
-                                    <NavItem><NavLink className="detail-item" href="/company">COMPANY</NavLink></NavItem>
-                                    <NavItem><NavLink className="detail-item" href="/blog">BLOG</NavLink></NavItem>
+                                    <Link className="detail-item" to="/howitwork"><NavItem id='nav-ico'>ICO</NavItem></Link>
+                                    <Link className="detail-item" to="/howitwork"><NavItem>HOW IT WORKS</NavItem></Link>
+                                    <Link className="detail-item" to="/brands"><NavItem>BRANDS</NavItem></Link>
+                                    <Link className="detail-item" to='/company' ><NavItem>COMPANY</NavItem></Link>
+                                    <Link className="detail-item" to="/blog"><NavItem>BLOG</NavItem></Link>
                                 </Nav>
                             </Collapse>
                             <Link to="/register"><Button type='submit' className="apply-btn"><span>APPLY NOW</span></Button></Link>

@@ -79,7 +79,13 @@ class CompanyPage extends React.Component {
                             <TeamMember />
                         </div>
                     </div>
-                    <div className='join-team'></div>
+                    <div className='join-team'>
+                        <div className='join-team-top-title'>FRESH TALENT</div>
+                        <div className='join-team-main-title'>Join the team</div>
+                        <div className='join-team-description'>We're always looking for fresh talent and curious minds to join our expanding team of creatives, strategists and technologists.Check out postings below to see if you 're right fit.</div>
+                        <div className='join-team-add-description'>Our employees also receive BRAND tokens</div>
+                        <div className='see-all-job'>SEE ALL JOBS</div>
+                    </div>
                 </div>
                 <PartRevolution />
             </div>
@@ -99,9 +105,9 @@ const TeamMember = () => {
                                 <div className='indivi-member-name d-flex justify-content-center'>{data.name}</div>
                                 <div className='indivi-member-job d-flex justify-content-center'>{data.job}</div>
                                 <div className='indivi-member-contact-info d-flex justify-content-center'>
-                                    <div><img src='/assets/images/logo-facebook.svg' alt='logo-facebook' /><a href={data.facebook} ></a></div>
-                                    <div><img src='/assets/images/logo-twitter.svg' alt='logo-twitter' /><a href={data.twiter} ></a></div>
-                                    <div><img src='/assets/images/logo-linkedin.svg' alt='logo-linkedin' /><a href={data.linkedin} ></a></div>
+                                    <div><a href={data.facebook} ><img src='/assets/images/logo-facebook.svg' alt='logo-facebook' /></a></div>
+                                    <div><a href={data.twiter} ><img src='/assets/images/logo-twitter.svg' alt='logo-twitter' /></a></div>
+                                    <div><a href={data.linkedin} ><img src='/assets/images/logo-linkedin.svg' alt='logo-linkedin' /></a></div>
                                 </div>
                             </div>
                         ))

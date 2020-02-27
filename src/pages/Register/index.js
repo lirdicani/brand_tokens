@@ -1,12 +1,8 @@
 import React from 'react';
-
-import { 
-    Button,
-    Label,
-    Input,
-} from 'reactstrap';
-
 import { Upload, Icon } from 'antd';
+import { Link } from 'react-router-dom';
+import { Button, Label, Input } from 'reactstrap';
+
 
 import './style.css';
 import Terms from './Terms';
@@ -263,10 +259,12 @@ class Register extends React.Component {
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
                                 <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
                             </Button>
-                            <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
-                                <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
-                                <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
-                            </Button>
+                            <Link to='indiviRegister'>
+                                <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
+                                    <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
+                                    <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
+                                </Button>
+                            </Link>
                         </div>
                         <div className={'brand-register-element ' + this.state.errorBrandName}>
                             <Label >COMPANY NAME</Label>

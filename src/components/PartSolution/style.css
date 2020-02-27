@@ -27,6 +27,7 @@
     font-weight: 600;
     letter-spacing: 3px;
     line-height: 32px;
+    text-align: center;
     transform: rotateX(32deg);
 }
 

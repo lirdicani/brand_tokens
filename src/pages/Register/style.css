@@ -26,6 +26,7 @@
 }
 
 .brand-register-form {
+    margin-right: 50px;
     width: 576px;
     padding: 100px;
     color: #475669;
@@ -261,14 +262,7 @@
     font-weight: 400;
 }
 
-@media(max-width: 1366px) {
-    .brand-register-collapse-effect,
-    .brand-register-container {
-        width: 100%;
-    }
-}
-
-@media(max-width: 1024px) {
+@media(max-width: 1440px) {
     .brand-register-container{
         padding-top: 40px;
         padding-right: 71px;
@@ -278,6 +272,25 @@
     .brand-register-form {
         width: 450px;
         padding: 60px 40px;
+    }
+}
+
+@media(max-width: 1366px) {
+    .brand-register-collapse-effect,
+    .brand-register-container {
+        width: 100%;
+    }
+
+    .brand-register-title {
+        width: auto;
+    }
+}
+
+@media(max-width: 1024px) {
+    .brand-register-container{
+        padding-top: 40px;
+        padding-right: 71px;
+        padding-left: 81px;
     }
 
     .brand-register-title {
@@ -289,7 +302,7 @@
     }
 }
 
-@media(max-width: 823px) {
+@media (max-width: 958px) {
     .brand-register-container {
         display: flex;
         flex-direction: column-reverse;

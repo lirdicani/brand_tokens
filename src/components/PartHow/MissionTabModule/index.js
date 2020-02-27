@@ -50,7 +50,7 @@ const MissionTabModule = (props) => {
                 </NavItem>
             </Nav>
             <TabContent activeTab={activeTab}>
-                <TabPane tabId="1">
+                <TabPane tabId="2">
                     <Row>
                         <Col sm="6">
                             <Card body className='mission-cards-top-title'>
@@ -96,7 +96,7 @@ const MissionTabModule = (props) => {
                         </Col>
                     </Row>                     
                 </TabPane>
-                <TabPane tabId="2">
+                <TabPane tabId="1">
                     <Row>
                         <Col sm="6">
                             <Card body className='mission-cards-top-title'>

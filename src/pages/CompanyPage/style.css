@@ -204,17 +204,47 @@
 
 .office-right-pic {
     padding-top: 95px;
-    padding-right: 24px;
+    margin-left: 24px;
 }
 
 .office-pic-item {
+    margin-top: 24px;
     border-radius: 12px;
+}
+
+.office-pic-item:nth-child(1) {
+    margin-top: 0
 }
 
 .office-pic-item img {
     width: 376px;
     height: auto;
     border-radius: 12px;
+}
+
+.team-member {
+    padding-top: 120px;
+    padding-left: 132px;
+    padding-right: 132px;
+    width: 100%;
+}
+
+.team-member-top-title {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #00B7FF;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.team-member-main-title {
+    font-size: 41px;
+    font-weight: 400;
+    color: #1D2C50;
+    text-align: center;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
 }
 /* .company-form {
     padding: 120px 200px;

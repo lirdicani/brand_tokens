@@ -10,13 +10,13 @@
     padding-top: 110px;
 }
 
-.role-list-item {
-    width: 25%;
-}
-
 .role-icon {
     width: 46px;
     height: 46px;
+}
+
+.role-list-item {
+    padding-top: 30px;
 }
 
 .role-title {
@@ -257,11 +257,6 @@
         width: 100%;
         padding-top: 50px;
     }
-
-    .role-list-item {
-        width: 40%;
-        padding-top: 30px;
-    }
     
     .role-content {
         width: auto;
@@ -286,6 +281,10 @@
 }
 
 @media (max-width: 768px) {
+
+    .role-title {
+        font-size: 25px;
+    }
 
     .role-list {
         padding-top: 0 !important;
@@ -397,10 +396,6 @@
     .role-content {
         margin-left: 10px;
     }
-
-    .mainTitle-subject {
-        margin-left: 46px;
-    }
     .pair-directions {
         width: auto !important;
     }
@@ -419,7 +414,7 @@
         width: 105% !important;
     }
     .mainTitle {
-        padding-top:200px;
+        padding-top:150px;
     }
 
     .mainTitle-apply-btn a {
@@ -526,10 +521,6 @@
         margin-top: 10px !important;
     }
 
-    .role-list-item {
-        width: 45% !important;
-    }
-
     .mainTitle-apply-btn {
         margin-top: 30px !important;
     }
@@ -556,7 +547,7 @@
     }
 
     .mainTitle {
-        padding-top: 450px !important;
+        padding-top: 350px !important;
     }
 
     .role-list {

@@ -98,10 +98,6 @@
     .menu a div span {
         display: none;
     }
-    .mainTitle-link, .mainTitle-subject {
-        width: 80% !important;
-        margin-left: 52px !important;
-    }
 }
 
 @media (max-width: 812px) {

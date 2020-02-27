@@ -163,13 +163,6 @@
     }
 }
 
-@media (max-width: 736px) {
-    
-    .mainTitle-link, .mainTitle-subject {
-        margin-left: 63px;
-    }
-}
-
 @media (max-width: 568px) {
 
     .currency-up {
@@ -216,10 +209,6 @@
 
     .second-title {
         line-height: 30px !important;
-    }
-
-    .mainTitle-link, .mainTitle-subject {
-        margin-left: 30px !important;
     }
 }
 

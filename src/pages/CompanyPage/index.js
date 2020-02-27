@@ -22,7 +22,7 @@ class CompanyPage extends React.Component {
                         <div className='company-main-title'>The future of <br /> loyalty systems</div>
                         <div className='company-article'>Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all.</div>
                     </div>
-                    <div className='company-main-pic'><img src='/assets/images/office-3.png' alt='company-main' /></div>
+                    <div className='company-main-pic'><img src='/assets/images/company page/company.png' alt='company-main' /></div>
                 </div>
                 <div className='our-vision d-flex justify-content-center'>
                     <div className='our-vision-body'>
@@ -46,17 +46,25 @@ class CompanyPage extends React.Component {
                         </div>
                         <div className='office-pic'>
                             <div className='office-left-pic'>
-                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
-                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
-                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/company page/office-pic1.png' alt='office-picture0' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/company page/office-pic2.png' alt='office-picture1' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/company page/office-pic3.png' alt='office-picture2' /></div>
                             </div>
                             <div className='office-right-pic'>
-                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
-                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
-                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/company page/office-pic4.png' alt='office-picture3' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/company page/office-pic5.png' alt='office-picture4' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/company page/office-pic6.png' alt='office-picture5' /></div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='team'>
+                    <div className='team-member'>
+                        <div className='team-member-top-title'>OUR TALENTS</div>
+                        <div className='team-member-main-title'>Meet the team</div>
+                        <div className='team-member-members'></div>
+                    </div>
+                    <div className='join-team'></div>
                 </div>
                 <PartRevolution />
             </div>

@@ -10,15 +10,16 @@ const PartHow = () => {
             <div className='how-mission'>
                 <div className='mission-article'>BRANDS</div>
                 <div className='mission-title'>How brands can use their tokens</div>
-                <div className="mission-subject">Brand Tokens is all in one platform to manage all 
-                    your tokens needs for engagement, community, management, reward, appliance, utility, sales management.</div>
-                {/* <div className="mission-subject">Most consumers prefer options to redeem their points from time to time.</div> */}
+                {/* <div className="mission-subject">Brand Tokens is all in one platform to manage all 
+                    your tokens needs for engagement, community, management, reward, appliance, utility, sales management.</div> */}
+                <div className="mission-subject">Most consumers prefer options to redeem their points from time to time.</div>
                 <div className="mission-lists">
                     <div className='mission-lists-item d-flex justity-content-start align-items-center'>
-                        <span className='mission-lists-item-icon'></span>
-                        <span className='mission-lists-item-name'>Consumers who redeem</span>
+                        {/* <span className='mission-lists-item-icon'></span> */}
+                        <span className='mission-lists-item-name'>Brand Tokens is all in one platform to manage all 
+                    your tokens needs for engagement, community, management, reward, appliance, utility, sales management.</span>
                     </div>
-                    <div className='mission-lists-item d-flex justity-content-start align-items-center'>
+                    {/* <div className='mission-lists-item d-flex justity-content-start align-items-center'>
                         <span className='mission-lists-item-icon'></span>
                         <span className='mission-lists-item-name'>Points have higher</span>
                     </div>
@@ -29,7 +30,7 @@ const PartHow = () => {
                     <div className='mission-lists-item d-flex justity-content-start align-items-center'>
                         <span className='mission-lists-item-icon'></span>
                         <span className='mission-lists-item-name'>Brand association</span>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="how-apply-btn-group d-flex justify-content-start align-items-center">
                     <a href='/'><div className='apply-btn-how-icon'>+</div></a>

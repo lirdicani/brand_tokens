@@ -57,15 +57,9 @@
 
 }
 
-.company-main-pic {
-    width: 576px;
-    height: 480px;
-    border-radius: 12px;
-}
-
 .company-main-pic img {
-    width: 100%;
-    height: 100%;
+    width: 576px;
+    height: auto;
     border-radius: 12px;
 }
 
@@ -144,6 +138,7 @@
 }
 
 .office {
+    padding-top: 83px;
     width: 100%;
 }
 
@@ -160,7 +155,7 @@
     position: relative;
     padding-left: 132px;
     padding-right: 32px;
-    min-height: 1082px;
+    height: 1082px;
     width: 100%;
     z-index: 20;
 }
@@ -183,6 +178,7 @@
     padding-top: 5px;
     font-size: 36px;
     font-weight: 400;
+    line-height: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -196,14 +192,29 @@
     transform: rotateX(32deg);
 }
 
-.office-body {
-    padding-top: 83px;
+.office-pic {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
 }
 
-.office-pic {
-    width: 60%;
-    background: white;
+.office-left-pic {
+    padding-bottom: 95px;
+}
 
+.office-right-pic {
+    padding-top: 95px;
+    padding-right: 24px;
+}
+
+.office-pic-item {
+    border-radius: 12px;
+}
+
+.office-pic-item img {
+    width: 376px;
+    height: auto;
+    border-radius: 12px;
 }
 /* .company-form {
     padding: 120px 200px;

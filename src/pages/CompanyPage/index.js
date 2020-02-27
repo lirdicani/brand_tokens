@@ -22,7 +22,7 @@ class CompanyPage extends React.Component {
                         <div className='company-main-title'>The future of <br /> loyalty systems</div>
                         <div className='company-article'>Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all.</div>
                     </div>
-                    <div className='company-main-pic'><img src='/assets/images/company-main.png' alt='company-main' /></div>
+                    <div className='company-main-pic'><img src='/assets/images/office-3.png' alt='company-main' /></div>
                 </div>
                 <div className='our-vision d-flex justify-content-center'>
                     <div className='our-vision-body'>
@@ -45,8 +45,16 @@ class CompanyPage extends React.Component {
                             <div className='office-description'>we’ve created an open-concept office space that fosters collaboration, communication and creativity across all departments and teams. From thoughtful, green spaces, to team bonding activities and outings, we’re dedicated to nurturing talent, encouraging positivity, and creating room for growth.</div>
                         </div>
                         <div className='office-pic'>
-                            <div className='office-left-pic'></div>
-                            <div className='office-right-pic'></div>
+                            <div className='office-left-pic'>
+                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                            </div>
+                            <div className='office-right-pic'>
+                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                                <div className='office-pic-item'><img src='/assets/images/office-3.png' alt='office-picture' /></div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>water-hand</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Landing-page" transform="translate(-835.000000, -2392.000000)" stroke-width="2">
+            <g id="water-hand" transform="translate(836.000000, 2393.000000)">
+                <path d="M19,12 C19,10.1 22,7 22,7 C22,7 25,10.1 25,12 C25,13.9 23.5,15 22,15 C20.5,15 19,13.9 19,12 Z" id="Path" stroke="#B4C2FF"></path>
+                <path d="M9,5 C9,3.1 12,0 12,0 C12,0 15,3.1 15,5 C15,6.9 13.5,8 12,8 C10.5,8 9,6.9 9,5 Z" id="Path" stroke="#B4C2FF"></path>
+                <path d="M4,15 L5,15 C7.3,15 9.8,16.2 11,18 L15,18 C17,18 19,20 19,22 L10,22" id="Path" stroke="#FFFFFF"></path>
+                <path d="M18.4,20 L25,20 C28.6,20 29,22 29,22 L14.7,27.8 C13.6,28.3 12.3,28.2 11.2,27.7 L4,24" id="Path" stroke="#FFFFFF"></path>
+                <rect id="Rectangle" stroke="#FFFFFF" x="0" y="13" width="4" height="13"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

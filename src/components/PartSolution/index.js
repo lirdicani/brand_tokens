@@ -1,31 +1,38 @@
 import React from 'react';
 
+import { Row, Col } from 'reactstrap';
+
 import './style.css';
 
 const PartSolution = () => {
     return (
         <div className="partMainTitle">
-            <div className="role-list d-flex justify-content-between flex-wrap">
-                <div className='role-list-item d-flex align-items-center flex-column'>
-                    <div className='role-icon'><img src='/assets/images/corner-top-right.svg' alt='top-right' /></div>
-                    <div className="role-title">Brand Token <br /> issuing</div>
-                    {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
-                </div>
-                <div className='role-list-item d-flex align-items-center flex-column'>
-                    <div className='role-icon'><img src='/assets/images/radar.svg' alt='radar' /></div>
-                    <div className="role-title">Token marketing <br /> automation</div>
-                    {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
-                </div>
-                <div className='role-list-item d-flex align-items-center flex-column'>
-                    <div className='role-icon'><img src='/assets/images/p-chart.svg' alt='p-chart' /></div>
-                    <div className="role-title">Unique data <br /> insight</div>
-                    {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
-                </div>
-                <div className='role-list-item d-flex align-items-center flex-column'>
-                    <div className='role-icon'><img src='/assets/images/replace.svg' alt='replace' /></div>
-                    <div className="role-title">Exchange and <br /> wallet  provider</div>
-                    {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
-                </div>
+            <div className='solution-main-title'>What we do</div>
+            <div className="role-list d-flex justify-content-between">
+                <Col>
+                    <Row lg='4' md='2' sm='2' xs='1'>
+                        <div className='role-list-item d-flex align-items-start flex-column'>
+                            <div className='role-icon'><img src='/assets/images/corner-top-right.svg' alt='top-right' /></div>
+                            <div className="role-title">Brand Token <br /> issuing</div>
+                            {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
+                        </div>
+                        <div className='role-list-item d-flex align-items-start flex-column'>
+                            <div className='role-icon'><img src='/assets/images/radar.svg' alt='radar' /></div>
+                            <div className="role-title">Token marketing <br /> automation</div>
+                            {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
+                        </div>
+                        <div className='role-list-item d-flex align-items-start flex-column'>
+                            <div className='role-icon'><img src='/assets/images/p-chart.svg' alt='p-chart' /></div>
+                            <div className="role-title">Unique data <br /> insight</div>
+                            {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
+                        </div>
+                        <div className='role-list-item d-flex align-items-start flex-column'>
+                            <div className='role-icon'><img src='/assets/images/replace.svg' alt='replace' /></div>
+                            <div className="role-title">Exchange and <br /> wallet  provider</div>
+                            {/* <div className="role-content mt-auto">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus.</div> */}
+                        </div>
+                    </Row>
+                </Col>
             </div>
             <div className="mainTitle d-flex justify-content-between">
                 <div className="mainTitle-groups">

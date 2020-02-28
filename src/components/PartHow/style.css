@@ -124,7 +124,7 @@
 
 .how-pic-group-right {
     padding-top: 10px;
-    right: 226px;
+    right:236px;
     width: 220px;
     height: auto;
     position: absolute;
@@ -133,7 +133,7 @@
 
 .how-pic-group-left {
     left: 221px;
-    margin-top: 970px;
+    margin-bottom: 970px;
     width: 220px;
     height: auto;
     position: absolute;
@@ -147,7 +147,7 @@
     }
 
     .partHow {
-        margin-top: -400px;
+        margin-top: -310px;
     }
 
     .how-pic-group-right {
@@ -161,16 +161,12 @@
 
 @media(max-width: 1366px) {
     .partHow {
-        margin-top: -230px;
+        margin-top: -159px;
         height: 1180px !important;
     }
 }
 
-@media (max-width: 1256px) {
-    
-    .partHow {
-        margin-top: -220px;
-    }
+@media (max-width: 1280px) {
     .partHow {
         padding-left:  35px;
         padding-right: 35px;
@@ -185,7 +181,8 @@
 @media (max-width: 1024px) {
 
     .partHow {
-        margin-top: -280px !important;
+        height: 1256px !important;
+        margin-top: -197px;
     }
 }
 
@@ -193,6 +190,7 @@
     .partHow {
         justify-content: start !important;
         flex-direction: column;
+        margin-top: -244px;
         height: 1750px !important;
     }
 
@@ -216,8 +214,9 @@
 }
 
 @media (max-width: 812px) {
+
     .partHow {
-        height: 1635px !important;
+        margin-top: -235px !important;
     }
 
     .how-pic-group-left {
@@ -264,7 +263,7 @@
     }
 
     .mission-detail {
-        height: 45% !important;
+        height: 49% !important;
     }
 
     .select-mission-select-part {
@@ -280,10 +279,6 @@
 @media(max-width: 640px) {
     .partHow {
         margin-top: -290px !important;
-    }
-
-    .mission-detail {
-        height: 45% !important;
     }
 }
 
@@ -312,6 +307,10 @@
     .how-pic-group-right {
         width: 120px;
     }
+
+    .mission-detail {
+        height: 58% !important;
+    }
 }
 
 @media(max-width: 411px) {
@@ -322,14 +321,14 @@
 
     .how-pic-group-left {
         width: 130px;
-        margin-top: 1750px !important;
+        margin-top: 1960px !important;
     }
 }
 
 @media(max-width: 375px) {
     .partHow {
         margin-top: -180px !important;
-        height: 1880px !important;
+        height: 2150px !important;
         clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%) !important;
     }
 
@@ -338,7 +337,7 @@
     }
 
     .mission-detail {
-        height: 58% !important;
+        height: 63% !important;
     }
 
     .how-pic-group-left {
@@ -349,16 +348,14 @@
 @media(max-width: 360px) {
     .partHow {
         margin-top: -160px !important;
-        height: 1850px !important;
+        height: 2170px !important;
     }
 
     .how-pic-group-right {
         width: 100px;
     }
 
-    .mission-detail {
-        height: 60% !important;
-    }
+    
 
     .how-pic-group-left {
         margin-top: 2130px;
@@ -367,8 +364,8 @@
 
 @media(max-width: 320px) {
     .partHow {
-        margin-top: -160px !important;
-        height: 1950px !important;
+        margin-top: -147px !important;
+        height: 2470px !important;
         clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%) !important;
     }
 
@@ -381,7 +378,9 @@
     }
 
     .how-pic-group-left {
-        margin-top: 1850px;
+        margin-top: 2300px !important;
         width: 100px;
     }
+
+
 }

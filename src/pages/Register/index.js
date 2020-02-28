@@ -259,12 +259,14 @@ class Register extends React.Component {
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
                                 <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
                             </Button>
-                            <Link to='indiviRegister'>
-                                <Button href='/indiviRegister' className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
-                                    <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
-                                    <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
+                            
+                                <Button className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
+                                    <Link to='indiviRegister'>
+                                        <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
+                                        <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
+                                    </Link>
                                 </Button>
-                            </Link>
+                            
                         </div>
                         <div className={'brand-register-element ' + this.state.errorBrandName}>
                             <Label >COMPANY NAME</Label>
@@ -342,17 +344,16 @@ class Register extends React.Component {
                     </div> */}
                     <div className="brand-register-title">
                         <h5>JOIN THE REVOLUSTION</h5>
-                        <h3>Become one of the first ...</h3>
+                        <h3>Will become one of the first issuers of a brand token</h3>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />
-                            <p className='brand-register-title-name'>Become one of the first issuers of a brand token</p>
+                            <p className='brand-register-title-name'>&nbsp;&nbsp;&nbsp;&nbsp;Become one of the first issuers of a brand token</p>
                         </div>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />
-                            <p className='brand-register-title-name'>Our advisors contact with you</p>
+                            <p className='brand-register-title-name'>&nbsp;&nbsp;&nbsp;&nbsp;Our advisors contact with you</p>
                         </div>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
-                            <img src='/assets/images/c-check.svg' alt='check' />
                             <p className='brand-register-title-name'><a href='/'>LEARN MORE</a></p>
                         </div>
                     </div>

@@ -16,6 +16,13 @@ const team_member = [
     { name: 'Tomasz Rozmus', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member4.png', },
 ]
 
+const embaded_angel = [
+    { job: 'IT Help Desk Support', job_kind: 'Customer support', job_position: 'remote', post_time: '14 minutes ago', times: 'Full time', price: '$42K - $60K' },
+    { job: 'Full Stack Developer', job_kind: 'Development', job_position: 'remote', post_time: '20 minutes ago', times: 'Full time', price: '$42K - $60K' },
+    { job: 'Marketing Manager', job_kind: 'Business', job_position: 'remote', post_time: '2 days ago', times: 'Full time', price: '$42K - $60K' },
+]
+
+
 class CompanyPage extends React.Component {
 
     constructor(props) {
@@ -23,9 +30,10 @@ class CompanyPage extends React.Component {
         
         this.state = {
         };
-    }
+    }    
 
     render () {
+
         return (
             <div className='company-page'>
                 <div className='company-collapse-effect'></div>
@@ -79,12 +87,15 @@ class CompanyPage extends React.Component {
                             <TeamMember />
                         </div>
                     </div>
-                    <div className='join-team'>
-                        <div className='join-team-top-title'>FRESH TALENT</div>
-                        <div className='join-team-main-title'>Join the team</div>
-                        <div className='join-team-description'>We're always looking for fresh talent and curious minds to join our expanding team of creatives, strategists and technologists.Check out postings below to see if you 're right fit.</div>
-                        <div className='join-team-add-description'>Our employees also receive BRAND tokens</div>
-                        <div className='see-all-job'>SEE ALL JOBS</div>
+                    <div className='job-details d-flex justify-content-between'>
+                        <div className='join-team'>
+                            <div className='join-team-top-title'>FRESH TALENT?</div>
+                            <div className='join-team-main-title'>Join the team</div>
+                            <div className='join-team-description'>We're always looking for fresh talent and curious minds to join our expanding team of creatives, strategists and technologists.Check out postings below to see if you 're right fit.</div>
+                            <div className='join-team-add-description'>Our employees also receive BRAND tokens</div>
+                            <div className='see-all-job'>SEE ALL JOBS</div>
+                        </div>
+                        <EmbadedAngel />
                     </div>
                 </div>
                 <PartRevolution />
@@ -100,7 +111,7 @@ const TeamMember = () => {
                 <Row sm='2' md='3' xs='1' xl='4' >
                     {
                         team_member.map((data, i) => (
-                            <div key={i} className='indivi-member'>
+                            <div className='indivi-member'>
                                 <div className='indivi-member-photo d-flex justify-content-center'><img src={data.photo} alt='photo' /></div>
                                 <div className='indivi-member-name d-flex justify-content-center'>{data.name}</div>
                                 <div className='indivi-member-job d-flex justify-content-center'>{data.job}</div>
@@ -116,6 +127,31 @@ const TeamMember = () => {
             </Col>
         </div>
     );
+}
+
+const EmbadedAngel = () => {
+    return (
+        <div className='embaded_angel-group'>
+            {
+                embaded_angel.map((data, i) => (
+                    <div key={i} className='task-list'>
+                        <div className='job-description'>{data.job}</div>
+                        <div className='job_type d-flex justify-content-end'>
+                            <div className='job-type-container d-flex justify-content-between'>
+                                <div className='job-kind' className='job_kind'>{data.job_kind}</div>
+                                <div className='job_position'>{data.job_position}</div>
+                            </div>
+                        </div>
+                        <div className='job_price d-flex justify-content-start'>
+                            <div className='job-post-time'>{data.post_time}</div>
+                            <div className='job-time'>{data.times}</div>
+                            <div className='job-price'>{data.price}</div>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
+    )
 }
 
 export default CompanyPage;

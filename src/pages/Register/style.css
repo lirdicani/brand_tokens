@@ -261,11 +261,12 @@
 }
 
 .brand-register-title-name {
-    padding-left: 12px;
+    padding-left: 0;
     font-size: 18px;
     line-height: normal;
     font-weight: 400;
 }
+
 
 @media(max-width: 1440px) {
     .brand-register-container{
@@ -287,9 +288,16 @@
     .brand-register-title {
         width: auto;
     }
+}
 
-    .brand-register-btn, .indivi-register-btn {
-        width: 45%;
+
+@media(max-width: 1280px) {
+    .indivi-register-btn, .brand-register-btn {
+        width: 165px;
+    }
+
+    .check-icon {
+        width: 140px !important;
     }
 }
 
@@ -334,6 +342,10 @@
 @media(max-width: 667px) {
     .brand-register-form {
         width: 500px;
+    }
+
+    .brand-register-btn {
+        width: 45%;
     }
 }
 

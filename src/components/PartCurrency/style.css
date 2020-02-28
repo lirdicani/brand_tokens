@@ -93,6 +93,12 @@
     opacity: 0.5;
 }
 
+@media (max-width: 1280px) {
+    .second-title {
+        font-size: 55px;
+    }
+}
+ 
 @media (max-width: 1024px) {
 
     .part-currency {
@@ -186,10 +192,6 @@
 
     .second-title {
         font-size: 32px !important;
-    }
-
-    .mainTitle {
-        padding-top: 235px !important;
     }
 }
 

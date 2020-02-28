@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>money-transfer</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Landing-page" transform="translate(-1134.000000, -2396.000000)" stroke-width="2">
+            <g id="money-transfer" transform="translate(1135.000000, 2397.000000)">
+                <polyline id="Path" stroke="#FFFFFF" points="20.655 4 28 4 25 0"></polyline>
+                <polyline id="Path" stroke="#FFFFFF" points="9.346 18 2 18 5 22"></polyline>
+                <line x1="9.346" y1="4" x2="0" y2="4" id="Path" stroke="#FFFFFF"></line>
+                <line x1="30" y1="18" x2="20.654" y2="18" id="Path" stroke="#FFFFFF"></line>
+                <circle id="Oval" stroke="#FFFFFF" cx="15" cy="11" r="9"></circle>
+                <line x1="15" y1="8" x2="15" y2="14" id="Path" stroke="#B4C2FF"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -293,6 +293,201 @@
     margin-right: 14px;
 }
 
+.job-details {
+    padding-top: 120px;
+}
+
+.join-team {
+    padding-right: 132px;
+    padding-left: 132px;
+}
+
+.join-team-top-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #00B7FF;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.join-team-main-title {
+    padding-top: 4px;
+    line-height: normal;
+    font-size: 38px;
+    font-weight: 400;
+    color: #1D2C50;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.join-team-description {
+    padding-top: 25px;
+    width: 339px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.72;
+    color: #000000;
+    font-family: 'Open Sans';
+}
+
+.join-team-add-description {
+    padding-top: 24px;
+    width: 339px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.72;
+    color: #000000;
+    font-family: 'Open Sans';
+}
+
+.see-all-job {
+    padding-top: 108px;
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.72;
+    letter-spacing: 1.6px;
+    transform: rotateX(32deg);
+    color: #3057FF;
+}
+
+.job-description {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1D2C50;
+    transform: rotateX(32deg);
+}
+
+.job-time {
+    margin-right: 14px;
+    font-size: 14px;
+    color: #607D8B;;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.job_kind {
+    margin-right: 14px;
+    font-size: 14px;
+    color: black;;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+.job_position {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: #607D8B;
+}
+
+.job-type-container {
+    width: 237px;
+}
+
+.job-post-time {
+    margin-right: 14px;
+    color: #4CAF50;
+    font-family: 'Open Sans';
+    color: '4CAF50'
+}
+
+.task-list {
+    width: 100%;
+    height: 120px;
+}
+
+.job_price {
+    font-size: 14px;
+    color: #9FA6B5;
+    font-family: 'Open Sans';
+}
+
+.embaded_angel-group {
+    width: 776px;
+    margin-right: 132px;
+    background-color: transparent;
+}
+
+.task-list {
+    padding: 23px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.1);
+}
+
+.task-list:last-child, .task-list:nth-child(2) {
+    margin-top: 24px;
+}
+
+
+@media (max-width: 1440px) {
+    .join-revolution {
+        width: 100%;
+    }
+    .company-collapse-effect {
+        width: 100%;
+    }
+
+    .company-main-pic {
+        width: 60%;
+    }
+    .company-main-pic img {
+        width: 100%;
+    }
+
+    .office-title {
+        padding-top: 0;
+        margin-top: 32%;
+    }
+
+    .office-clip-effect {
+        width: 100%;
+    }
+
+    .office-pic {
+        width: 60%;
+    }
+
+    .office-left-pic, .office-right-pic {
+        width: 50%;
+    }
+
+    .office-right-pic {
+        padding-top: 15%;
+    }
+    
+    .office-pic-item img {
+        width: 100%;
+    }
+}
+
+@media(max-width:1280px) {
+    .company-main-title {
+        font-size: 48px;
+    }
+
+    .company-main-pic {
+        width: 55%;
+    }
+
+    .office-right-pic {
+        padding-top: 25%;
+    }
+
+    .office-pic {
+        margin-top: 4%;
+    }
+
+    .join-team {
+        padding-right: 30px;
+        padding-left: 35px;
+    }
+
+    .embaded_angel-group {
+        margin-right: 35px;
+    }
+}
+
 @media(max-width: 1366px) {
     .company-collapse-effect,
     .join-revolution {
@@ -300,23 +495,119 @@
     }
 }
 
+@media (max-width: 1156px) {
+    .company-main-title {
+        font-size: 40px;
+    }
+
+    .office-right-pic {
+        padding-top: 39%;
+    }
+}
+
 @media(max-width: 1024px) {
+
+
+    .job-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join-team {
+        text-align: center;
+    }
+
+    .join-team-description {
+        width: 100%;
+    }
+
+    .join-team-add-description {
+        width: 100%;
+    }
+
+    .see-all-job {
+        padding-top: 50px
+    }
+
+    .embaded_angel-group {
+        padding-top: 50px;
+        margin-right: 0;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
     .join-revolution{
-        padding-top: 40px;
+        padding-top: 100px;
         padding-right: 71px;
         padding-left: 81px;
+    }
+
+    .office-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .office-title {
+        width: 100%;
+    }
+
+    .office-pic{
+        width: 100%;
+    }
+
+    .office-pic-item {
+        width: auto;
+    }
+
+    .office-body {
+        height: auto;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .office-right-pic {
+        padding-top: 12%;
+    }
+
+    .office-title {
+        margin-top: 40%;
     }
 
     .company-form {
         width: 450px;
         padding: 60px 40px;
     }
+
+    .our-vision-body {
+        width: 80%;
+    }
 }
 
-@media(max-width: 823px) {
+@media(max-width: 890px) {
     .join-revolution {
         display: flex;
         flex-direction: column-reverse;
+        padding-top: 20px;
+    }
+
+    .company-collapse-effect {
+        height: 750px;
+    }
+
+    .company-title {
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    .company-main-pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .company-main-pic img {
+        width: 60%;
     }
 
     .menu {
@@ -325,16 +616,128 @@
     }
 }
 
+@media (max-width: 720px) {
+    .company-collapse-effect {
+        height: 700px;
+    }
+
+    .company-title {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .company-title {
+        padding-top: 27px;
+    }
+}
+
+@media(max-width) {
+    .office-title {
+        -webkit-margin-top-collapse: nownw;
+    }
+}
+
 @media(max-width: 568px) {
     .join-revolution {
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .our-vision-body {
+        padding-top: 155px;
+    }
+
+    .company-main-pic img {
+        width: 90%;
+    }
+
+    .join-team, 
+    .join-team-description,
+    .join-team-add-description  {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    .company-collapse-effect {
+        height: 840px;
+    }
+
+    .office-main-title {
+        font-size: 26px;
+    }
+
+    .office-description {
+        font-size: 18px;
+    }
+
+    .office-title {
+        margin-top: 60%;
+    }
+
+    .office-pic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .office-right-pic {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .office-left-pic, .office-right-pic {
+        width: 100%;
+    }
+}
+
+@media(max-width: 475px) {
+    .embaded_angel-group {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
 @media(max-width: 423px) {
     .company-form {
         width: 84%;
+    }
+
+    .office-title {
+        margin-top: 78%;
+    }
+
+    .join-revolution {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .team-member {
+        margin-top: 40px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .our-vision-body {
+        padding-top: 180px;
+    }
+
+    .company-title {
+        font-size: 32px;
+    }
+
+    .join-team, 
+    .join-team-description,
+    .join-team-add-description  {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 376px) {
+    .office-title {
+        margin-top: 98%;
     }
 }
 
@@ -347,5 +750,9 @@
     .company-form {
         width: 96%;
         padding: 60px 20px;
+    }
+
+    .our-vision-body {
+        padding-top: 209px;
     }
 }

@@ -1,6 +1,7 @@
 .partUsers {
+    margin-top: 83px;
     width: 100%;
-    height: 911px;
+    height: 1035px;
     background-color: #3057FF;
     clip-path: polygon(0 16.67%, 100% 0, 100% 83.33%, 0% 100%);
 }
@@ -105,6 +106,11 @@
     font-weight: 600;
     letter-spacing: 1.1px;
 }
+
+.brand-items-title img{
+    margin-bottom: 10px;
+}
+
 .brand-items-intro {
     padding-top: 8px;
     margin-left: auto;
@@ -146,7 +152,7 @@
     }
 }
 
-@media (max-width: 1256px) {
+@media (max-width: 1280px) {
     .user-pic-group-left {
         padding-top: 20px;
     }
@@ -160,7 +166,7 @@
 
 
     .partUsers {
-        height: 1100px !important;
+        height: 1200px !important;
     }
 
     .user-pic-group-left {
@@ -200,7 +206,7 @@
     }
 
     .partUsers {
-        height: 1000px !important;
+        height: 1200px !important;
     }
 
     .PU-content {
@@ -221,7 +227,7 @@
 
     .partUsers {
         clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%) !important;
-        height: 1200px !important;
+        height: 1380px !important;
     }
     .brand-items {
         display: inline-block;
@@ -240,10 +246,6 @@
 
 @media (max-width: 768px) {
 
-    .partUsers {
-        height: 1150px !important;
-    }
-
     .PU-content {
         padding-left: 40px;
         padding-right: 40px;
@@ -261,7 +263,8 @@
 @media(max-width: 640px) {
 
     .partUsers {
-        height: 1250px !important;
+        height: 1490px !important;
+
     }
 }
 
@@ -271,7 +274,7 @@
         padding-top: 160px;
     }
     .partUsers {
-        height: 1150px !important;
+        height: 1450px !important;
     }
 
     .PU-content-subject-title .content:nth-child(3) {
@@ -299,7 +302,7 @@
 
 @media (max-width:414px) {
     .partUsers {
-        height: 1320px !important;
+        height: 1580px !important;
     }
 
     .user-pic-group-left {
@@ -312,7 +315,7 @@
 @media (max-width:375px) {
 
     .partUsers {
-        height: 1350px !important;
+        height: 1820px !important;
         clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%) !important;
     }
 
@@ -328,14 +331,13 @@
     }
 }
 
-
-@media (max-width: 360px) {
-    .partUsers {
-        height: 1350px !important;
-    }
-}
-
 @media(max-width: 320px) {
+
+    .partUsers {
+        height: 1050px !important;
+        height: 1840px !important;
+    }
+
     .user-pic-group-left {
         padding-top: 10px;
         width: 100px;

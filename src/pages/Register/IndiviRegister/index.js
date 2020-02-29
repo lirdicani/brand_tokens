@@ -205,21 +205,21 @@ class IndiviRegister extends React.Component {
                     </div>
                     <div className="indivi-register-title">
                         <h5>JOIN THE REVOLUSTION</h5>
-                        <h3>Do your shopping,<br /> gets rewards</h3>
+                        <h3>Do your shopping, gets rewards</h3>
                         <Tags />
-                        <div className='indivi-register-title-list d-flex justity-content-start align-items-center'>
+                        <div className='indivi-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />
                             <p className='indivi-register-title-name'>Be the first to know</p>
                         </div>
-                        <div className='indivi-register-title-list d-flex justity-content-start align-items-center'>
+                        <div className='indivi-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />
                             <p className='indivi-register-title-name'>Invite your friends</p>
                         </div>
-                        <div className='indivi-register-title-list d-flex justity-content-start align-items-center'>
+                        <div className='indivi-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />
                             <p className='indivi-register-title-name'>Claim your free tokens as soon as we are ready</p>
                         </div>
-                        <div className='indivi-register-title-list d-flex justity-content-start align-items-center'>
+                        <div className='indivi-register-title-list d-flex justity-content-start align-items-start'>
                             <p className='indivi-register-title-name learnMore'><a href='/'>LEARN MORE</a></p>
                         </div>
                     </div>

@@ -1,13 +1,12 @@
 .partHow {
     width: 100%;
-    height: 1294px;
+    /* height: 1294px; */
     margin-top: -230px;
-    padding-left: 132px;
-    padding-right: 132px;
-    padding-bottom: auto;
+    padding: 0px 132px 200px 132px;
     background: #1D2C50;
     color: white;
     clip-path: polygon(0 13%, 100% 0, 100% 87%, 0% 100%);
+    position: relative;
 }
 
 .how-mission {
@@ -94,11 +93,14 @@
     font-family: "Open Sans";
 }
 
+.parent-mission {
+    width: 776px;
+}
+
 .mission-detail {
     margin-top: 300px;
     padding: 0px 24px 24px 24px;
-    width: 776px;
-    height: 720px;
+    /* width: 776px; */
     background:rgba(0, 0, 0, 0.16);
 }
 
@@ -124,7 +126,7 @@
 
 .how-pic-group-right {
     padding-top: 10px;
-    right:236px;
+    right: 0px;
     width: 220px;
     height: auto;
     position: absolute;
@@ -132,18 +134,19 @@
 }
 
 .how-pic-group-left {
-    left: 221px;
-    margin-bottom: 970px;
+    left: 0px;
+    /* margin-bottom: 970px; */
     width: 220px;
     height: auto;
     position: absolute;
     display: inline-block;
+    bottom: 0px;
 }
 
 @media (max-width: 1440px) {
-    .mission-detail {
+
+    .parent-mission {
         width: 65%;
-        height: 62%;
     }
 
     .partHow {
@@ -154,15 +157,11 @@
         right: 0px;
     }
 
-    .how-pic-group-left {
-        left: -1px;
-    }
 }
 
 @media(max-width: 1366px) {
     .partHow {
         margin-top: -159px;
-        height: 1180px !important;
     }
 }
 
@@ -172,16 +171,10 @@
         padding-right: 35px;
     }
 
-    .how-pic-group-left {
-        margin-top: 910px;
-    }
-
 }
 
 @media (max-width: 1024px) {
-
     .partHow {
-        height: 1256px !important;
         margin-top: -197px;
     }
 }
@@ -191,15 +184,22 @@
         justify-content: start !important;
         flex-direction: column;
         margin-top: -244px;
-        height: 1750px !important;
     }
 
     .how-apply-btn-group {
         padding-top: 55px !important;
     }
 
+    .how-mission {
+        width: 100%;
+    }
+
+    .parent-mission {
+        width: 100%;
+    }
+
     .mission-detail {
-        height: 40% !important;
+        margin-top: 50px;
     }
 
     .how-pic-group-right {
@@ -208,7 +208,6 @@
     }
 
     .how-pic-group-left {
-        margin-top: 1520px;
         width: 180px;
     }
 }
@@ -217,10 +216,6 @@
 
     .partHow {
         margin-top: -235px !important;
-    }
-
-    .how-pic-group-left {
-        margin-top: 1380px;
     }
 
     .mission-subject {
@@ -237,8 +232,6 @@
 
     .mission-detail {
         margin-top: 50px !important;
-        width: 100% !important;
-        height: 45% !important;
     }
 }
 
@@ -251,19 +244,15 @@
 @media(max-width: 736px) {
     .how-pic-group-left {
         width: 170px;
-        margin-top: 1400px;
+        /* margin-top: 1400px; */
     }
 }
 
 @media (max-width: 667px) {
     .partHow {
         margin-top: -190px !important;
-        height: 1650px !important;
+        /* height: 1650px !important; */
         clip-path: polygon(0 11%, 100% 0, 100% 89%, 0% 100%) !important;
-    }
-
-    .mission-detail {
-        height: 49% !important;
     }
 
     .select-mission-select-part {
@@ -285,7 +274,7 @@
 @media (max-width: 568px) {
     .partHow {
         margin-top: -280px !important;
-        height: 2170px !important;
+        /* height: 2170px !important; */
         clip-path: polygon(0 7%, 100% 0, 100% 93%, 0% 100%) !important;
     }
 
@@ -295,7 +284,6 @@
 
     .how-pic-group-left {
         width: 140px;
-        margin-top: 1975px !important;    
     }
 }
 
@@ -307,10 +295,6 @@
     .how-pic-group-right {
         width: 120px;
     }
-
-    .mission-detail {
-        height: 58% !important;
-    }
 }
 
 @media(max-width: 411px) {
@@ -321,51 +305,30 @@
 
     .how-pic-group-left {
         width: 130px;
-        margin-top: 1960px !important;
     }
 }
 
 @media(max-width: 375px) {
     .partHow {
         margin-top: -180px !important;
-        height: 2150px !important;
+        /* height: 2150px !important; */
         clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%) !important;
-    }
-
-    .mission-detail {
-        height: 67% !important;
-    }
-
-    .mission-detail {
-        height: 63% !important;
-    }
-
-    .how-pic-group-left {
-        margin-top: 1735px;
     }
 }
 
 @media(max-width: 360px) {
     .partHow {
         margin-top: -160px !important;
-        height: 2170px !important;
     }
 
     .how-pic-group-right {
         width: 100px;
-    }
-
-    
-
-    .how-pic-group-left {
-        margin-top: 2130px;
     }
 }
 
 @media(max-width: 320px) {
     .partHow {
         margin-top: -147px !important;
-        height: 2470px !important;
         clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%) !important;
     }
 
@@ -373,12 +336,7 @@
         padding-top: 110px !important;
     }
 
-    .mission-detail {
-        height: 60% !important;
-    }
-
     .how-pic-group-left {
-        margin-top: 2300px !important;
         width: 100px;
     }
 

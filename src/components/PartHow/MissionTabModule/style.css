@@ -114,11 +114,6 @@
     .how-mission {
         padding-top: 250px !important;
     }
-
-    .mission-detail {
-        width: 100%;
-        margin-top: 50px !important;
-    }
 }
 
 @media (max-width: 812px) {
@@ -194,9 +189,6 @@
 }
 
 @media(max-width: 320px) {
-    .mission-detail {
-        height: 60% !important;
-    }
 
     .logo-tab {
         width: 40px !important;

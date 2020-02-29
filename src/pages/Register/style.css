@@ -4,10 +4,10 @@
     color: white;
 }
 
-.brand-register-collapse-effect{
-    position: absolute;
-    width: 1440px;
+.brand-register-collapse-effect {
+    width: 100%;
     height: 880px;
+    margin-bottom: -880px;
     background-color: #1D2C50;
     clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
     z-index: 0;
@@ -15,7 +15,6 @@
 
 .brand-register-container {
     position: relative;
-    width: 1440px;
     padding-top: 120px;
     padding-left: 132px;
     padding-right: 132px;
@@ -26,8 +25,7 @@
 }
 
 .brand-register-form {
-    margin-right: 50px;
-    width: 576px;
+    width: 49%;
     padding: 100px;
     color: #475669;
     font-family: 'Roboto';
@@ -50,8 +48,8 @@
 }
 
 .brand-register-btn, .indivi-register-btn {
-    width: 176px;
-    height: 128px;
+    width: 46.8%;
+    height: auto;
     background: white !important;
     border-radius: 3px;
     border: 1px solid #C0CCDA;
@@ -63,18 +61,18 @@
 }
 
 .check-icon {
-    width: 152px !important;
+    width: 100% !important;
     display: flex;
     justify-content: flex-end;
 }
 
 .brand-icon, .indivi-icon {
-    padding: 20px 30px 45px 30px;
+    padding: 20px 0px 45px 0px;
 }
 
 .brand-register-title {
     padding-top: 114px;
-    width: 476px;
+    width: 40.5%;
 }
 
 .brand-register-element {
@@ -165,6 +163,10 @@
     line-height: normal;
 }
 
+.brand-register-title p.no-icon {
+    padding-left: 0;
+}
+
 .brand-register-title a {
     font-size: 17px;
     font-weight: 700;
@@ -180,11 +182,11 @@
 }
 
 .brand-position-input-country {
-    width: 200px;
+    max-width: 53.2%;
 }
 
 .brand-position-input-city {
-    width: 152px;
+    max-width: 40.4%;
 }
 
 .upload-btn {
@@ -261,55 +263,43 @@
 }
 
 .brand-register-title-name {
-    padding-left: 0;
+    padding-left: 12px;
     font-size: 18px;
     line-height: normal;
     font-weight: 400;
 }
 
-
 @media(max-width: 1440px) {
+
+    .brand-register-form {
+        padding: 80px;
+    }
+
     .brand-register-container{
-        padding-top: 40px;
         padding-right: 71px;
         padding-left: 81px;
     }
 
-    .brand-register-form {
-        width: 450px;
-        padding: 60px 40px;
-    }
-
-    .brand-register-collapse-effect,
-    .brand-register-container {
-        width: 100%;
-    }
-
-    .brand-register-title {
-        width: auto;
-    }
-}
-
-
-@media(max-width: 1280px) {
-    .indivi-register-btn, .brand-register-btn {
-        width: 165px;
-    }
-
-    .check-icon {
-        width: 140px !important;
-    }
 }
 
 @media(max-width: 1024px) {
     .brand-register-container{
-        padding-top: 40px;
         padding-right: 71px;
         padding-left: 81px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .brand-register-title {
-        width: 380px;
+        width: auto;
+        padding-top: 0;
+    }
+
+    .brand-register-form {
+        max-width: 576px;
+        width: auto;
+        padding: 80px;
+        margin-top: 60px;
     }
 
     .brand-register-title h3 {
@@ -318,34 +308,10 @@
 }
 
 @media (max-width: 958px) {
-    .brand-register-container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .brand-register-title {
-        padding-top: 0;
-    }
-
-    .brand-register-form {
-        width: 576px;
-        padding: 60px;
-        margin-top: 60px;
-    }
-
+    
     .menu {
         padding-left: 81px;
         padding-right: 81px;
-    }
-}
-
-@media(max-width: 667px) {
-    .brand-register-form {
-        width: 500px;
-    }
-
-    .brand-register-btn {
-        width: 45%;
     }
 }
 
@@ -357,14 +323,6 @@
 }
 
 @media(max-width: 414px) {
-    .brand-register-form {
-        width: 100%;
-    }
-
-    .brand-register-title {
-        width: 100%;
-    }
-
     .brand-register-title h3 {
         font-size: 38px;
     }
@@ -407,33 +365,20 @@
     .brand-register-title h3 {
         font-size: 33px;
     }
-
-    .brand-register-title-name {
-        font-size: 14px;
-    }
 }
 
 @media(max-width: 320px) {
+
     .brand-register-title h3 {
         font-size: 31px;
     }
 
-    .brand-register-title p {
-        font-size: 12px;
-        letter-spacing: normal;
-        transform: rotateX(45deg);
-
-    }
     .brand-register-title-list {
         padding-top: 0px;
     }
 
-    .brand-register-btn, .indivi-register-btn {
-        height: 86px;
-    }
-
     .brand-icon, .indivi-icon {
-        padding: 4px 14px 7px 15px;
+        padding: 4px 0px 20px 0px;
     }
 
     .upload-list-inline {

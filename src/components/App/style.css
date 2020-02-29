@@ -11,6 +11,7 @@
     height: 120px;
     padding-left: 132px;
     padding-right: 132px;
+    margin-bottom: -1px;
 }
 
 .logo-title{
@@ -132,11 +133,11 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .menu {
         padding-left: 40px;
         padding-right: 30px;
-        height: 120px !important;
+        height: auto;
     }
 
     .menu-items {
@@ -149,6 +150,15 @@
 
     .navbar-toggler {
         background-color: white !important;
+        position: absolute !important;
+        right: 72px !important;
+        top: 15px !important;
+    }
+
+    .apply-btn {
+        position: absolute !important;
+        right: 25% !important;
+        top: 15px !important;
     }
 }
 
@@ -162,22 +172,7 @@
     .detail-item {
         padding-left: 24px !important;
     }
-    /* 
-    .detail-item a{
-        padding-left: 26px !important;
-    } */
 
-    .navbar-toggler {
-        position: absolute !important;
-        right: 72px !important;
-        top: 15px !important;
-    }
-
-    .apply-btn {
-        position: absolute !important;
-        right: 25% !important;
-        top: 15px !important;
-    }
 }
 
 @media (max-width:667px) {

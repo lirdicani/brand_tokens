@@ -26,7 +26,7 @@
 }
 
 .indivi-register-form {
-    width: 576px;
+    width: 49%;
     padding: 100px;
     color: #475669;
     font-family: 'Roboto';
@@ -49,8 +49,7 @@
 }
 
 .indivi-register-btn, .indivi-register-btn {
-    width: 176px;
-    height: 128px;
+    width: 46.8%;
     background: white !important;
     border-radius: 3px;
     border: 1px solid #C0CCDA;
@@ -62,18 +61,17 @@
 }
 
 .check-icon {
-    width: 152px !important;
     display: flex;
     justify-content: flex-end;
 }
 
 .brand-icon, .indivi-icon {
-    padding: 20px 30px 45px 30px;
+    padding: 20px 0px 45px 0px;
 }
 
 .indivi-register-title {
     padding-top: 114px;
-    width: 476px;
+    width: 40.5%;
 }
 
 .indivi-register-element {
@@ -104,7 +102,6 @@
     display: block;
     font-style: italic;
 }
-
 .indivi-register-element:first-child {
     padding-top: 0;
 }
@@ -174,14 +171,6 @@
     box-shadow: none !important;
 }
 
-.brand-position-input-country {
-    width: 200px;
-}
-
-.brand-position-input-city {
-    width: 152px;
-}
-
 .register-form {
     width: 576px;
     border-radius: 12px;
@@ -190,6 +179,10 @@
 
 .indivi-register-title-list {
     padding-top: 12px;
+}
+
+.indivi-register-title-list img {
+    margin-top: 6px;
 }
 
 .indivi-register-title-name {
@@ -218,23 +211,17 @@
         width: 100%;
     }
 
-    .indivi-register-title {
-        width: 40%;
-    }
-
     .indivi-register-title h3 {
         font-size: 42px;
     }
 
     .indivi-register-form {
-        width: 480px;
-        padding: 60px 60px;
+        padding: 80px;
     }
 }
 
 @media(max-width: 1176px) {
     .indivi-register-container{
-        padding-top: 40px;
         padding-right: 71px;
         padding-left: 81px;
     }
@@ -259,12 +246,13 @@
     }
 
     .indivi-register-title {
-        width: 70%;
+        width: auto;
         padding-top: 0;
     }
 
     .indivi-register-form {
-        width: 546px;
+        max-width: 576px;
+        width: auto;
         padding: 80px;
         margin-top: 80px;
     }
@@ -272,12 +260,6 @@
     .menu {
         padding-left: 81px;
         padding-right: 81px;
-    }
-}
-
-@media(max-width: 667px) {
-    .indivi-register-form {
-        width: 500px;
     }
 }
 
@@ -289,13 +271,7 @@
 }
 
 @media(max-width: 414px) {
-    .indivi-register-form {
-        width: 100%;
-    }
 
-    .indivi-register-title {
-        width: 100%;
-    }
 
     .indivi-register-title h3 {
         font-size: 38px;
@@ -356,11 +332,7 @@
         padding-top: 0px;
     }
 
-    .indivi-register-btn, .indivi-register-btn {
-        height: 86px;
-    }
-
     .brand-icon, .indivi-icon {
-        padding: 4px 14px 7px 15px;
+        padding: 4px 0px 20px 0px;
     }
 }

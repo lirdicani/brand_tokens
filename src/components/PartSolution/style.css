@@ -3,6 +3,7 @@
     height: auto;
     padding-left: 132px;
     padding-right: 132px;
+    position: relative;
 }
 
 .solution-main-title {
@@ -36,6 +37,7 @@
     font-weight: 500;
     letter-spacing: 1.5px;
     line-height: 32px;
+    text-align: center;
     transform: rotateX(32deg);
 }
 
@@ -215,11 +217,11 @@
 }
 
 .solution-pic-group-1440 {
-    margin-top: 30px;
-    margin-left: -131px;
-    position: absolute;
+    bottom: -400px;
     display: inline-block;
     height: 386px;
+    left: 0px;
+    position: absolute;
     width: 335px;
     z-index: 1;
 }
@@ -236,47 +238,16 @@
 }
 
 @media(max-width: 1366px) {
-    .mainTitle {
+    /* .mainTitle {
         flex-flow: column;
-    }
+    } */
 
     .main-title-diagram {
         margin-top: 60px;
     }
 }
 
-@media (max-width: 1024px) {
-    .partMainTitle {
-        padding-left: 72px;
-        padding-right: 72px;
-        height: auto;
-    }
-
-    .solution-pic-group-1440 {
-        margin-left: -71px;
-    }
-
-    .mainTitle {
-        margin-top: 100px;
-    }
-
-    .mainTile-content-1, .mainTile-content-2 {
-        width: auto;
-    }
-
-    .mainTitle-apply-btn {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width:823px) {
-    .role-list-item {
-        width: 50%;
-    }
-}
-
-@media (max-width: 768px) {
-
+@media(max-width: 1280px) {
     .mid-diagram {
         height: 120px;
     }
@@ -305,6 +276,41 @@
     .bottom-diagram, .top-diagram {
         padding-left: 60px;
         padding-right: 60px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .mainTitle {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .mainTitle {
+        margin-top: 100px;
+    }
+
+    .mainTile-content-1, .mainTile-content-2 {
+        width: auto;
+    }
+
+    .mainTitle-apply-btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:823px) {
+
+    .partMainTitle {
+        padding-left: 72px;
+        padding-right: 72px;
+        height: auto;
+    }
+
+    .role-list-item {
+        width: 50%;
     }
 }
 
@@ -371,7 +377,7 @@
     }
 
     .solution-pic-group-1440 {
-        margin-left: -34px;
+        /* margin-left: -34px; */
         width: 240px;
     }
 
@@ -498,11 +504,6 @@
 @media (max-width: 411px){
     .role-title {
         padding-top: 10px !important;
-    }
-
-    .role-content {
-        margin-left: 8px !important;
-        margin-top: 10px !important;
     }
 
     .mainTitle-apply-btn {

@@ -37,12 +37,14 @@ const PartHow = () => {
                     <a href='/'><div className='apply-btn-how'>APPLY NOW</div></a>
                 </div>
             </div>
-            <div className="mission-detail">
-                <div className='select-mission-select-part d-flex justify-content-start align-items-start'>
-                    <div className='icon'><img src='/assets/images/agenda.svg' alt='agenda' /></div>
-                    <div className='title'>Select brand to see how they can use the platform</div>
+            <div className='parent-mission'>
+                <div className="mission-detail">
+                    <div className='select-mission-select-part d-flex justify-content-start align-items-start'>
+                        <div className='icon'><img src='/assets/images/agenda.svg' alt='agenda' /></div>
+                        <div className='title'>Select brand to see how they can use the platform</div>
+                    </div>
+                    <MissionTabModule />
                 </div>
-                <MissionTabModule />
             </div>
             <div className='how-pic-group-left'><img src='/assets/images/Group Copy.svg' alt='Group Copy' /></div>
         </div>

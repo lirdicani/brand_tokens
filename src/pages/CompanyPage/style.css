@@ -64,12 +64,13 @@
 }
 
 .our-vision {
+    position: relative;
     width: 100%;
     text-align: center;
 }
 
 .our-vision-body {
-    padding-top: 101px;
+    padding-top: 120px;
     width: 54%;
     color: black;
     text-align: center;
@@ -161,7 +162,7 @@
 }
 
 .office-title {
-    padding-top: 536px;
+    padding-top: 500px;
     width: 35%;
     color: white;
 }
@@ -184,7 +185,6 @@
 
 .office-description {
     padding-top: 32px;
-    width: 85%;
     font-size: 22px;
     font-weight: 400;
     opacity: 0.72;
@@ -419,6 +419,14 @@
     margin-top: 24px;
 }
 
+.company-page-left-pic-group {
+    width: 330px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    bottom: -500px;
+}
+
 
 @media (max-width: 1440px) {
     .join-revolution {
@@ -436,8 +444,7 @@
     }
 
     .office-title {
-        padding-top: 0;
-        margin-top: 32%;
+        padding-top: 500px;
     }
 
     .office-clip-effect {
@@ -543,17 +550,24 @@
         padding-left: 81px;
     }
 
+    .office {
+        padding-top: 10px;
+    }
+
     .office-body {
         display: flex;
         flex-direction: column;
     }
 
     .office-title {
-        width: 100%;
+        width: 70%;
+        padding-top: 250px;
+        margin: 0 auto;
     }
 
     .office-pic{
-        width: 100%;
+        width: 70%;
+        margin: 4% auto 0;
     }
 
     .office-pic-item {
@@ -570,10 +584,6 @@
         padding-top: 12%;
     }
 
-    .office-title {
-        margin-top: 40%;
-    }
-
     .company-form {
         width: 450px;
         padding: 60px 40px;
@@ -581,6 +591,11 @@
 
     .our-vision-body {
         width: 80%;
+    }
+
+    .company-page-left-pic-group {
+        width: 200px;
+        bottom: -350px;
     }
 }
 
@@ -598,6 +613,7 @@
     .company-title {
         width: 80%;
         padding-top: 20px;
+        margin: 0 auto;
     }
 
     .company-main-pic {
@@ -613,6 +629,17 @@
     .menu {
         padding-left: 81px;
         padding-right: 81px;
+    }
+}
+
+@media (max-width: 823px) {
+    .office-title {
+        padding-top: 350px;
+        width: 90%;
+    }
+
+    .office-pic {
+        width: 90%;
     }
 }
 
@@ -672,10 +699,6 @@
         font-size: 18px;
     }
 
-    .office-title {
-        margin-top: 60%;
-    }
-
     .office-pic {
         display: flex;
         flex-direction: column;
@@ -704,10 +727,6 @@
         width: 84%;
     }
 
-    .office-title {
-        margin-top: 78%;
-    }
-
     .join-revolution {
         padding-left: 35px;
         padding-right: 35px;
@@ -732,12 +751,6 @@
     .join-team-add-description  {
         padding-left: 10px;
         padding-right: 10px;
-    }
-}
-
-@media(max-width: 376px) {
-    .office-title {
-        margin-top: 98%;
     }
 }
 

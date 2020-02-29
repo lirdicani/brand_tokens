@@ -40,7 +40,7 @@ class CompanyPage extends React.Component {
                 <div className='join-revolution'>
                     <div className='company-title'>
                         <div className='company-top-title'>JOIN THE REVOLUTION</div>
-                        <div className='company-main-title'>The future of <br /> loyalty systems</div>
+                        <div className='company-main-title'>The future of loyalty systems</div>
                         <div className='company-article'>Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all.</div>
                     </div>
                     <div className='company-main-pic'><img src='/assets/images/company page/company.png' alt='company-main' /></div>
@@ -56,6 +56,7 @@ class CompanyPage extends React.Component {
                             <span className='main-speil'>Whitepaper</span>
                         </div>
                     </div>
+                    <div className='company-page-left-pic-group'><img src='/assets/images/solution-group.svg' /></div>
                 </div>
                 <div className='office'>
                     <div className='office-clip-effect'></div>
@@ -112,7 +113,7 @@ const TeamMember = () => {
                     {
                         team_member.map((data, i) => (
                             <div className='indivi-member'>
-                                <div className='indivi-member-photo d-flex justify-content-center'><img src={data.photo} alt='photo' /></div>
+                                <div className='indivi-member-photo d-flex justify-content-center'><img src={data.photo} alt='photo1' /></div>
                                 <div className='indivi-member-name d-flex justify-content-center'>{data.name}</div>
                                 <div className='indivi-member-job d-flex justify-content-center'>{data.job}</div>
                                 <div className='indivi-member-contact-info d-flex justify-content-center'>

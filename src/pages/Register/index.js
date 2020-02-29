@@ -344,17 +344,17 @@ class Register extends React.Component {
                     </div> */}
                     <div className="brand-register-title">
                         <h5>JOIN THE REVOLUSTION</h5>
-                        <h3>Will become one of the first issuers of a brand token</h3>
+                        <h3>Become one of the first issuers of a brand token</h3>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />
-                            <p className='brand-register-title-name'>&nbsp;&nbsp;&nbsp;&nbsp;Become one of the first issuers of a brand token</p>
+                            <p className='brand-register-title-name'>Will become one of the first issuers of a brand token</p>
                         </div>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />
-                            <p className='brand-register-title-name'>&nbsp;&nbsp;&nbsp;&nbsp;Our advisors contact with you</p>
+                            <p className='brand-register-title-name'>Our advisors contact with you</p>
                         </div>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
-                            <p className='brand-register-title-name'><a href='/'>LEARN MORE</a></p>
+                            <p className='brand-register-title-name no-icon'><a href='/'>LEARN MORE</a></p>
                         </div>
                     </div>
                 </div>

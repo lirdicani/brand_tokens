@@ -1,15 +1,13 @@
 .part-currency {
     width: 100%;
-    height: 880px;
+    /* height: 880px; */
     clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
 }
 
 .currency-up {
-    padding-top: 165px;
+    padding: 165px 132px 100px 132px;
     width: 100%;
-    height: 880px;
-    padding-left: 132px;
-    padding-right: 132px;
+    /* height: 880px; */
     background: #1D2C50;
     color: white;
 }
@@ -101,15 +99,9 @@
  
 @media (max-width: 1024px) {
 
-    .part-currency {
-        height: auto !important;
-    }
     .currency-up {
         flex-direction: column;
-        padding-left: 72px;
-        padding-right: 72px;
-        padding-top: 20px;
-        height: 678px;
+        padding: 20px 72px 100px 72px;
     }
 
     .second-title {
@@ -183,12 +175,9 @@
 
 @media (max-width: 414px) {
 
-    .second-title {
-        font-size: 32px !important;
+    .currency-up {
+        padding-bottom: 150px;
     }
-}
-
-@media (max-width: 411px) {
 
     .second-title {
         font-size: 32px !important;
@@ -196,10 +185,6 @@
 }
 
 @media (max-width: 375px) {
-
-    .currency-up {
-        height: 880px !important;
-    }
 
     .second-title {
         font-size: 25px !important;

@@ -7,12 +7,10 @@
 
 .blog-container .spacing {
     margin-top: 20px;
-    height: 471px;
-    width: 376px;
+    width: 32%;
 }
 
 .blog-container .card {
-    height: 100%;
     width: 100%;
     border: none !important;
     border-radius: 12px;
@@ -29,24 +27,24 @@
 }
 
 .card-body {
-    padding: 32px 24px 29px 24px;
+    padding: 12px 24px 29px 24px;
 }
 
 .person-image {
-    position: absolute;
-    top: 185px;
-    left: 21px;
     width: 53px;
     height: 53px;
     border-radius: 50%;
     border: 3px solid white;
+    margin-top: -30px;
+    margin-left: 24px;
+    z-index: 10;
 }
 
 .person-image img {
     display: block;
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
+    width: 47px;
+    height: 47px;
     object-fit: cover;
 }
 
@@ -93,13 +91,9 @@
 }
 
 @media(max-width: 1440px) {
-    .blog-container .spacing {
-        width: 32% !important;
-        height: 420px !important;
-    }
 
     .blog-container .card-body {
-        padding: 22px 24px 22px 24px !important;
+        padding: 12px 24px 22px 24px !important;
     }
 
     .blog-container .card-body .card-text {
@@ -112,19 +106,12 @@
         margin-bottom: 5px !important;
     }
 
-    .person-image {
-        top: 170px !important;
-    }
 }
 
-
 @media(max-width: 1080px) {
-    .blog-container .spacing {
-        width: 300px !important;
-    }
 
     .blog-container .card-body {
-        padding: 22px 24px 22px 24px !important;
+        padding: 12px 24px 22px 24px !important;
     }
 
     .blog-container .card-body .card-text {
@@ -142,16 +129,19 @@
 
 @media(max-width: 840px) {
     .blog-container {
+        display: flex;
+        flex-direction: column;
         justify-content: center !important;
     }
 
     .blog-container .spacing {
-        width: 377px !important;
-        height: 471px !important;
+        width: 377px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .blog-container .card-body {
-        padding: 32px 24px 29px 24px !important;
+        padding: 12px 24px 29px 24px !important;
     }
 
     .blog-container .card-body .card-text {
@@ -170,10 +160,10 @@
 }
 
 @media(max-width: 768px) {
-    
-    
+        
     .blog-container .spacing {
-        width: 374px !important;
+        max-width: 374px;
+        width: auto;
     }
 }
 
@@ -184,11 +174,6 @@
 }
 
 @media (max-width: 414px){
-    .blog-container .spacing {
-        width: 320px !important;
-        height: 462px !important;
-    }
-
     .blog-container .card{
         width: 100% !important;
         height: 100% !important;

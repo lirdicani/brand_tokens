@@ -1,0 +1,13 @@
+.indivi-member-contact-info a{
+    padding-top: 25px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.indivi-member-contact-info a:hover {
+    opacity: 1;
+}
+
+.indivi-member-contact-info img{
+    margin-right: 14px;
+}

@@ -8,10 +8,9 @@ const Footer = () => {
         <div className="footer">
             <div className='hover-logo d-flex justify-content-center'><img src='/assets/images/hover-logo.svg' alt='hover-logo' /></div>
             <div className='sub-menu d-flex justify-content-center flex-wrap'>
-                <a href='/'><div>PRODUCT</div></a>
-                <a href='/'><div>SOLUTIONS</div></a>
-                <a href='/'><div>CLIENTS</div></a>
-                <a href='/'><div>COMPANY</div></a>
+                <a href='/'><div>How It Works</div></a>
+                <a href='/'><div>Users</div></a>
+                <a href='/'><div>Brand</div></a>
                 <a href='/'><div>BLOG</div></a>
                 <Link to='/contactus'><div>CONTACT US</div></Link>
                 <a href='/'><div>TERMS OF SERVICE</div></a>

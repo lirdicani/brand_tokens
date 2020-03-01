@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import { Button } from 'antd';
 import { SyncOutlined } from '@ant-design/icons';
 
@@ -57,6 +59,8 @@ class BlogPage extends React.Component {
                         </div>
                         <div className='auth-article'>
                             The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
+                            <br />
+                            <a href='/blogpost' className='d-flex justify-content-end'>More See</a>
                         </div>
                     </div>
                     <BlogCardModule cards={cards} />

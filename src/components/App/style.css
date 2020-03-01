@@ -5,6 +5,10 @@
     background: #F9FAFC;
 }
 
+.content {
+    position: relative;
+}
+
 .menu {
     background: #1D2C50;
     width: 100%;

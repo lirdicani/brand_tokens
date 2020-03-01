@@ -26,6 +26,7 @@ import Success from '../../pages/Register/Success';
 import CompanyPage from '../../pages/CompanyPage';
 import ContactUs from '../../pages/ContactUs';
 import BlogPage from '../../pages/BlogPage';
+import BlogPostPage from '../../pages/BlogPage/BlogPostPage';
 
 const App = () => {
 
@@ -74,9 +75,12 @@ const App = () => {
                             <Router extra path='/contactus'>
                                 <ContactUs changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Router>
-                            <Route>
+                            <Router exact path='/blog'>
                                 <BlogPage changeSpecialClass={changeSpecialClass.bind(this)} />
-                            </Route>
+                            </Router>
+                            <Router exact path='/blogpost'>
+                                <BlogPostPage changeSpecialClass={changeSpecialClass.bind(this)} />
+                            </Router>
                         </Switch>
                         <Footer />
                     </div>

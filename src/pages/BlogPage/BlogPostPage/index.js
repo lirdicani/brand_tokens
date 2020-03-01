@@ -44,7 +44,7 @@ class BlogPostPage extends React.Component {
         return (
             <div className='blog-post'>
                 <div className='blog-post-clip-effect'></div>
-                <div className='top-title'>Our blog-post</div>
+                {/* <div className='top-title'>Our blog-post</div> */}
                 <div className='contents'>
                     <div className='auth'>
                         <div className='auth-character'>

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
 import { Button } from 'antd';
 import { SyncOutlined } from '@ant-design/icons';
 

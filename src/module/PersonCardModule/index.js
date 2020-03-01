@@ -15,7 +15,7 @@ class PersonCardModule extends React.Component {
         return (
             <div className='person-card d-flex justify-content-between'>
                 <div className='person-card-character'>
-                    <img src={this.props.person.photo} />
+                    <img src={this.props.person.photo} alt='person-image' />
                 </div>
                 <div className='person-details'>
                     <div className='person-card-col-set'>

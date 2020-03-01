@@ -59,7 +59,7 @@ class CompanyPage extends React.Component {
                             <span className='main-speil'>Whitepaper</span>
                         </div>
                     </div>
-                    <div className='company-page-left-pic-group'><img src='/assets/images/solution-group.svg' /></div>
+                    <div className='company-page-left-pic-group'><img src='/assets/images/solution-group.svg' alt='solution-pic' /></div>
                 </div>
                 <div className='office'>
                     <div className='office-clip-effect'></div>

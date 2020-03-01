@@ -1,11 +1,12 @@
 import React from 'react';
-
 import { Button } from 'antd';
+import { Link } from 'react-router-dom';
 import { SyncOutlined } from '@ant-design/icons';
 
+
 import './style.css'
-import BlogCardModule from '../../components/PartPublication/BlogCardModule';
 import PartRevolution from '../../components/PartRevolution';
+import BlogCardModule from '../../components/PartPublication/BlogCardModule';
 
 const cards = [
     { title:"Title of the blog or article will be here", subTitle:"Auther name", date: '2020-2-22', text:"Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus.", background_image:'https://secure.skypeassets.com/content/dam/scom/home/features/features-skype-number.jpg', photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTl_aAcpKehSCWk6WnsZgRmWLBj0w5i43GFyRnXooMI-xzPQaTq'},
@@ -58,7 +59,7 @@ class BlogPage extends React.Component {
                         <div className='auth-article'>
                             The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
                             <br />
-                            <a href='/blogpost' className='d-flex justify-content-end'>More See</a>
+                            <Link to='/blogpost' className='d-flex justify-content-end'>More See</Link>
                         </div>
                     </div>
                     <BlogCardModule cards={cards} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DislikeOutlined, LikeOutlined, DislikeFilled, LikeFilled } from '@ant-design/icons';
+import { LikeOutlined } from '@ant-design/icons';
 
 import './style.css';
 import PartRevolution from '../../../components/PartRevolution';
@@ -48,7 +48,7 @@ class BlogPostPage extends React.Component {
                 <div className='contents'>
                     <div className='auth'>
                         <div className='auth-character'>
-                            <img src={cards[0].photo} />
+                            <img src={cards[0].photo} alt='person-image1' />
                         </div>
                         <div className='auth-title'>What is Blockchain Technology</div>
                         <div className='auth-col-set d-flex justify-content-center'>
@@ -65,7 +65,7 @@ class BlogPostPage extends React.Component {
                                 <p>By allowing digital information to be distributed but not copied, blockchain technology created the backbone of a new type of internet. Originally devised for the digital currency, Bitcoin blockchain, (Buy Bitcoin) the tech community has now found other potential uses for the technology.</p>
                                 <br />
                                 <p>In this guide, we are going to explain to you what the blockchain technology is, and what its properties are what make it so unique. So, we hope you enjoy this, What Is Blockchain Guide. And if you already know what blockchain is and want to become a blockchain developer please check out our in-depth blockchain tutorial and create your very first blockchain.</p>
-                                <img src='/assets/images/pharagraph-image.png' />
+                                <img src='/assets/images/pharagraph-image.png' alt='phragraph-image1' />
                                 <p>A blockchain is, in the simplest of terms, a time-stamped series of immutable records of data that is managed by a cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block) is secured and bound to each other using cryptographic principles (i.e. chain).</p>
                                 <br />
                                 <p>So, what is so special about it and why are we saying that it has industry-disrupting capabilities?</p>

@@ -146,7 +146,7 @@ class ContactUs extends React.Component {
                         <div className='contact-us-article'>Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus.</div>
                     </div>
                     <div className='general-communication-title'>
-                        <div className='general-communication-icon'><img src='/assets/images/language.svg' /></div>
+                        <div className='general-communication-icon'><img src='/assets/images/language.svg' alt='language' /></div>
                         <div className='general-communication-main-title'>General communication</div>
                         <div className='general-communication-sub-title'>For general questions, partnership opportunities, please email <a className='brand-token-email' href='/'>contact@brandtokens.io</a></div>
                     </div>

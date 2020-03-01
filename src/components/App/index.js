@@ -46,9 +46,9 @@ const App = () => {
                             <NavbarToggler onClick={toggle} />
                             <Collapse isOpen={isOpen} navbar>
                                 <Nav className="menu-items" navbar>
-                                    <Link className="detail-item" to="/howitwork"><NavItem id='nav-ico'>ICO</NavItem></Link>
-                                    <Link className="detail-item" to="/howitwork"><NavItem>HOW IT WORKS</NavItem></Link>
-                                    <Link className="detail-item" to="/brands"><NavItem>BRANDS</NavItem></Link>
+                                    <Link className="detail-item" to="/"><NavItem id='nav-ico'>ICO</NavItem></Link>
+                                    <Link className="detail-item" to="/"><NavItem>HOW IT WORKS</NavItem></Link>
+                                    <Link className="detail-item" to="/"><NavItem>BRANDS</NavItem></Link>
                                     <Link className="detail-item" to='/company' ><NavItem>COMPANY</NavItem></Link>
                                     <Link className="detail-item" to="/blog"><NavItem>BLOG</NavItem></Link>
                                 </Nav>
@@ -72,15 +72,15 @@ const App = () => {
                             <Route extra path='/company'>
                                 <CompanyPage changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
-                            <Router extra path='/contactus'>
+                            <Route extra path='/contactus'>
                                 <ContactUs changeSpecialClass={changeSpecialClass.bind(this)} />
-                            </Router>
-                            <Router exact path='/blog'>
+                            </Route>
+                            <Route exact path='/blog'>
                                 <BlogPage changeSpecialClass={changeSpecialClass.bind(this)} />
-                            </Router>
-                            <Router exact path='/blogpost'>
+                            </Route>
+                            <Route exact path='/blogpost'>
                                 <BlogPostPage changeSpecialClass={changeSpecialClass.bind(this)} />
-                            </Router>
+                            </Route>
                         </Switch>
                         <Footer />
                     </div>

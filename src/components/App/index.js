@@ -24,6 +24,7 @@ import IndiviRegister from '../../pages/Register/IndiviRegister'
 import Footer from '../Footer';
 import Success from '../../pages/Register/Success';
 import CompanyPage from '../../pages/CompanyPage';
+import ContactUs from '../../pages/ContactUs';
 
 const App = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -67,6 +68,9 @@ const App = () => {
                             <Route extra path='/company'>
                                 <CompanyPage />
                             </Route>
+                            <Router extra path='/contactus'>
+                                <ContactUs />
+                            </Router>
                         </Switch>
                         <Footer />
                     </div>

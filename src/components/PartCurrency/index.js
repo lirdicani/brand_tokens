@@ -3,6 +3,8 @@ import {
     Button,
 } from 'reactstrap';
 
+import { Link } from 'react-router-dom';
+
 import './style.css';
 
 const PartCurrency = () => {
@@ -20,10 +22,12 @@ const PartCurrency = () => {
                         Brand Tokens is all in one platform to manage all your tokens needs for engagement, community, management, reward, appliance, utility and sales management
                     </div>
                     <div className="d-flex justify-content-start">
-                        <Button className="apply-btn-currency d-flex justify-content-between">
-                            <span>APPLY NOW</span>
-                            <div><img src='/assets/images/arrow-right.svg' alt='arrow-right' /></div>
-                        </Button>
+                        <Link to='/register' className='none-company-link-decoration'>
+                            <Button className="apply-btn-currency d-flex justify-content-between">
+                                <span>APPLY NOW</span>
+                                <div><img src='/assets/images/arrow-right.svg' alt='arrow-right' /></div>
+                            </Button>    
+                        </Link>
                     </div>
                 </div>
             </div>

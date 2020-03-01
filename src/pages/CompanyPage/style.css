@@ -28,6 +28,7 @@
 .company-title {
     width: 35%;
     color: white;
+    z-index: 100;
 }
 
 .company-top-title {
@@ -36,6 +37,7 @@
     color: #00EFFF;
     letter-spacing: 1.5px;
     transform: rotateX(32deg);
+    z-index: 100;
 }
 
 .company-main-title {
@@ -45,6 +47,7 @@
     letter-spacing: 1.5px;
     transform: rotateX(32deg);
     line-height: normal;
+    z-index: 100;
 }
 
 .company-article {
@@ -54,7 +57,12 @@
     font-family: 'Open Sans';
     line-height: 28px;
     opacity: 0.64;
+    z-index: 100;
 
+}
+
+.company-main-pic {
+    z-index: 100;
 }
 
 .company-main-pic img {
@@ -425,6 +433,14 @@
     z-index: 10;
     left: 0;
     bottom: -500px;
+}
+
+.company-right-pic-group {
+    position: absolute;
+    z-index: 1;
+    bottom: 18px;
+    right: 0;
+    width: 20%;
 }
 
 

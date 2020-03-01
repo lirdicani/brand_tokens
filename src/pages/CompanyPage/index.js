@@ -44,6 +44,7 @@ class CompanyPage extends React.Component {
                         <div className='company-article'>Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all.</div>
                     </div>
                     <div className='company-main-pic'><img src='/assets/images/company page/company.png' alt='company-main' /></div>
+                    <div className='company-right-pic-group'><img src='/assets/images/how-group-right.svg' alt='solution-pic-group' /></div>
                 </div>
                 <div className='our-vision d-flex justify-content-center'>
                     <div className='our-vision-body'>
@@ -112,7 +113,7 @@ const TeamMember = () => {
                 <Row sm='2' md='3' xs='1' xl='4' >
                     {
                         team_member.map((data, i) => (
-                            <div className='indivi-member'>
+                            <div key={i} className='indivi-member'>
                                 <div className='indivi-member-photo d-flex justify-content-center'><img src={data.photo} alt='photo1' /></div>
                                 <div className='indivi-member-name d-flex justify-content-center'>{data.name}</div>
                                 <div className='indivi-member-job d-flex justify-content-center'>{data.job}</div>

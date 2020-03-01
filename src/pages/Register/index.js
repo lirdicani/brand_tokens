@@ -1,7 +1,8 @@
 import React from 'react';
-import { Upload, Icon } from 'antd';
+import { Upload } from 'antd';
+import { UploadOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
-import { Button, Label, Input } from 'reactstrap';
+import { Label, Input, Button } from 'reactstrap';
 
 
 import './style.css';
@@ -306,7 +307,7 @@ class Register extends React.Component {
                                     <div className='uploadSection'>
                                         <Label className='upload-top-label'>UPLOAD YOUR COMPANY LOGO</Label>
                                         <Button className='upload-btn'>
-                                            <Icon type="upload" /> UPLOAD YOUR LOGO
+                                            <UploadOutlined type="upload" /> UPLOAD YOUR LOGO
                                         </Button>
                                         <Label className='upload-bottom-label'>Upload high quality JPEG, JPG, PNG or PDF</Label>
                                     </div>                                    

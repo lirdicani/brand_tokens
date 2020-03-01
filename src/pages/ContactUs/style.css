@@ -1,0 +1,252 @@
+.contact-us {
+    position: relative;
+    width: 100%;
+    padding-left: 132px;
+    padding-right: 132px;
+    color: white;
+    z-index: 2;
+}
+
+.contact-us-clip-effect {
+    position: absolute;
+    height: 880px;
+    width: 100%;
+    left: 0;
+    background:#1D2C50;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+    z-index: 0;
+}
+
+.contact-us-title {
+    padding-top: 220px;
+    width: 30.8%;
+    z-index: 10;
+}
+
+.contact-us-main-title,
+.general-communication-title {
+    width: 100%;
+}
+
+.contact-us-main-top-title {
+    margin-bottom: -6px;
+    font-size: 23px;
+    color: #00EFFF;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.contact-us-sub-title {
+    font-size: 41px;
+    font-weight: 400;
+    line-height: normal;
+    transform: rotateX(32deg);
+}
+
+.contact-us-article {
+    padding-top: 14px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.64;
+    color: white;
+    letter-spacing: 1px;
+    transform: rotateX(27deg);
+}
+
+.general-communication-title {
+    padding-top: 80px;
+}
+
+.general-communication-main-title {
+    padding-top: 12px;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+}
+
+.general-communication-sub-title {
+    width: 85%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.5px;
+    transform: rotateX(32deg);
+    opacity: 0.64;
+}
+
+.brand-token-email {
+    color: #00EFFF;
+    opacity: 1;
+    text-decoration: none !important;
+}
+
+.brand-token-email:hover {
+    color: teal;
+}
+
+.contact-us-container {
+    margin-top: 120px;
+    width: 66%;
+    z-index: 10;
+}
+
+.contact-us-form {    
+    border-radius: 12px;
+    background: white;
+    color: #475669;
+    box-shadow: 0 4px 14px 4px rgba(0,0,0,0.14);
+    padding: 100px;
+}
+
+.contact-us-form-element {
+    margin-bottom: 32px;
+}
+
+.contact-us-form-element input {
+    box-shadow: none !important;
+}
+
+.contact-us-form-element input::placeholder, textarea::placeholder {
+    font-size: 18px !important;
+    color: #C0CCDA !important;
+    transform: rotateX(32deg);
+}
+
+.contact-us-form-label {
+    padding-top: 13px;
+    color: #475669;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transform: rotateX(32deg);
+    margin: 0;
+    width: 35%;
+}
+
+.contact-us-form-input {
+    border-radius: 3px;
+    height: 42px;
+    width: 65%;
+}
+
+.contact-text-area {
+    min-height: 168px;
+}
+
+
+
+.contact-us-btn {
+    margin-top: 14px;
+    width: 65%;
+}
+
+.contact-us-form-element-btn {
+    width: 65%;
+}
+
+.contact-us-form-element span{
+    display: none;
+    margin-left: 35%;
+    font-size: 12px;
+}
+
+.error input,
+.error textarea,
+.errorContactEmail input,
+.errorContactWebsite input {
+    border: 1px solid tomato;
+}
+
+.error span,
+.errorContactEmail span,
+.errorContactWebsite span {
+    display: block;
+    color: tomato;
+}
+
+.contact-us-right-pic-group {
+    position: absolute;
+    z-index: 0;
+}
+
+@media(max-width: 1024px) {
+    .contact-us {
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+
+    .contact-us-container {
+        margin-top: 60px;
+        width: 55%;
+    }
+
+    .contact-us-form {
+        padding: 50px;
+    }
+
+    .contact-us-title {
+        padding-top: 120px;
+        width: 40.8%;
+    }
+}
+
+@media(max-width: 854px) {
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-title {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .contact-us-container {
+        width: 100%;
+    }
+
+    .contact-us-form {
+        padding: 100px;
+    }
+}
+
+@media (max-width: 720px) {
+    .contact-us-form {
+        padding: 50px;
+    }
+}
+
+@media(max-width: 620px) {
+    .contact-us {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (max-width: 414px) {
+    .contact-us-form-element div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-form-element input,
+    .contact-us-form-element textarea,
+    .contact-us-form-element label {
+        width: 100%;
+    }
+
+    .contact-us-form-element span {
+        margin-left: 0;
+    } 
+
+    .contact-us-sub-title {
+        font-size: 30px;
+    }
+
+    .contact-us-btn {
+        width: 100%;
+    }
+}

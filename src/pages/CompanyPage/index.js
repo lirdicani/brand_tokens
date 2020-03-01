@@ -30,6 +30,8 @@ class CompanyPage extends React.Component {
         
         this.state = {
         };
+
+        this.props.changeSpecialClass('');
     }    
 
     render () {

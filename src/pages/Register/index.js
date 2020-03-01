@@ -58,6 +58,8 @@ class Register extends React.Component {
         this.handleEmailChange = this.handleEmailChange.bind(this);
         this.handlePhoneChange = this.handlePhoneChange.bind(this);
         this.handleWebsiteChange = this.handleWebsiteChange.bind(this);
+
+        this.props.changeSpecialClass('');
     }
 
     validateEmail (email) {
@@ -256,18 +258,18 @@ class Register extends React.Component {
                 <div className='brand-register-container'>
                     <div className='brand-register-form'>
                         <div className='d-flex justify-content-between brand-register-element responsive-brand-indivi-btn'>
-                            <Button className='brand-register-btn' onClick={this.changeBrandFocusState.bind(this)}>
+                            <Button className='brand-register-btn active' onClick={this.changeBrandFocusState.bind(this)}>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
                                 <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
+                                <div className='label'><span>Brand</span></div>
                             </Button>
-                            
-                                <Button className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
-                                    <Link to='indiviRegister'>
-                                        <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
-                                        <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
-                                    </Link>
-                                </Button>
-                            
+                            <Button className='brand-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
+                                <Link to='indiviRegister'>
+                                    <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
+                                    <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
+                                    <div className='label'><span>Individual</span></div>
+                                </Link>
+                            </Button>
                         </div>
                         <div className={'brand-register-element ' + this.state.errorBrandName}>
                             <Label >COMPANY NAME</Label>
@@ -337,12 +339,6 @@ class Register extends React.Component {
                             <Button className='brand-register-apply' href='/success' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
                         </div>
                     </div>
-                    {/* <div className='brand-register-title'>
-                        <h5>JOIN THE REVOLUSTION</h5>
-                        <h3>Become one of the <br /> first issuers of a<br /> brand token</h3>
-                        <p>Our advisors contact with you</p>
-                        <a href='#a'>LEARN MORE</a>
-                    </div> */}
                     <div className="brand-register-title">
                         <h5>JOIN THE REVOLUSTION</h5>
                         <h3>Become one of the first issuers of a brand token</h3>

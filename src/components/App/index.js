@@ -25,17 +25,20 @@ import Footer from '../Footer';
 import Success from '../../pages/Register/Success';
 import CompanyPage from '../../pages/CompanyPage';
 import ContactUs from '../../pages/ContactUs';
+import BlogPage from '../../pages/BlogPage';
 
 const App = () => {
-    const [isOpen, setIsOpen] = useState(false);
 
+    const [isOpen, setIsOpen] = useState(false);
+    let [specialClass, changeSpecialClass] = useState('');
+    
     const toggle = () => setIsOpen(!isOpen);
 
     return (
             <Router>
                 <div className='App'>
                     <div className='content'>
-                        <Navbar className="menu" light expand="md">
+                        <Navbar className={"menu " + specialClass} light expand="md">
                             <Link className="logo-title" to='/'>
                                 <div><img src='/assets/images/Logo-icon.svg' alt='logo' />&nbsp;&nbsp;&nbsp;&nbsp;<span>BRANDTOKENS</span></div>
                             </Link>
@@ -54,23 +57,26 @@ const App = () => {
 
                         <Switch>
                             <Route exact path='/'>
-                                <Homepage />
+                                <Homepage changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
                             <Route exact path='/register'>
-                                <Register />
+                                <Register changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
                             <Route exact path='/indiviRegister'>
-                                <IndiviRegister />
+                                <IndiviRegister changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
                             <Route exact path='/success'>
-                                <Success />
+                                <Success changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
                             <Route extra path='/company'>
-                                <CompanyPage />
+                                <CompanyPage changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
                             <Router extra path='/contactus'>
-                                <ContactUs />
+                                <ContactUs changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Router>
+                            <Route>
+                                <BlogPage changeSpecialClass={changeSpecialClass.bind(this)} />
+                            </Route>
                         </Switch>
                         <Footer />
                     </div>

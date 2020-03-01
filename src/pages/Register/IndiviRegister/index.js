@@ -51,6 +51,8 @@ class IndiviRegister extends React.Component {
         };
 
         this.handleEmailChange = this.handleEmailChange.bind(this);
+
+        this.props.changeSpecialClass('');
     }
 
     validateEmail (email) {
@@ -161,21 +163,21 @@ class IndiviRegister extends React.Component {
                 <div className='indivi-register-container'>
                     <div className='indivi-register-form'>
                         <div className='d-flex justify-content-between indivi-register-element responsive-brand-indivi-btn'>
-                            
-                                <Button className='indivi-register-btn' onClick={this.changeBrandFocusState.bind(this)}>
-                                    <Link to="/register">
-                                        <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
-                                        <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
-                                    </Link>
-                                </Button>
-                            
-                            <Button className='indivi-register-btn' onClick={this.changeIndiviFocusState.bind(this)}>
+                            <Button className='indivi-register-btn' onClick={this.changeBrandFocusState.bind(this)}>
+                                <Link to="/register">
+                                    <div className='check-icon'><img alt='check-icon'  src={this.state.checkIcon} /></div>
+                                    <div className='brand-icon'><img alt='brand-icon'  src={this.state.brandIcon} /></div>
+                                    <div className='label'><span>Brand</span></div>
+                                </Link>
+                            </Button>
+                            <Button className='indivi-register-btn active' onClick={this.changeIndiviFocusState.bind(this)}>
                                 <div className='check-icon'><img alt='check-icon'  src={this.state.personCheckIcon} /></div>
                                 <div><img className='indivi-icon' alt='indivi-icon' src={this.state.indiviIcon} /></div>
+                                <div className='label'><span>Individual</span></div>
                             </Button>
                         </div>
                         <div className={'indivi-register-element ' + this.state.errorContactPerson}>
-                            <Label>CONTACT PERSON</Label>
+                            <Label>FULL NAME</Label>
                             <Input type='text' name='contactPerson' onChange={this.handleChange.bind(this, 'contactPerson')} value={this.state.fields['contactPerson']} placeholder='John Doe' />
                             <p className='invalid'>Invalid CONTACT PERSON</p>
                         </div>

@@ -10,6 +10,8 @@ class Success extends React.Component {
         
         this.state = {
         };
+
+        this.props.changeSpecialClass('');
     }
 
     render () {

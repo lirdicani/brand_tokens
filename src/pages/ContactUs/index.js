@@ -9,6 +9,7 @@ class ContactUs extends React.Component {
 
     constructor (props) {
         super (props);
+        
         this.state = {
             validEmail: true,
             validWebsite: true,
@@ -23,6 +24,8 @@ class ContactUs extends React.Component {
                 contactWebsite: '',
             }
         }
+
+        this.props.changeSpecialClass('');
     }
 
     validateEmail (email) {

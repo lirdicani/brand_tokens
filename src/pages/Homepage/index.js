@@ -10,7 +10,10 @@ import CompaniesGroup from '../../components/CompaniesGroup';
 import PartRevolution from '../../components/PartRevolution';
 import PartPublication from '../../components/PartPublication';
 
-const Homepage = () => {
+const Homepage = (props) => {
+
+    props.changeSpecialClass('');
+
     return(
         <div className="Homepage">
             <PartCurrency />

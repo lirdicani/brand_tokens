@@ -47,7 +47,8 @@
     transform: scaleX(45deg);
 }
 
-.brand-register-btn, .indivi-register-btn {
+.brand-register-btn {
+    font-size: 14px;
     width: 46.8%;
     height: auto;
     background: white !important;
@@ -55,7 +56,16 @@
     border: 1px solid #C0CCDA;
 }
 
-.brand-register-btn:focus, .indivi-register-btn:focus {
+.brand-register-btn a {
+    color: #C0CCDA;
+}
+
+.brand-register-btn.active {
+    color: #00B7FF !important;
+    border-color: #00B7FF !important;
+}
+
+.brand-register-btn:focus {
     border-color: #00B7FF !important;
     box-shadow: none !important;
 }
@@ -67,8 +77,23 @@
 }
 
 .brand-icon, .indivi-icon {
-    padding: 20px 0px 45px 0px;
+    padding: 10px 0px 16px 0px;
 }
+
+.brand-register-btn,
+.indivi-register-btn {
+    letter-spacing: 1.2px;
+}
+
+.brand-register-btn a,
+.indivi-register-btn a {
+    text-decoration: none;
+}
+
+.brand-register-btn .label,
+.indivi-register-btn .label {
+    padding-bottom: 26px;
+} 
 
 .brand-register-title {
     padding-top: 114px;
@@ -85,6 +110,10 @@
 
 .brand-register-element p {
     display: none;
+}
+
+.brand-register-element label {
+    margin: 0.1rem;
 }
 
 .errorEmail input,
@@ -379,7 +408,17 @@
     }
 
     .brand-icon, .indivi-icon {
-        padding: 4px 0px 20px 0px;
+        padding: 4px 0px 6px 0px;
+    }
+
+    .brand-register-btn,
+    .indivi-register-btn {
+        letter-spacing: normal;
+    }
+
+    .indivi-register-btn .label,
+    .brand-register-btn .label {
+        padding-bottom: 15px;
     }
 
     .upload-list-inline {

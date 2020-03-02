@@ -19,7 +19,7 @@ class PersonCardModule extends React.Component {
                 </div>
                 <div className='person-details'>
                     <div className='person-card-col-set'>
-                        <div className='person-card-name'>{this.props.person.subTitle}</div>
+                        <div className='person-card-name'>{this.props.person.auther}</div>
                         <div className='person-card-date'>{this.props.person.date}</div>
                     </div>
                     <div className='person-article'>

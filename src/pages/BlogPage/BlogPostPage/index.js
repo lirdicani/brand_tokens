@@ -2,6 +2,7 @@ import React from 'react';
 import { LikeOutlined } from '@ant-design/icons';
 
 import './style.css';
+import CommentModule from '../../../module/CommentModule';
 import PartRevolution from '../../../components/PartRevolution';
 import PersonCardModule from '../../../module/PersonCardModule';
 import ContactInfoModule from '../../../module/ContactInfoModule';
@@ -9,11 +10,11 @@ import ContactInfoModule from '../../../module/ContactInfoModule';
 const cards = [
     { 
         title:"Title of the blog or article will be here",
-        subTitle:"Sebastian Bennett",
+        auther:"Sebastian Bennett",
         date: '2020-2-22',
         text:"Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.",
         background_image:'https://secure.skypeassets.com/content/dam/scom/home/features/features-skype-number.jpg',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTl_aAcpKehSCWk6WnsZgRmWLBj0w5i43GFyRnXooMI-xzPQaTq',
+        photo: '/assets/images/team-members/member3.png',
     },
 ];
 
@@ -26,7 +27,7 @@ const skills = [
 ];
 
 const contact_information = [
-    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member1.png', }
+    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member3.png', }
 ];
 
 class BlogPostPage extends React.Component {
@@ -55,12 +56,12 @@ class BlogPostPage extends React.Component {
                             <div className='auth-name'>Auther name</div>
                             <div className='auth-date'>2-22-2020</div>
                         </div>
-                        <div className='auth-article'>
+                        {/* <div className='auth-article'>
                             The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
-                        </div>
+                        </div> */}
                         <div className='blog-first-paragraph'>
-                            <div className='paragraph-title'>Is Blockchain Technology the New Internet?</div>
                             <div className='paragraph-content'>
+                                <p>The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?</p>
                                 <h5>Is Blockchain Technology the New Internet?</h5>
                                 <p>By allowing digital information to be distributed but not copied, blockchain technology created the backbone of a new type of internet. Originally devised for the digital currency, Bitcoin blockchain, (Buy Bitcoin) the tech community has now found other potential uses for the technology.</p>
                                 <br />
@@ -103,7 +104,8 @@ class BlogPostPage extends React.Component {
                             <PersonCardModule person={cards[0]} person_infor={contact_information[0]} />
                         </div>
                     </div>
-                </div>                
+                </div>
+                <CommentModule commenter={cards[0]} />    
                 <PartRevolution />
             </div>
         );

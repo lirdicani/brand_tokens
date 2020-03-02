@@ -11,9 +11,9 @@ const Footer = () => {
                 <a href='/'><div>HOW IT WORKS</div></a>
                 <a href='/'><div>USERS</div></a>
                 <a href='/'><div>BRAND</div></a>
-                <a href='/'><div>BLOG</div></a>
+                <Link to='/blog'><div>BLOG</div></Link>
                 <Link to='/contactus'><div>CONTACT US</div></Link>
-                <a href='/'><div>TERMS OF SERVICE</div></a>
+                <Link to='/termspage'><div>TERMS OF SERVICE</div></Link>
                 <a href='/'><div>PRIVACY POLICY</div></a>
             </div>
             <div className='social-logo d-flex justify-content-center'>

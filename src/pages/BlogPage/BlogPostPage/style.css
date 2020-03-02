@@ -18,8 +18,8 @@
 
 .blog-post .contents {
     position: relative;
-    padding-left: 132px;
-    padding-right: 132px;
+    padding-left: 9.2%;
+    padding-right: 9.2%;
     height: auto;
     z-index: 10;
 }
@@ -181,14 +181,6 @@ hr {
     margin-top: 36px;
     margin-bottom: 47px;
     height: 2px;
-}
-
-
-@media (max-width: 840px) {
-    .blog-post .contents {
-        padding-left: 9.17%;
-        padding-right: 9.17%;
-    }
 }
 
 @media (max-width: 768px) {

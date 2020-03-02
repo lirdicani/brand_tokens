@@ -1,0 +1,54 @@
+.terms-body {
+    position: relative;
+    padding-left: 9.2%;
+    padding-right: 9.2%;
+    color: white;
+    
+    z-index: 10;
+}
+.terms-clip-effect-page {
+    position: absolute;
+    height: auto;
+    min-height: 599px;
+    width: 100%; 
+    z-index: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 0% 100%);
+    background: #1D2C50;
+}
+
+.terms-page-title1 {
+    padding-top: 74px;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    transform: rotateX(32deg);
+}
+
+.terms-page-title2 {
+    font-size: 17px;
+    text-align: center;
+    transform: rotateX(32deg);
+}
+
+.terms-contents {
+    background-color: white;
+    margin-top: 75px;
+    padding: 129px 17% 52px;
+    color: #1D2C50;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px 4px rgba(0,0,0,0.14);
+}
+
+.terms-contents h5 {
+    margin-bottom: 16px;
+    font-size: 30px;
+    transform: rotateX(32deg);
+}
+
+.terms-contents p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    margin-bottom: 48px;
+}

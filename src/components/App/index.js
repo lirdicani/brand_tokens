@@ -25,6 +25,7 @@ import CompanyPage from '../../pages/CompanyPage';
 import ContactUs from '../../pages/ContactUs';
 import BlogPage from '../../pages/BlogPage';
 import BlogPostPage from '../../pages/BlogPage/BlogPostPage';
+import TermsPage from '../../pages/TermsPage';
 
 const App = () => {
 
@@ -78,6 +79,9 @@ const App = () => {
                             </Route>
                             <Route exact path='/blogpost'>
                                 <BlogPostPage changeSpecialClass={changeSpecialClass.bind(this)} />
+                            </Route>
+                            <Route exact path='/termspage'>
+                                <TermsPage changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
                         </Switch>
                         <Footer />

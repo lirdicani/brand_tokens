@@ -54,7 +54,7 @@ class CommentModule extends React.Component {
                     </div>
                     <div className='comment-details d-flex justify-content-between align-items-center'>
                         <div className='comment-card-col-set'><Input type='textarea' onChange={this.handleCommentChange} value={this.state.comment} placeholder='Write your comment…' /></div>
-                        <Button className='comment-send-btn' onClick={this.addComment}><img src='/assets/images/send-comment.svg' /></Button>
+                        <Button className='comment-send-btn' onClick={this.addComment}><img src='/assets/images/send-comment.svg' alt='send-comment' /></Button>
                     </div>
                 </div>
                 <div className='comments-list'>

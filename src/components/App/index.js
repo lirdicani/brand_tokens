@@ -40,9 +40,12 @@ const App = () => {
                 <div className='App'>
                     <div className='content'>
                         <Navbar className={"menu " + specialClass} light expand="md">
-                            <Link className="logo-title" to='/'>
-                                <div><img src='/assets/images/Logo-icon.svg' alt='logo' />&nbsp;&nbsp;&nbsp;&nbsp;<span>BRANDTOKENS</span></div>
-                            </Link>
+                            <div className='brand-mark'>
+                                <Link className="logo-title" to='/'>
+                                    <div><span>BRANDTOKENS</span></div>
+                                    {/* <img src='/assets/images/Logo-icon.svg' alt='logo' />&nbsp;&nbsp;&nbsp;&nbsp; */}
+                                </Link>
+                            </div>
                             <NavbarToggler onClick={toggle} />
                             <Collapse isOpen={isOpen} navbar>
                                 <Nav className="menu-items" navbar>

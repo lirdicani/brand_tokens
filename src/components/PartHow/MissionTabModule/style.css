@@ -1,6 +1,10 @@
 .logo-tab {
     height: 30px;
-    width: 120px;
+    /* width: 120px; */
+}
+
+.logo-tab h4 {
+    color: cyan;
 }
 
 .mission-tab-group {
@@ -14,7 +18,8 @@
 }
 
 .nav-tabs .nav-link {
-    padding: 20px 10px !important;
+    /* padding: 20px 10px !important; */
+    padding: 10px 10px !important;
     display: flex;
     justify-content: center;
 }
@@ -94,7 +99,7 @@
     }
 
     .logo-tab {
-        width: 90px !important;
+        /* width: 90px !important; */
     }
 }
 
@@ -172,6 +177,10 @@
 @media(max-width: 470px) {
     .logo-tab {
         width: 60px !important;
+    }
+
+    .logo-tab h4 {
+        font-size: 20px;
     }
 }
 

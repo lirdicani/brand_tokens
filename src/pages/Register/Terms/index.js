@@ -19,7 +19,7 @@ class Terms extends React.Component {
                 <div><Input type='checkbox' name='checkbox' /></div>
                 <div><h6 className='terms-title'>I have read and agree to the Brand Token’s 
                     <Link className='terms-links' to='/termspage'> terms of service</Link>,
-                    <Link className='terms-links' to='/termspage'> privacy plicy</Link>,
+                    <Link className='terms-links' to='/privacypolicy'> privacy plicy</Link>,
                     and <Link className='terms-links' to='/termspage' >GDPR policy</Link>.
                     and I agree to use our logo at Brand Tokens website</h6></div>
             </div>

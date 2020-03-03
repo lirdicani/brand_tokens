@@ -46,7 +46,6 @@ class PrivacyPolicy extends React.Component {
                         <p>Curabitur malesuada dictum orci, non imperdiet purus facilisis in. Integer bibendum ipsum finibus tortor vestibulum laoreet. Aliquam dapibus, purus at consequat gravida, mi diam facilisis lacus, vestibulum sollicitudin nibh turpis porttitor mauris. Vestibulum non turpis eget nulla ullamcorper commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet ante a lacus mollis, quis ultricies velit placerat. Integer facilisis cursus condimentum. Donec eget vulputate velit, eget viverra quam. Proin nec pellentesque purus, porttitor rutrum est. Vivamus malesuada sem est, ac luctus lorem eleifend sed. Etiam ut nisl vitae eros pretium pellentesque. Nunc luctus egestas lacinia.</p>
                     </div>
                 </div>
-                <PartRevolution />
             </div>
         );
     }

@@ -122,6 +122,13 @@
     }
 } */
 
+@media (max-width: 890px) {
+    .menu {
+        padding-left: 81px !important;
+        padding-right: 81px !important;
+    }
+}
+
 @media (max-width: 812px) {
 
     .menu {

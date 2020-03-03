@@ -18,9 +18,9 @@
     margin-bottom: -1px;
 }
 
-.brand-mark {
+/* .brand-mark {
     margin: 0;
-}
+} */
 
 .logo-title{
     text-decoration: none !important;
@@ -36,7 +36,6 @@
     font-size: 18px !important;
     font-weight: bold;
     color: white !important;
-    transform: scale(1.2, 1);
     margin-right: 0;
     text-decoration: none !important;
 }
@@ -116,11 +115,11 @@
     }
 }
 
-/* @media(max-width: 823px) {
+@media(max-width: 823px) {
     .menu a div span {
         display: none;
     }
-} */
+}
 
 @media (max-width: 890px) {
     .menu {
@@ -156,10 +155,10 @@
         height: auto;
     }
 
-    .brand-mark {
+    /* .brand-mark {
         position: absolute;
         top: 24px;
-    }
+    } */
 
     .menu-items {
         margin-top: 40px !important;
@@ -250,11 +249,11 @@
 
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     .logo-title span {
         font-size: 16px !important;
     }
-}
+} */
 
 @media (max-width: 1440px) {
     .App {

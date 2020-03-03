@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='sub-menu d-flex justify-content-center flex-wrap'>
                 <a href='/'><div>HOW IT WORKS</div></a>
                 <a href='/'><div>USERS</div></a>
-                <a href='/'><div>BRAND</div></a>
+                <a href='/'><div>BRANDS</div></a>
                 <Link to='/blog'><div>BLOG</div></Link>
                 <Link to='/contactus'><div>CONTACT US</div></Link>
                 <Link to='/termspage'><div>TERMS OF SERVICE</div></Link>

@@ -49,7 +49,7 @@ const PartSolution = () => {
                          Brands can use their tokens to acquire new customers or reward loyal clients for purchases,
                          engagement in social media, participation in events or sharing their personal data.</div>
                     {/* <div className="mainTile-content-2">Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus.</div> */}
-                    <div className="mainTitle-apply-btn d-flex justify-content-start"><a href='/'>APPLY NOW</a></div>
+                    <div className="mainTitle-apply-btn d-flex justify-content-start"><a href='https://linkedin.com' target="_blank" >APPLY NOW</a></div>
                 </div>
                 <div className="main-title-diagram">
                     <div className='top-diagram d-flex justify-content-between'>

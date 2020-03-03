@@ -62,6 +62,10 @@ class Register extends React.Component {
         this.props.changeSpecialClass('');
     }
 
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
+
     validateEmail (email) {
         const re = /^(([^<>()\]\\.,;:\s@"]+(\.[^<>()\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
@@ -351,7 +355,7 @@ class Register extends React.Component {
                             <p className='brand-register-title-name'>Our advisors contact with you</p>
                         </div>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
-                            <p className='brand-register-title-name no-icon'><Link to='/privacypolicy'>LEARN MORE</Link></p>
+                            <p className='brand-register-title-name no-icon'><a href='https://link.network/faq/' target='_blank'>LEARN MORE</a></p>
                         </div>
                     </div>
                 </div>

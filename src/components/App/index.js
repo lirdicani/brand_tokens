@@ -42,8 +42,8 @@ const App = () => {
                         <Navbar className={"menu " + specialClass} light expand="md">
                             <div className='brand-mark'>
                                 <Link className="logo-title" to='/'>
-                                    <div><span>BRANDTOKENS</span></div>
-                                    {/* <img src='/assets/images/Logo-icon.svg' alt='logo' />&nbsp;&nbsp;&nbsp;&nbsp; */}
+                                    {/* <div><span>BRANDTOKENS</span></div> */}
+                                    <div><img src='/assets/images/Logo-icon.svg' alt='logo' />&nbsp;&nbsp;&nbsp;&nbsp;<span>BRANDTOKENS</span></div>
                                 </Link>
                             </div>
                             <NavbarToggler onClick={toggle} />

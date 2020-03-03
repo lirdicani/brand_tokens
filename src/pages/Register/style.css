@@ -207,8 +207,12 @@
 }
 
 .brand-textarea {
-    height: 105px !important;
+    min-height: 105px !important;
     box-shadow: none !important;
+}
+
+.brand-textarea::placeholder {
+    font-size: 14px !important;
 }
 
 .brand-position-input-country {

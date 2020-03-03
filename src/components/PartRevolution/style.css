@@ -7,6 +7,10 @@
     box-shadow: 0px 2px 11px 4px rgba(0,0,0,0.2);
 }
 
+.partRevolution a{
+    text-decoration: none !important;
+}
+
 .title-1 {
     font-size: 36px;
     font-weight: 500;

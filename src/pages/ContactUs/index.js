@@ -1,9 +1,7 @@
 import React from 'react';
-
 import { Label, Button, Input } from 'reactstrap';
 
 import './style.css';
-
 
 class ContactUs extends React.Component {
 
@@ -26,6 +24,10 @@ class ContactUs extends React.Component {
         }
 
         this.props.changeSpecialClass('');
+    }
+
+    componentDidMount () {
+        window.scrollTo(0, 0);
     }
 
     validateEmail (email) {
@@ -116,7 +118,7 @@ class ContactUs extends React.Component {
         }
 
         if (formValid) {
-            alert('valid success');
+            window.location.href = '/success'; 
         }
         else {
             alert('valid failure');
@@ -189,7 +191,7 @@ class ContactUs extends React.Component {
                             <span><i>Invalid your anything</i></span>
                         </div>
                         <div className='d-flex justify-content-end'>
-                            <Button className='contact-us-btn brand-register-apply' onClick={this.submitValidate.bind(this)} href='/success' >APPLY NOW</Button>
+                            <Button className='contact-us-btn brand-register-apply' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
                         </div>
                     </div>
                 </div>

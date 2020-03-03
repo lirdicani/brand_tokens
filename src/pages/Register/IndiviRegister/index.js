@@ -121,7 +121,7 @@ class IndiviRegister extends React.Component {
         }
 
         if (formValid) {
-            alert('valid success');
+            window.location.href = '/success';
         }
         else {
             alert('valid failure');

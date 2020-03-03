@@ -14,7 +14,7 @@ const Footer = () => {
                 <Link to='/blog'><div>BLOG</div></Link>
                 <Link to='/contactus'><div>CONTACT US</div></Link>
                 <Link to='/termspage'><div>TERMS OF SERVICE</div></Link>
-                <a href='/'><div>PRIVACY POLICY</div></a>
+                <Link to='/privacypolicy'><div>PRIVACY POLICY</div></Link>
             </div>
             <div className='social-logo d-flex justify-content-center'>
                 <a href='/' ><img src='/assets/images/logo-facebook.svg' alt='facebook-logo' /></a>

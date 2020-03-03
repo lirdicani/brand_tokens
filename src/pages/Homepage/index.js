@@ -10,22 +10,36 @@ import CompaniesGroup from '../../components/CompaniesGroup';
 import PartRevolution from '../../components/PartRevolution';
 import PartPublication from '../../components/PartPublication';
 
-const Homepage = (props) => {
+class Homepage extends React.Component {
 
-    props.changeSpecialClass('');
+    constructor (props) {
+        super(props);
 
-    return(
-        <div className="Homepage">
-            <PartCurrency />
-            <PartSolution />
-            <PartUsers />
-            <PartHow />
-            <PartPercent />
-            <PartPublication />
-            <CompaniesGroup />
-            <PartRevolution />
-        </div>
-    );
+        this.state = {
+
+        };
+
+        this.props.changeSpecialClass('');
+    }
+
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
+
+    render () {
+        return(
+            <div className="Homepage">
+                <PartCurrency />
+                <PartSolution />
+                <PartUsers />
+                <PartHow />
+                <PartPercent />
+                <PartPublication />
+                <CompaniesGroup />
+                <PartRevolution />
+            </div>
+        );
+    }
 }
 
 export default Homepage;

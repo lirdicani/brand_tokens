@@ -33,6 +33,10 @@ class BlogPage extends React.Component {
         this.props.changeSpecialClass('blog');
     }
 
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
+
     enterLoading = () => {
         this.setState({ loading: true });
     };
@@ -59,7 +63,7 @@ class BlogPage extends React.Component {
                         <div className='auth-article'>
                             The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
                             <br />
-                            <Link to='/blogpost' className='d-flex justify-content-end'>More See</Link>
+                            <Link to='/blogpost' className='d-flex justify-content-end'>See More</Link>
                         </div>
                     </div>
                     <BlogCardModule cards={cards} />

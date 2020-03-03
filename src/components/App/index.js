@@ -26,6 +26,7 @@ import ContactUs from '../../pages/ContactUs';
 import BlogPage from '../../pages/BlogPage';
 import BlogPostPage from '../../pages/BlogPage/BlogPostPage';
 import TermsPage from '../../pages/TermsPage';
+import PrivacyPolicy from '../../pages/PrivacyPolicy';
 
 const App = () => {
 
@@ -82,6 +83,9 @@ const App = () => {
                             </Route>
                             <Route exact path='/termspage'>
                                 <TermsPage changeSpecialClass={changeSpecialClass.bind(this)} />
+                            </Route>
+                            <Route exact path='/privacypolicy'>
+                                <PrivacyPolicy changeSpecialClass={changeSpecialClass.bind(this)} />
                             </Route>
                         </Switch>
                         <Footer />

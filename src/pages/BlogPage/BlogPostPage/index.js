@@ -105,7 +105,7 @@ class BlogPostPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                <CommentModule commenter={cards[0]} />    
+                <CommentModule commenter={cards[0]} />
                 <PartRevolution />
             </div>
         );

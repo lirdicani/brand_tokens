@@ -19,7 +19,7 @@ const PartCurrency = () => {
                     </div>
                     <div className="third-title">
                         Blockchain convinces us that every brand can issue their token, build its value and community around it. Around your own token instead of one universal token for all. <br/>
-                        Brand Tokens is all in one platform to manage all your tokens needs for engagement, community, management, reward, appliance, utility and sales management
+                        Brand Tokens is all in one platform to manage all your tokens needs for engagement, community, management, reward, appliance, utility and sales management.
                     </div>
                     <div className="d-flex justify-content-start">
                         <Link to='/register' className='none-company-link-decoration'>

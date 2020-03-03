@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'reactstrap';
 
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const PartRevolution = () => {
     return (
@@ -10,10 +11,12 @@ const PartRevolution = () => {
                 <div className='title-1'>Join the revolution</div>
                 <div className='title-2'>The future of loyalty systems just begun</div>
             </div>
-            <Button className='revolution-btn d-flex justify-content-between'>
-                <div>APPLY NOW</div>
-                <div><img src='/assets/images/arrow-right.svg' alt='arrow' /></div>
-            </Button>
+            <Link to='/privacypolicy'>
+                <Button className='revolution-btn d-flex justify-content-between'>
+                    <div>APPLY NOW</div>
+                    <div><img src='/assets/images/arrow-right.svg' alt='arrow' /></div>
+                </Button>
+            </Link>
         </div>
     );
 }

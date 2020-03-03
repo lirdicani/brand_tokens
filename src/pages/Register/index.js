@@ -351,7 +351,7 @@ class Register extends React.Component {
                             <p className='brand-register-title-name'>Our advisors contact with you</p>
                         </div>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
-                            <p className='brand-register-title-name no-icon'><a href='/'>LEARN MORE</a></p>
+                            <p className='brand-register-title-name no-icon'><Link to='/privacypolicy'>LEARN MORE</Link></p>
                         </div>
                     </div>
                 </div>

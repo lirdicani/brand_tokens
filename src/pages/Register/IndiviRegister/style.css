@@ -218,10 +218,6 @@
         width: 100%;
     }
 
-    .indivi-register-title h3 {
-        font-size: 42px;
-    }
-
     .indivi-register-form {
         padding: 80px;
     }
@@ -255,6 +251,10 @@
     .indivi-register-title {
         width: auto;
         padding-top: 0;
+    }
+
+    .indivi-register-title h3 {
+        font-size: 48px;
     }
 
     .indivi-register-form {

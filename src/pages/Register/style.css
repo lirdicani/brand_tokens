@@ -185,25 +185,33 @@
     transform: rotateX(32deg);
 }
 
-.brand-register-title p {
-    font-size: 18px;
-    font-weight: 400;
-    color: white;
-    opacity: 0.64;
-    line-height: normal;
-}
-
 .brand-register-title p.no-icon {
     padding-left: 0;
 }
 
-.brand-register-title a {
-    font-size: 17px;
-    font-weight: 700;
+.brand-register-title p {
+    font-size: 18px !important;
+    font-weight: 400;
     color: #3057FF;
     text-decoration: none;
-    letter-spacing: 1.9px;
-    transform: rotateX(32deg);
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-register-title .faq {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.brand-register-title .faq:hover {
+    color: yellow !important;
+}
+
+.brand-register-title .faq:active {
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 .brand-textarea {

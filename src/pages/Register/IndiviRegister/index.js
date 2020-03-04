@@ -230,7 +230,7 @@ class IndiviRegister extends React.Component {
                             <p className='indivi-register-title-name'>Claim your free tokens as soon as we are ready</p>
                         </div>
                         <div className='indivi-register-title-list d-flex justity-content-start align-items-start'>
-                            <p className='indivi-register-title-name learnMore'><a href='https://link.network/faq/' target='_blank' >LEARN MORE</a></p>
+                            <p className='indivi-register-title-name learnMore'>LEARN MORE<Link to='/faq' ><Button className='faq'>(FAQ link)</Button></Link></p>
                         </div>
                     </div>
                 </div>

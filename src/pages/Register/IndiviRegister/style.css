@@ -164,13 +164,30 @@
     padding-left: 0 !important;
 }
 
-.indivi-register-title a {
+.indivi-register-title-name {
     font-size: 17px;
     font-weight: 700;
     color: #3057FF;
     text-decoration: none;
     letter-spacing: 1.9px;
     transform: rotateX(32deg);
+    display: flex;
+    align-items: center;
+}
+
+.indivi-register-title-name .faq {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.indivi-register-title-name .faq:hover {
+    color: yellow !important;
+}
+
+.indivi-register-title-name .faq:active {
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 .brand-textarea {

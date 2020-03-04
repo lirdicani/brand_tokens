@@ -72,12 +72,12 @@ class Register extends React.Component {
     }
 
     validatePhone (phone) {
-        const re = /\(([0-9]{2}|0{1}((x|[0-9]){2}[0-9]{2}))\)\s*[0-9]{3,4}[- ]*[0-9]{4}/;
+        const re = /\(?\+[0-9]{1,3}\)? ?-?[0-9]{1,3} ?-?[0-9]{3,5} ?-?[0-9]{4}( ?-?[0-9]{3})? ?(\w{1,10}\s?\d{1,6})?/;
         return re.test(phone);
     }
 
     validateWebsite (website) {
-        const re = /^(?!www | www\.)[A-Za-z0-9_-]+\.+[A-Za-z0-9.\/%&=\?_:;-]+$/;
+        const re = /^(?!www | www\.)[A-Za-z0-9_-]+\.+[A-Za-z0-9.%&=_:;-]+$/;
         return re.test(website);
     }
 
@@ -355,7 +355,7 @@ class Register extends React.Component {
                             <p className='brand-register-title-name'>Our advisors contact with you</p>
                         </div>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
-                            <p className='brand-register-title-name no-icon'><a href='https://link.network/faq/' target='_blank'>LEARN MORE</a></p>
+                            <p className='brand-register-title-name no-icon'>LEARN MORE<Link to='/faq'><Button className='faq'>(FAQ link)</Button></Link></p>
                         </div>
                     </div>
                 </div>

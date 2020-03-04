@@ -155,13 +155,13 @@
         height: auto;
     }
 
-    /* .brand-mark {
+    .brand-mark {
         position: absolute;
-        top: 24px;
-    } */
+        top: 15px;
+    }
 
     .menu-items {
-        margin-top: 40px !important;
+        margin-top: 55px !important;
     }
 
     #nav-ico {

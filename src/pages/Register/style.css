@@ -211,7 +211,7 @@
     box-shadow: none !important;
 }
 
-.brand-textarea::placeholder {
+.brand-register-element textarea::placeholder {
     font-size: 14px !important;
 }
 

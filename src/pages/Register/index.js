@@ -39,7 +39,8 @@ class Register extends React.Component {
             errorContactPerson: '',
             errorIndustry: '',
             errorDescription: '',
-            errorTerms: '',
+            errorCheckbox: '',
+            terms: false,
 
             fields: {
                 brandName: '',
@@ -51,7 +52,6 @@ class Register extends React.Component {
                 industry: '',
                 website: '',
                 description: '',
-                terms: false,
             }
         };
 
@@ -72,12 +72,12 @@ class Register extends React.Component {
     }
 
     validatePhone (phone) {
-        const re = /((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}/;
+        const re = /\(([0-9]{2}|0{1}((x|[0-9]){2}[0-9]{2}))\)\s*[0-9]{3,4}[- ]*[0-9]{4}/;
         return re.test(phone);
     }
 
     validateWebsite (website) {
-        const re = /(((http|ftp|https):\/{2})+(([0-9a-z_-]+\.)+(aero|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|ac|ad|ae|af|ag|ai|al|am|an|ao|aq|ar|as|at|au|aw|ax|az|ba|bb|bd|be|bf|bg|bh|bi|bj|bm|bn|bo|br|bs|bt|bv|bw|by|bz|ca|cc|cd|cf|cg|ch|ci|ck|cl|cm|cn|co|cr|cu|cv|cx|cy|cz|cz|de|dj|dk|dm|do|dz|ec|ee|eg|er|es|et|eu|fi|fj|fk|fm|fo|fr|ga|gb|gd|ge|gf|gg|gh|gi|gl|gm|gn|gp|gq|gr|gs|gt|gu|gw|gy|hk|hm|hn|hr|ht|hu|id|ie|il|im|in|io|iq|ir|is|it|je|jm|jo|jp|ke|kg|kh|ki|km|kn|kp|kr|kw|ky|kz|la|lb|lc|li|lk|lr|ls|lt|lu|lv|ly|ma|mc|md|me|mg|mh|mk|ml|mn|mn|mo|mp|mr|ms|mt|mu|mv|mw|mx|my|mz|na|nc|ne|nf|ng|ni|nl|no|np|nr|nu|nz|nom|pa|pe|pf|pg|ph|pk|pl|pm|pn|pr|ps|pt|pw|py|qa|re|ra|rs|ru|rw|sa|sb|sc|sd|se|sg|sh|si|sj|sj|sk|sl|sm|sn|so|sr|st|su|sv|sy|sz|tc|td|tf|tg|th|tj|tk|tl|tm|tn|to|tp|tr|tt|tv|tw|tz|ua|ug|uk|us|uy|uz|va|vc|ve|vg|vi|vn|vu|wf|ws|ye|yt|yu|za|zm|zw|arpa)(:[0-9]+)?((\/([~0-9a-zA-Z@_-]+))?(\?[0-9a-zA-Z@&\];=_-]+)?)?))\b/;
+        const re = /^(?!www | www\.)[A-Za-z0-9_-]+\.+[A-Za-z0-9.\/%&=\?_:;-]+$/;
         return re.test(website);
     }
 
@@ -203,8 +203,8 @@ class Register extends React.Component {
             this.setState({errorDescription: ''});
         }
 
-        if (!this.state.fields['terms']) {
-            //formValid = false;
+        if (!this.state.terms) {
+
         }
 
         if (formValid) {
@@ -304,7 +304,7 @@ class Register extends React.Component {
                         </div>
                         <div className={'brand-register-element ' + errorPhoneClass }>
                             <Label>MOBILE / TELEPHONE</Label>
-                            <Input onChange={this.handlePhoneChange} type='text' name='phone' value={this.state.fields['phone']} placeholder='(123) 456-7890 | 123-456-7890' />
+                            <Input onChange={this.handlePhoneChange} type='text' name='phone' value={this.state.fields['phone']} placeholder='Input your phone number' />
                             <p className='invalid'>Invalid phone number</p>
                         </div>
                         <div className='brand-register-element d-flex justify-content-between'>
@@ -336,7 +336,7 @@ class Register extends React.Component {
                             <Input className='brand-textarea' onChange={this.handleChange.bind(this, 'description')} type="textarea" name="description" value={this.state.fields['description']} placeholder='Write a short description about your brand' />
                             <p className='invalid'>Invalid DESCRIPTION</p>
                         </div>
-                        <div className='brand-register-element'>
+                        <div className={'brand-register-element ' + this.state.errorCheckbox}>
                             <Terms />
                         </div>
                         <div className='brand-register-element'>
@@ -344,7 +344,7 @@ class Register extends React.Component {
                         </div>
                     </div>
                     <div className="brand-register-title">
-                        <h5>JOIN THE REVOLUSTION</h5>
+                        <h5>JOIN THE REVOLUTION</h5>
                         <h3>Become one of the first issuers of a brand token</h3>
                         <div className='brand-register-title-list d-flex justity-content-start align-items-start'>
                             <img src='/assets/images/c-check.svg' alt='check' />

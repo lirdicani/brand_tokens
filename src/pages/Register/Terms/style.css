@@ -17,3 +17,13 @@
 .terms-title a:hover {
     color: teal;
 }
+
+.terms span {
+    font-size: 10px;
+    color: tomato;
+    display: none;
+}
+
+.checked span {
+    display: none !important;
+}

@@ -39,7 +39,8 @@ class IndiviRegister extends React.Component {
             errorCountryName: '',
             errorCityName: '',
             errorContactPerson: '',
-            errorTerms: '',
+            terms: false,
+            errorCheckbox: '',
 
             fields: {
                 countryName: '',
@@ -79,6 +80,10 @@ class IndiviRegister extends React.Component {
         this.setState({fields: fields});
     }
 
+    // changeCheck (checked) {
+    //     this.state.terms = checked;
+    // }
+
     submitValidate(e) {
         e.preventDefault();
 
@@ -116,8 +121,11 @@ class IndiviRegister extends React.Component {
             this.setState({email_valid: true});
         }
 
-        if (!this.state.fields['terms']) {
-            //formValid = false;
+        if (!this.state.terms) {
+            // formValid = false;
+            // this.setState({
+            //     errorCheckbox: 'error'
+            // })
         }
 
         if (formValid) {
@@ -198,7 +206,7 @@ class IndiviRegister extends React.Component {
                             <Input type='email' onChange={this.handleEmailChange} name='email' value={this.state.fields['email']} placeholder='example@domain.com'/>
                             <p className='invalid'>Invalid e-mail address</p>
                         </div>
-                        <div className='indivi-register-element'>
+                        <div className={'indivi-register-element ' + this.state.errorCheckbox}>
                             <Terms />
                         </div>
                         <div className='indivi-register-element'>
@@ -206,7 +214,7 @@ class IndiviRegister extends React.Component {
                         </div>
                     </div>
                     <div className="indivi-register-title">
-                        <h5>JOIN THE REVOLUSTION</h5>
+                        <h5>JOIN THE REVOLUTION</h5>
                         <h3>Do your shopping, gets rewards</h3>
                         <Tags />
                         <div className='indivi-register-title-list d-flex justity-content-start align-items-start'>

@@ -14,6 +14,7 @@ import {
   NavItem,
   Button,
 } from 'reactstrap';
+// import { TransitionGroup, CSSTransition, Transition } from "react-transition-group";
 
 import  './style.css';
 import Homepage from '../../pages/Homepage';
@@ -27,6 +28,7 @@ import BlogPage from '../../pages/BlogPage';
 import BlogPostPage from '../../pages/BlogPage/BlogPostPage';
 import TermsPage from '../../pages/TermsPage';
 import PrivacyPolicy from '../../pages/PrivacyPolicy';
+
 
 const App = () => {
 

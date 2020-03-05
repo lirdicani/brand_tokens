@@ -35,7 +35,7 @@ const PartSolution = () => {
                     </Row>
                 </Col>
             </div>
-            <div className="mainTitle d-flex justify-content-between">
+            <div className="mainTitle d-flex justify-content-between" id = "howitworks">
                 <div className="mainTitle-groups">
                     <div className="mainTitle-link d-flex justify-content-start">SOLUSION</div>
                     <div className="mainTitle-subject">

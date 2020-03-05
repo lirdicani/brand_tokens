@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
 import './style.css';
 import MissionTabModule from './MissionTabModule';
 
@@ -8,7 +9,7 @@ const PartHow = () => {
         <div className='partHow d-flex justify-content-between'>
             <div className='how-pic-group-right'><img src='/assets/images/how-group-right.svg' alt='how-group-right-pic' /></div>
             <div className='how-mission'>
-                <div className='mission-article'>BRANDS</div>
+                <div className='mission-article' id='brands'>BRANDS</div>
                 <div className='mission-title'>How brands can use their tokens</div>
                 {/* <div className="mission-subject">Brand Tokens is all in one platform to manage all 
                     your tokens needs for engagement, community, management, reward, appliance, utility, sales management.</div> */}
@@ -34,7 +35,7 @@ const PartHow = () => {
                 </div>
                 <div className="how-apply-btn-group d-flex justify-content-start align-items-center">
                     <a href='/'><div className='apply-btn-how-icon'>+</div></a>
-                    <a href='/'><div className='apply-btn-how'>APPLY NOW</div></a>
+                    <Link to='/register'><div className='apply-btn-how'>APPLY NOW</div></Link>
                 </div>
             </div>
             <div className='parent-mission'>

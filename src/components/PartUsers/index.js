@@ -6,7 +6,7 @@ const PartUsers = () => {
     return (
         <div className="partUsers">
             <div className="PU-top">
-                <div className="PU-top-title">USERS</div>
+                <div className="PU-top-title" id='users' >USERS</div>
                 <div className="PU-top-title">Built for everyone</div>
                 {/* <div className="PU-top-title">Consumers who redeem points have higher purchase rates & stronger brand association.</div> */}
             </div>

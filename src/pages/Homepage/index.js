@@ -18,8 +18,10 @@ class Homepage extends React.Component {
         this.state = {
 
         };
-
         this.props.changeSpecialClass('');
+    }
+
+    componentDidMount(){
     }
 
     render () {

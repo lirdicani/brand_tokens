@@ -6,14 +6,14 @@ import './style.css';
 import PartRevolution from '../../components/PartRevolution';
 
 const team_member = [
-    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member1.png', },
-    { name: 'Szczepan Bentyn', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member2.png', },
-    { name: 'Marta Lapacz', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member3.png', },
-    { name: 'Tomasz Rozmus', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member4.png', },
-    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member1.png', },
-    { name: 'Szczepan Bentyn', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member2.png', },
-    { name: 'Marta Lapacz', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member3.png', },
-    { name: 'Tomasz Rozmus', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/member4.png', },
+    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/robert.png', },
+    { name: 'Szczepan Bentyn', job: 'COO & Co-founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/bentyn.png', },
+    { name: 'Tomasz Rozmus', job: 'CBD ', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/tomas.png', },
+    { name: 'Marta Lapacz', job: 'Business Developer', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/marta.png', },
+    { name: 'Mustafa Dahdouh', job: 'UX/UI Designer ', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/mustafa.png', },
+    { name: 'Lirdi Cani', job: 'Frontend Developer', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/lirdi.png', },
+    { name: 'Mohanraj MS', job: 'Backend Developer ', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/nombeker.png', },
+    { name: 'Homayoun Shakibaii', job: 'team member role', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/monica.png', },
 ]
 
 const embaded_angel = [
@@ -101,7 +101,7 @@ class CompanyPage extends React.Component {
                             <div className='join-team-main-title'>Join the team</div>
                             <div className='join-team-description'>We're always looking for fresh talent and curious minds to join our expanding team of creatives, strategists and technologists.Check out postings below to see if you 're right fit.</div>
                             <div className='join-team-add-description'>Our employees also receive BRAND tokens</div>
-                            <div className='see-all-job'><a href='https://angel.co/jobs' target='_blank'>SEE ALL JOBS</a></div>
+                            <div className='see-all-job'><a href='https://angel.co/company/brand-tokens/jobs' target='_blank'>SEE ALL JOBS</a></div>
                         </div>
                         <EmbadedAngel />
                     </div>

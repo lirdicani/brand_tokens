@@ -1,8 +1,10 @@
 import React from 'react';
 import { Upload } from 'antd';
-import { UploadOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import 'react-phone-number-input/style.css';
+import PhoneInput from 'react-phone-number-input';
 import { Label, Input, Button } from 'reactstrap';
+import { UploadOutlined } from '@ant-design/icons';
 
 
 import './style.css';
@@ -47,8 +49,8 @@ class Register extends React.Component {
                 countryName: '',
                 cityName: '',
                 contactPerson: '',
+                phoneValue: '',
                 email: '',
-                phone: '',
                 industry: '',
                 website: '',
                 description: '',
@@ -56,7 +58,6 @@ class Register extends React.Component {
         };
 
         this.handleEmailChange = this.handleEmailChange.bind(this);
-        this.handlePhoneChange = this.handlePhoneChange.bind(this);
         this.handleWebsiteChange = this.handleWebsiteChange.bind(this);
 
         this.props.changeSpecialClass('');
@@ -72,7 +73,7 @@ class Register extends React.Component {
     }
 
     validatePhone (phone) {
-        const re = /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/;
+        const re = /^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,3})|(\(?\d{2,3}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$/;
         return re.test(phone);
     }
 
@@ -100,16 +101,16 @@ class Register extends React.Component {
         this.setState({fields: fields});
     }
 
-    handlePhoneChange(e) {
-        const phone = e.target.value;
-        const phoneValid = this.validatePhone(phone);
+    setPhoneValue(e) {
+
+        const phone_valid = this.validatePhone(e);
 
         this.setState({
-            phone_valid: phoneValid
+            phone_valid: phone_valid
         });
 
         let fields = this.state.fields;
-        fields['phone'] = phone;
+        fields['phoneValue'] = e;
         this.setState({fields: fields});
     }
 
@@ -171,7 +172,7 @@ class Register extends React.Component {
             this.setState({email_valid: true});
         }
 
-        if (!this.state.phone_valid || !this.state.fields['phone']) {
+        if (!this.state.phone_valid || !this.state.fields['phoneValue']) {
             this.setState({phone_valid: false});
             formValid = false;
         }
@@ -304,7 +305,11 @@ class Register extends React.Component {
                         </div>
                         <div className={'brand-register-element ' + errorPhoneClass }>
                             <Label>MOBILE / TELEPHONE</Label>
-                            <Input onChange={this.handlePhoneChange} type='text' name='phone' value={this.state.fields['phone']} placeholder='Input your phone number' />
+                            <PhoneInput
+                                className='phone-class'
+                                placeholder="+1 334 332 3434"
+                                value={this.state.fields['phoneValue']}
+                                onChange={this.setPhoneValue.bind(this)} required/>
                             <p className='invalid'>Invalid phone number</p>
                         </div>
                         <div className='brand-register-element d-flex justify-content-between'>

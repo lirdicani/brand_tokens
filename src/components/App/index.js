@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
+    Link
 }
 from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import {
   Collapse,
   Navbar,
@@ -27,19 +28,14 @@ import CompanyPage from '../../pages/CompanyPage';
 import Success from '../../pages/Register/Success';
 import PrivacyPolicy from '../../pages/PrivacyPolicy';
 import BlogPostPage from '../../pages/BlogPage/BlogPostPage';
-import IndiviRegister from '../../pages/Register/IndiviRegister'
+import IndiviRegister from '../../pages/Register/IndiviRegister';
 
 
 const App = () => {
 
     const [isOpen, setIsOpen] = useState(false);
     const [specialClass, changeSpecialClass] = useState('');
-    
     const toggle = () => setIsOpen(!isOpen);
-
-    useEffect(() => {
-        window.scroll(0, 0);
-    }, [])
 
     return (
         <Router>
@@ -54,11 +50,11 @@ const App = () => {
                         <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="menu-items" navbar>
-                                <Link className="detail-item" to="/"><NavItem id='nav-ico'>ICO</NavItem></Link>
-                                <Link className="detail-item" to="/flip"><NavItem>HOW IT WORKS</NavItem></Link>
-                                <Link className="detail-item" to="/"><NavItem>BRANDS</NavItem></Link>
-                                <Link className="detail-item" to='/company' ><NavItem>COMPANY</NavItem></Link>
-                                <Link className="detail-item" to="/blog"><NavItem>BLOG</NavItem></Link>
+                                <HashLink className="detail-item" to="/"><NavItem id='nav-ico'>ICO</NavItem></HashLink>
+                                <HashLink className="detail-item" to='/#howitworks'><NavItem>HOW IT WORKS</NavItem></HashLink>
+                                <HashLink className="detail-item" to="/#brands"><NavItem>BRANDS</NavItem></HashLink>
+                                <HashLink className="detail-item" to='/company' ><NavItem>COMPANY</NavItem></HashLink>
+                                <HashLink className="detail-item" to="/blog"><NavItem>BLOG</NavItem></HashLink>
                             </Nav>
                         </Collapse>
                         <Link to="/register"><Button type='submit' className="apply-btn"><span>APPLY NOW</span></Button></Link>

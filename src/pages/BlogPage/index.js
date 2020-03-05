@@ -57,7 +57,7 @@ class BlogPage extends React.Component {
                         </div>
                         <div className='auth-title'>What is Blockchain Technology</div>
                         <div className='auth-col-set d-flex justify-content-center'>
-                            <div className='auth-name'>Auther name</div>
+                            <div className='auth-name'>Robert Wesker</div>
                             <div className='auth-date'>2-22-2020</div>
                         </div>
                         <div className='auth-article'>

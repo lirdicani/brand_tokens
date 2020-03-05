@@ -5,10 +5,10 @@ import { LikeOutlined } from '@ant-design/icons';
 import './style.css';
 
 let comments = [
-    {name: 'Paromita Haque', photo: '/assets/images/team-members/member4.png', date: '2-22-2020', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
-    {name: 'Elsi Hansdottir', photo: '/assets/images/team-members/member3.png', date: '2-28-2019', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
-    {name: 'Gaspar Antunes', photo: '/assets/images/team-members/member1.png', date: '2-28-2019', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
-    {name: 'Mar Rueda', photo: '/assets/images/team-members/member2.png', date: '2-28-2019', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
+    {name: 'Robert Wesker ', photo: '/assets/images/team-members/robert.png', date: '2-22-2020', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
+    {name: 'Szczepan Bentyn', photo: '/assets/images/team-members/bentyn.png', date: '2-28-2019', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
+    {name: 'Tomasz Rozmus', photo: '/assets/images/team-members/tomas.png', date: '2-28-2019', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
+    {name: 'Monica', photo: '/assets/images/team-members/monica.png', date: '2-28-2019', comment: 'Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus. Etiam eleifend lectus tempor sodales vel semper diam lobortis.'},
 ]
 
 class CommentModule extends React.Component {

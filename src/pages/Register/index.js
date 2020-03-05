@@ -307,6 +307,7 @@ class Register extends React.Component {
                             <Label>MOBILE / TELEPHONE</Label>
                             <PhoneInput
                                 className='phone-class'
+                                international
                                 placeholder="+1 334 332 3434"
                                 value={this.state.fields['phoneValue']}
                                 onChange={this.setPhoneValue.bind(this)} required/>

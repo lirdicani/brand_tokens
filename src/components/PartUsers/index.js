@@ -13,7 +13,7 @@ const PartUsers = () => {
             <div className="PU-content d-flex justify-content-between">
                 <div className="PU-content-subject">
                     <div className="PU-content-subject-title">
-                        <div className="content"><img src='/assets/images/office-big.svg' alt='toolkit-imaget' alt='OfficeBig' /></div>
+                        <div className="content"><img src='/assets/images/office-big.svg' alt='OfficeBig' /></div>
                         <div className="content">Brands</div>
                         <div className="content">Consumers who redeem points have higher purchase rates & stronger brand association.</div>
                     </div>

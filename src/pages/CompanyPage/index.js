@@ -32,7 +32,11 @@ class CompanyPage extends React.Component {
         };
 
         this.props.changeSpecialClass('');
-    }    
+    }
+
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
 
     render () {
 
@@ -97,7 +101,7 @@ class CompanyPage extends React.Component {
                             <div className='join-team-main-title'>Join the team</div>
                             <div className='join-team-description'>We're always looking for fresh talent and curious minds to join our expanding team of creatives, strategists and technologists.Check out postings below to see if you 're right fit.</div>
                             <div className='join-team-add-description'>Our employees also receive BRAND tokens</div>
-                            <div className='see-all-job'>SEE ALL JOBS</div>
+                            <div className='see-all-job'><a href='https://angel.co/jobs' target='_blank'>SEE ALL JOBS</a></div>
                         </div>
                         <EmbadedAngel />
                     </div>
@@ -135,25 +139,28 @@ const TeamMember = () => {
 
 const EmbadedAngel = () => {
     return (
+        // <div className='embaded_angel-group'>
+        //     {
+        //         embaded_angel.map((data, i) => (
+        //             <div key={i} className='task-list'>
+        //                 <div className='job-description'>{data.job}</div>
+        //                 <div className='job_type d-flex justify-content-end'>
+        //                     <div className='job-type-container d-flex justify-content-between'>
+        //                         <div className='job-kind' className='job_kind'>{data.job_kind}</div>
+        //                         <div className='job_position'>{data.job_position}</div>
+        //                     </div>
+        //                 </div>
+        //                 <div className='job_price d-flex justify-content-start'>
+        //                     <div className='job-post-time'>{data.post_time}</div>
+        //                     <div className='job-time'>{data.times}</div>
+        //                     <div className='job-price'>{data.price}</div>
+        //                 </div>
+        //             </div>
+        //         ))
+        //     }
+        // </div>
         <div className='embaded_angel-group'>
-            {
-                embaded_angel.map((data, i) => (
-                    <div key={i} className='task-list'>
-                        <div className='job-description'>{data.job}</div>
-                        <div className='job_type d-flex justify-content-end'>
-                            <div className='job-type-container d-flex justify-content-between'>
-                                <div className='job-kind' className='job_kind'>{data.job_kind}</div>
-                                <div className='job_position'>{data.job_position}</div>
-                            </div>
-                        </div>
-                        <div className='job_price d-flex justify-content-start'>
-                            <div className='job-post-time'>{data.post_time}</div>
-                            <div className='job-time'>{data.times}</div>
-                            <div className='job-price'>{data.price}</div>
-                        </div>
-                    </div>
-                ))
-            }
+            <iframe width='100%' height='100%' src='https://angel.co/company/brand-tokens/jobs' frameBorder="0" title='angel-embaded' ></iframe>
         </div>
     )
 }

@@ -53,7 +53,7 @@ class BlogPage extends React.Component {
                 <div className='contents'>
                     <div className='auth'>
                         <div className='auth-character'>
-                            <img src={cards[0].photo} />
+                            <img src={cards[0].photo} alt='cards' />
                         </div>
                         <div className='auth-title'>What is Blockchain Technology</div>
                         <div className='auth-col-set d-flex justify-content-center'>

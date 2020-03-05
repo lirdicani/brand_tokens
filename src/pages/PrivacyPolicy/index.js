@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './style.css';
-import PartRevolution from '../../components/PartRevolution';
 
 class PrivacyPolicy extends React.Component {
 

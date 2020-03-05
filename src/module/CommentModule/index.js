@@ -50,7 +50,7 @@ class CommentModule extends React.Component {
             <div className='comment-container'>
                 <div className='comment-module d-flex justify-content-between align-items-center'>
                     <div className='comment-card-character'>
-                        <img src={this.props.commenter.photo} alt='person-image' />
+                        <img src={this.props.commenter.photo} alt='person-image1' />
                     </div>
                     <div className='comment-details d-flex justify-content-between align-items-center'>
                         <div className='comment-card-col-set'><Input type='textarea' onChange={this.handleCommentChange} value={this.state.comment} placeholder='Write your comment…' /></div>
@@ -67,7 +67,7 @@ class CommentModule extends React.Component {
                             this.state.comments.map((data, i) => (
                                 <div key={i} className='comments-item'>
                                     <div className='commenter d-flex justify-content-start'>
-                                        <div className='photo'><img src={data.photo} /></div>
+                                        <div className='photo'><img src={data.photo} alt='person-photo1' /></div>
                                         <div className='commenter-infor'>
                                             <div className='name'>{data.name}</div>
                                             <div className='date'>{data.date}</div>

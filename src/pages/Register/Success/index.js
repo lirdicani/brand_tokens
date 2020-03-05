@@ -15,6 +15,10 @@ class Success extends React.Component {
         this.props.changeSpecialClass('');
     }
 
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
+
     render () {
         return (
             <div className='success'>

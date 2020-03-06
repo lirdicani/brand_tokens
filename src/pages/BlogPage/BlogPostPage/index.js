@@ -101,7 +101,7 @@ class BlogPostPage extends React.Component {
                                 <ContactInfoModule person_infor={contact_information[0]} />
                             </div>
                             <hr />
-                            <PersonCardModule person={cards[0]} person_infor={contact_information[0]} />
+                            {/* <PersonCardModule person={cards[0]} person_infor={contact_information[0]} /> */}
                         </div>
                     </div>
                 </div>

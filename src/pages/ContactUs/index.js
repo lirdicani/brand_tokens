@@ -1,7 +1,12 @@
 import React from 'react';
+import ReactCountriesInput from 'react-countries-input';
 import { Label, Button, Input } from 'reactstrap';
 
 import './style.css';
+
+const user_id = 'user_lNqlkv9rg5U7htpfK36NB'
+const template_id = 'template_Am9WYSNC'
+const receiver = 'BrandTokens'
 
 class ContactUs extends React.Component {
 
@@ -20,10 +25,11 @@ class ContactUs extends React.Component {
                 contactAnything: '',
                 contactEmail: '',
                 contactWebsite: '',
-            }
+            },
         }
 
         this.props.changeSpecialClass('');
+        this.handleCancel.bind(this);
     }
 
     componentDidMount () {
@@ -66,6 +72,12 @@ class ContactUs extends React.Component {
         this.setState({fields: fields});
     }
 
+    handleCancel() {
+        let fields = this.state.fields;
+        fields['contactAnything'] = '';
+        this.setState({fields: fields});
+    }
+
     handleChange(field, e) {
         let fields = this.state.fields;
         fields[field] = e.target.value;
@@ -101,7 +113,14 @@ class ContactUs extends React.Component {
             this.setState({validWebsite: true});
         }
 
-        if (!this.state.fields['contactCountry']) {
+        let country =  document.getElementById('selectStyle');
+        let country_value = country.options[country.selectedIndex].text;
+        let fields = this.state.fields;
+        fields['contactCountry'] = country_value;
+        this.setState({fields: fields});
+
+        if (country_value==='Afghanistan') {
+            alert('Confirm Your Location Again!');
             formValid = false;
             this.setState({errorContactCountry: 'error'});
         }
@@ -118,11 +137,46 @@ class ContactUs extends React.Component {
         }
 
         if (formValid) {
-            window.location.href = '/success'; 
+            this.sendFeedback(
+                template_id,
+                this.state.fields['contactEmail'],
+                receiver,
+                this.state.fields['contactName'],
+                this.state.fields['contactWebsite'],
+                this.state.fields['contactCountry'],
+                this.state.fields['contactAnything'],
+                user_id,
+            );
+
+            console.log(
+                template_id,
+                this.state.fields['contactEmail'],
+                receiver,
+                this.state.fields['contactAnything'],
+                user_id,
+            )
         }
         else {
-            alert('valid failure');
+            // alert('valid failure');
         }
+    }
+
+    sendFeedback(templateId, senderEmail, receiver, name, website, location, anything, user) {
+        window.emailjs
+            .send('brandservice', templateId, {
+                senderEmail,
+                receiver,
+                name,
+                website,
+                location,
+                anything,
+            },
+            user
+        )
+        .then(res => {
+            window.location.href = '/success';
+        })
+        .catch(err => alert('Failed to send message. Error: ', err));
     }
 
     render () {
@@ -155,36 +209,37 @@ class ContactUs extends React.Component {
                 </div>
                 <div className='contact-us-container'>
                     <div className='contact-us-form'>
+                        <form>
                         <div className={'contact-us-form-element ' + this.state.errorContactName}>
-                            <div className='d-flex justify-content-between contact-name '>
+                            <div className='input-group d-flex justify-content-between contact-name '>
                                 <Label className='contact-us-form-label'>Your full name</Label>
                                 <Input className='contact-us-form-input' type='text' name='contactName' onChange={this.handleChange.bind(this, 'contactName')} value={this.state.fields['contactName']} placeholder='Jone Doe' />
                             </div>
                             <span><i>Invalid Your name</i></span>
                         </div>
                         <div className={'contact-us-form-element ' + errorContactEmail}>
-                            <div className='d-flex justify-content-between contact-email'>
+                            <div className='input-group d-flex justify-content-between contact-email'>
                                 <Label className='contact-us-form-label'>Your email address</Label>
                                 <Input className='contact-us-form-input' type='text' name='contactEmail' onChange={this.handleChangeEmail.bind(this)} value={this.state.fields['contactEmail']} placeholder='johne-doe@example.com' />
                             </div>
                             <i><span>Invalid Your email address</span></i>
                         </div>
                         <div className={'contact-us-form-element ' + errorContactWebsite}>
-                            <div className='d-flex justify-content-between '>
+                            <div className='input-group d-flex justify-content-between '>
                                 <Label className='contact-us-form-label'>Company website</Label>
                                 <Input className='contact-us-form-input' name='contactWebsite' onChange={this.handleChangeWebsite.bind(this)} value={this.state.fields['contactWebsite']} type='text' placeholder='www.example.com'/>
                             </div>
                             <span><i>Invalid your website url</i></span>
                         </div>
                         <div className={'contact-us-form-element ' + this.state.errorContactCountry}>
-                            <div className='d-flex justify-content-between '>
+                            <div className='select-location d-flex justify-content-between '>
                                 <Label className='contact-us-form-label'>Country</Label>
-                                <Input className='contact-us-form-input' type='text' name='contactCountry' onChange={this.handleChange.bind(this, 'contactCountry')} value={this.state.fields['contactCountry']} placeholder='Select your country' />
+                                <ReactCountriesInput />
                             </div>
                             <span><i>Invalid your Country</i></span>
                         </div>
                         <div className={'contact-us-form-element ' + this.state.errorContactAnything}>
-                            <div className='d-flex justify-content-between align-items-start'>
+                            <div className='input-group d-flex justify-content-between align-items-start'>
                                 <Label className='contact-us-form-label'>Anything else?</Label>
                                 <textarea className='contact-us-form-input contact-text-area' type='text' name='contactAnything' onChange={this.handleChange.bind(this, 'contactAnything')} value={this.state.fields['contactAnything']} placeholder='Tell us about yourself, needs, and whatever you want us to know' />
                             </div>
@@ -193,6 +248,7 @@ class ContactUs extends React.Component {
                         <div className='d-flex justify-content-end'>
                             <Button className='contact-us-btn brand-register-apply' onClick={this.submitValidate.bind(this)} >APPLY NOW</Button>
                         </div>
+                        </form>
                     </div>
                 </div>
                 <div className='contact-us-right-pic-group'></div>

@@ -11,10 +11,26 @@
     padding-top: 45px;
 }
 
+.companiesGroup-line-3{
+    width: 100%;
+    padding-top: 56px;
+}
+
+.companiesGroup-line-4 {
+    width: 100%;
+    padding-top: 45px;
+}
+
 .company-logo {
     margin-top: 25px !important;
     height: 50px;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+}
+
+.company-logo img {
+    width: 100%;
 }
 
 @media (max-width:1200px) {

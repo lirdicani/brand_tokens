@@ -109,6 +109,28 @@
     box-shadow: none !important;
 }
 
+.contact-us-form-element #containerStyle {
+    width: 65%;
+}
+
+.contact-us-form-element #selectWrapperStyle {
+    width: 100%;
+}
+
+.contact-us-form-element #selectStyle {
+    border-radius: 3px;
+    border-color: #ced4da;
+    height: 42px;
+}
+
+.contact-us-form-element .css-r4713k::before {
+    top: 13px !important;
+}
+
+.contact-us-form-element #inputStyle {
+    display: none !important;
+}
+
 .contact-us-form-element input::placeholder, textarea::placeholder {
     font-size: 18px !important;
     color: #C0CCDA !important;
@@ -152,6 +174,10 @@
     display: none;
     margin-left: 35%;
     font-size: 12px;
+}
+
+.error #selectStyle {
+    border: 1px solid tomato !important;
 }
 
 .error input,
@@ -228,9 +254,18 @@
 }
 
 @media (max-width: 414px) {
-    .contact-us-form-element div {
+    .contact-us-form-element .input-group {
         display: flex;
         flex-direction: column;
+    }
+
+    .contact-us-form-element .select-location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-form-element #containerStyle {
+        width: 100%;
     }
 
     .contact-us-form-element input,

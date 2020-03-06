@@ -6,20 +6,13 @@ import './style.css';
 import PartRevolution from '../../components/PartRevolution';
 
 const team_member = [
-    { name: 'Robert wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/robert.png', },
+    { name: 'Robert Wesker', job: 'CEO & Co-Founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/robert.png', },
     { name: 'Szczepan Bentyn', job: 'COO & Co-founder', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/bentyn.png', },
     { name: 'Tomasz Rozmus', job: 'CBD ', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/tomas.png', },
     { name: 'Marta Lapacz', job: 'Business Developer', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/marta.png', },
     { name: 'Mustafa Dahdouh', job: 'UX/UI Designer ', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/mustafa.png', },
     { name: 'Lirdi Cani', job: 'Frontend Developer', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/lirdi.png', },
-    { name: 'Mohanraj MS', job: 'Backend Developer ', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/nombeker.png', },
-    { name: 'Homayoun Shakibaii', job: 'team member role', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/monica.png', },
-]
-
-const embaded_angel = [
-    { job: 'IT Help Desk Support', job_kind: 'Customer support', job_position: 'remote', post_time: '14 minutes ago', times: 'Full time', price: '$42K - $60K' },
-    { job: 'Full Stack Developer', job_kind: 'Development', job_position: 'remote', post_time: '20 minutes ago', times: 'Full time', price: '$42K - $60K' },
-    { job: 'Marketing Manager', job_kind: 'Business', job_position: 'remote', post_time: '2 days ago', times: 'Full time', price: '$42K - $60K' },
+    { name: 'Mohanraj MS', job: 'Backend Developer ', facebook: 'https://facebook.com', linkedin: 'https://linkedin.com', twiter: 'https://twiter.com', photo: '/assets/images/team-members/mohan.png', },
 ]
 
 

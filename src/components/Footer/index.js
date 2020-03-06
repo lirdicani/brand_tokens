@@ -14,7 +14,8 @@ const Footer = () => {
                 <HashLink to='/#brands'><div>BRANDS</div></HashLink>
                 <HashLink to='/blog'><div>BLOG</div></HashLink>
                 <HashLink to='/contactus'><div>CONTACT US</div></HashLink>
-                <HashLink to='/termspage'><div>TERMS OF SERVICE</div></HashLink>
+                {/* <HashLink to='/termspage'><div>TERMS OF SERVICE</div></HashLink> */}
+                <HashLink ><div>TERMS OF SERVICE</div></HashLink>
                 <HashLink to='/privacypolicy'><div>PRIVACY POLICY</div></HashLink>
             </div>
             <div className='social-logo d-flex justify-content-center'>

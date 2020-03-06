@@ -80,11 +80,11 @@ const App = () => {
                             <ContactUs changeSpecialClass={changeSpecialClass.bind(this)} />
                         </Route>
                         <Route exact path='/blog'>
-                            <BlogPage changeSpecialClass={changeSpecialClass.bind(this)} />
-                        </Route>
-                        <Route exact path='/blogpost'>
                             <BlogPostPage changeSpecialClass={changeSpecialClass.bind(this)} />
                         </Route>
+                        {/* <Route exact path='/blogpost'>
+                            <BlogPostPage changeSpecialClass={changeSpecialClass.bind(this)} />
+                        </Route> */}
                         <Route exact path='/termspage'>
                             <TermsPage changeSpecialClass={changeSpecialClass.bind(this)} />
                         </Route>

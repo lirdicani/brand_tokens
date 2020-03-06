@@ -37,7 +37,8 @@
 
 .blog-post .contents .auth {
     background-color: white;
-    margin-top: 370px;
+    /* margin-top: 370px; */
+    margin-top: 186px;
     padding: 100px 17%;
     color: #1D2C50;
     border-radius: 12px;

@@ -92,7 +92,7 @@ class CompanyPage extends React.Component {
                         <div className='join-team'>
                             <div className='join-team-top-title'>FRESH TALENT?</div>
                             <div className='join-team-main-title'>Join the team</div>
-                            <div className='join-team-description'>We're always looking for fresh talent and curious minds to join our expanding team of creatives, strategists and technologists.Check out postings below to see if you 're right fit.</div>
+                            <div className='join-team-description'>We're always looking for fresh talent and curious minds to join our expanding team of creatives, strategists and technologists. Check who we're looking for now.</div>
                             <div className='join-team-add-description'>Our employees also receive BRAND tokens</div>
                             <div className='see-all-job'><a href='https://angel.co/company/brand-tokens/jobs' target='_blank'>SEE ALL JOBS</a></div>
                         </div>

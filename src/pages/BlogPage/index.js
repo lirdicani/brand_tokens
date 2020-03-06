@@ -66,7 +66,7 @@ class BlogPage extends React.Component {
                             <Link to='/blogpost' className='d-flex justify-content-end'>See More</Link>
                         </div>
                     </div>
-                    <BlogCardModule cards={cards} />
+                    {/* <BlogCardModule cards={cards} /> */}
                     <div className='loading-more-articles'>
                         <Button
                             icon={<SyncOutlined />}

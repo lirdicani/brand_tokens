@@ -34,21 +34,28 @@
 .privacy-policy-contents {
     background-color: white;
     margin-top: 75px;
-    padding: 129px 17% 52px;
+    padding: 129px 17% 120px;
     color: #1D2C50;
     border-radius: 12px;
     box-shadow: 0 4px 14px 4px rgba(0,0,0,0.14);
 }
 
 .privacy-policy-contents h5 {
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 30px;
+    font-weight: 800;
     transform: rotateX(32deg);
 }
 
-.privacy-policy-contents p {
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 1.2px;
-    margin-bottom: 48px;
+.privacy-policy-contents ol {
+    padding-left: 0;
+    margin-left: 21px;
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+
+.privacy-policy-contents li {
+    line-height: 30px;
 }

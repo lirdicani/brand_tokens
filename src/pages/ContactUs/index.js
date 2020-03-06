@@ -199,7 +199,7 @@ class ContactUs extends React.Component {
                     <div className='contact-us-main-tile'>
                         <div className='contact-us-main-top-title'>CONTACT US</div>
                         <div className='contact-us-sub-title'>Our team is happy to answer your questions</div>
-                        <div className='contact-us-article'>Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus.</div>
+                        {/* <div className='contact-us-article'>Lorem ipsum dolor sit amet conse adipiscing elit curabitur vitae luctus elit roin vulputate sed dui non faucibus.</div> */}
                     </div>
                     <div className='general-communication-title'>
                         <div className='general-communication-icon'><img src='/assets/images/language.svg' alt='language' /></div>

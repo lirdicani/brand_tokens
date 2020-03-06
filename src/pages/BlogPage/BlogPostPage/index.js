@@ -45,7 +45,7 @@ class BlogPostPage extends React.Component {
         return (
             <div className='blog-post'>
                 <div className='blog-post-clip-effect'></div>
-                {/* <div className='top-title'>Our blog-post</div> */}
+                <div className='top-title'>Our blog</div>
                 <div className='contents'>
                     <div className='auth'>
                         <div className='auth-character'>
@@ -53,12 +53,12 @@ class BlogPostPage extends React.Component {
                         </div>
                         <div className='auth-title'>What is Blockchain Technology</div>
                         <div className='auth-col-set d-flex justify-content-center'>
-                            <div className='auth-name'>Auther name</div>
+                            <div className='auth-name'>Marta Łapacz</div>
                             <div className='auth-date'>2-22-2020</div>
                         </div>
-                        {/* <div className='auth-article'>
+                        <div className='auth-article'>
                             The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
-                        </div> */}
+                        </div>
                         <div className='blog-first-paragraph'>
                             <div className='paragraph-content'>
                                 <p>The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?</p>
@@ -105,7 +105,7 @@ class BlogPostPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                <CommentModule commenter={cards[0]} />
+                {/* <CommentModule commenter={cards[0]} /> */}
                 <PartRevolution />
             </div>
         );
